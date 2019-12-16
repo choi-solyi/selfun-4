@@ -1,0 +1,54 @@
+#mainbig{
+    margin: 0px auto;
+    height: 220px;
+}
+h3{
+    margin: 10px;
+    padding: 3px;
+}
+.mainfirst{
+    margin: 2px auto;
+}
+#mainbig img{
+    width: 12121px;
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+
+}
+
+.mainFir{
+    position: relative;
+    display: inline-block;
+    margin: 2px auto;
+
+    padding: 5px;
+    width: 184px; height: 240px;
+    border: 1px solid silver;
+}
+
+#title{
+    margin: 0px;
+    font-weight: 800;
+}
+#name{
+    margin: 5px 0px;;
+    font-size: 0.5em;
+}
+#days{
+    float: left;
+    margin: 5px 0px;
+}
+#won{
+    float: right;
+    font-size: 0.9em;
+    font-weight: bold;
+    margin: 5px 0px;
+}
+#per{
+    position: relative;
+    bottom: 48px;
+    font-weight: 800;
+    color: #7b94ff;
+    float: right;
+    margin: 5px 0px;
+}
