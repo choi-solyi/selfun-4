@@ -1,0 +1,25 @@
+#cate1 li{
+    list-style: none;
+    display: inline-block;
+}
+#cate1 li a{
+
+}
+#cate1 li a img{
+    width: 50px; height: 50px;
+    border: 1px solid silver;
+    background-color: gray;
+}
+#cate2 li{
+    list-style: none;
+    display: inline-block;
+}
+#cate2 li a{
+    font-size: 13px;
+    border: 1px solid silver;
+    text-decoration: none;
+    color: #181818;
+}
+#ser{
+    display: inline-block;
+}
