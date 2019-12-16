@@ -20,9 +20,12 @@ header{
 
 }
 nav{
+    clear: both;
     /*width: 55%;*/
+    position: relative;
+    top: -10px;
     margin: 2% auto;
-    margin-top: 10px;
+    margin-top: 0px;
     background-color: #f8f8f8;
 }
 article{
