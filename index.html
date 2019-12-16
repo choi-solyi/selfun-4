@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Selfun</title>
+
+    <link rel="stylesheet" href="style/index.css">
+    <meta name="viewport" content="width=device-width initial-scale=1.0 minimum-scale=3.0">
+    <!--<meta name="viewport" content="width=device-width">-->
+    <link rel="stylesheet" href="style/media-size.css">
+    <script src = "https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="js/index.js"></script>
+    <script>
+        $(document).ready(function(){
+            /*$('.ar1').load('../d1210/10_classtest.html');*/
+            $('ul li a').on('click',function(){
+                $('.ar1').load('')
+            });
+        });
+
+    </script>
+</head>
+
+<body>
+    <header>
+        <div class="event"><a href="#"> Event 바로가기 >></a></div>
+        <div class="logo"><a href="#"><img src="img/logo.jpg"></a></div>
+        <div class="login"><p><a href="#">회원가입</a><a href="#">로그인</a></div>
+      <!--  <img src="img/logo.jpg" alt="logo" id="logo"> -->
+    </header>
+    <nav>
+        <ul class="mainnav">
+            <li><a href="#">셀펀</a></li>
+            <li><a href="#">아티스트</a></li>
+            <li><a href="#">신규</a></li>
+            <li><a href="#">오픈 예정</a></li>
+            <li><a href="#">성공 사례</a></li>
+
+        </ul>
+    </nav>
+
+    <article>
+        <div class="ar1">1</div>
+        <div class="ar1">2</div>
+        <div class="ar1">3</div>
+        <div class="ar1">4</div>
+
+
+    </article>
+    <footer>
+       <div><p>selfun</p></div>
+
+    </footer>
+</body>
+</html>
