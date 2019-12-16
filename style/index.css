@@ -20,19 +20,23 @@ header{
 
 }
 nav{
+    clear: both;
     /*width: 55%;*/
+    position: relative;
+    top: -20px;
     margin: 2% auto;
-    margin-top: 10px;
+    margin-top: 0px;
     background-color: #f8f8f8;
 }
 article{
     /*width: 55%;*/
-
+    position: relative;
+    top: -30px;
     margin:  auto;
     margin-top: 10px;
 }
 footer{
-    width: 100%; height: 100px;
+    width: 100%; height: 180px;
     background-color: #7b94ff;
 }
 
@@ -62,7 +66,14 @@ div.event{
 .logo img{
     width: 130px;
 }
+.mypage{
+    float:left;
+    position: relative;
+    top: 20px; left:5px;
+    width: 30px;
+}
 .login{
+    float: right;
     text-align:right;
     position: relative;
     right: 1%;
@@ -126,11 +137,36 @@ ul.mainnav li a:hover{
 
 /*    5. 푸터    */
 footer div{
-
-    padding: 10px 5%;
+    padding: 5px;
     color: white;
+
 }
 
+#explain{
+    font-size: 0.4em;
+}
+#cs{
+    font-weight: 900;
+    font-size: 15px;
+    float: left;
+}
+#blog{
+    float:right;
+    margin:30px;
+    background-color: #7b94ff;
+}
+#blog a:visited, #blog a:link{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    font-style: italic;
+}
+#addr p{
+    clear: both;
+
+    font-size: 0.2em;
+}
 
 /*    js적용 클래스    */
 .menuclick{
