@@ -62,7 +62,14 @@ div.event{
 .logo img{
     width: 130px;
 }
+.mypage{
+    float:left;
+    position: relative;
+    top: 20px; left:5px;
+    width: 30px;
+}
 .login{
+    float: right;
     text-align:right;
     position: relative;
     right: 1%;
