@@ -10,8 +10,12 @@
 
 /*  1. 전체 공용  */
 
+*{
+    margin: 0;
+    padding: 0;
+}
 h3{
-    margin: 10px;
+    margin: 0px 10px;
     padding: 3px;
 }
 #per{
@@ -36,9 +40,9 @@ h3{
 .mainFir{
     position: relative;
     display: inline-block;
-    margin: 2px auto;
+    margin: 0px 15px auto;
 
-    padding: 5px;
+    padding: 10px;
     width: 184px; height: 240px;
     border: 1px solid silver;
 }
@@ -74,7 +78,8 @@ h3{
 /*  4. 메인 랭킹        */
 #tab{
     float: right;
-    width: 300px; height: 500px;
+    width: 300px; height: 400px;
+    padding: 4px;
 }
 #tab ul li{
     list-style: none;
@@ -82,11 +87,13 @@ h3{
     margin: 0px;
     padding: 0px;
     float: left;
+    position: relative;
+
 }
 #tab ul li h3 a{
     margin: 0px;
     display: inline-block;
-    padding: 5px 30px;
+    padding: 5px 10px;
     border-top:1px solid silver;
     border-bottom:1px solid silver;
 }
@@ -114,7 +121,10 @@ h3{
     padding: 0px;
     margin: 0px;
 }
-
+#lis2{
+    position: fixed;
+    right: 20px;
+}
 #tab>#per{
     float: left;
     padding: 0px 5px;
@@ -123,23 +133,74 @@ h3{
 #cate{
     position: relative;
     bottom: 16px;
-    left: 40px;
+    float: right;
     padding: 0px 5px;
     margin: 0px 4px;
 }
+
 #lis1 a{
-    width: 270px;
+    width: 240px;
     position: relative;
-    left: 450px;
+    right: 50px;
+}
+#lis2 a{
+    width: 240px;
+    position: relative;
+    right: 130px;
 }
 
-/*  5. 메인 sec        */
-/*  6. 메인 thrd       */
-/*  7. 펀딩 시작하기     */
+li img{
+    width: 80px;
+    position: fixed;
+    align-items: ;
+}
 
+#lis1 a{
+    float: left;
+}
+#lis1 img{
+    float: right;
+}
+/*  5. 메인 sec        */
 
 
 .mainsec{
     clear: both;
-    border: 1px solid silver;
+    background-color: #cccccc;
+    padding: 10px 0px;
+
 }
+.mainsec ul{
+    list-style: none;
+    padding: 0px 25px;
+}
+.mainsec ul li{
+    display: inline-block;
+    width:  330px;
+    padding: 0px 10px;
+    border: 1px solid silver;
+    margin: 10px;
+    background-color: white;
+}
+.mainsec ul li a:link, :visited{
+    color: #181818;
+    text-decoration: none;
+}
+.mainsec img{
+    float: right;
+    position: relative;
+    left: 10px;
+}
+.mainsec #title{
+    padding: 15px 0px;
+    font-size: 17px;
+}
+#nums{
+    font-size: 0.9em;
+    font-style: italic;
+}
+
+/*  6. 메인 thrd       */
+/*  7. 펀딩 시작하기     */
+
+
