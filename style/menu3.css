@@ -1,0 +1,36 @@
+#conimg {
+    width: 268px;
+    height: 320px;
+}
+
+#namelabel {
+    width: 220px;
+    height: 20px;
+    display: inline-block;
+    word-wrap: break-word;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#redlabel {
+
+    width: 220px;
+    height: 30px;
+    font-size: 13px;
+    color: red;
+    display: inline-block;
+    word-wrap: break-word;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.img2 {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.f {
+    width: 268px;
+    height: 370px;
+    margin-bottom: 10px;
+}

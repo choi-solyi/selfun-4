@@ -1,0 +1,40 @@
+#hol, #hol1, #hol2 {
+    width: 800px;
+    height: 75px;
+    background-color: gray;
+}
+
+#jjack, #jjack1, #jjack2 {
+    width: 800px;
+    height: 75px;
+}
+
+#name {
+    margin: 20px;
+}
+
+#day {
+    font-size: 13px;
+    color: #C6C6C6;
+}
+
+#in, #in3, #in5 {
+    width: 757px;
+    height: 520px;
+    white-space:pre-line;
+    padding-left: 15px;
+    padding-top: 20px;
+    padding-right: 15px;
+    padding-bottom: 30px;
+    display: none;
+}
+
+#in2, #in4, #in6 {
+    width: 767px;
+    height: 400px;
+    white-space:pre-line;
+    padding-left: 15px;
+    padding-top: 20px;
+    padding-right: 15px;
+    display: none;
+}
