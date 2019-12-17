@@ -21,20 +21,61 @@
     text-decoration: none;
     color: #181818;
 }
-#sea{
+.block1{
+    width: 1024px;
+    display: inline-block;
+}
+/*#sea{
    width: 150px;
    border: 1px solid silver
-}
+}*/
 
 #search{
-    width: 100px;
+    /*width: 100px;*/
     border-color: white;
 }
 botton{
 
 }
+.block1{
+    width: 100%;
+}
 .category{
-    width: 185px;
+    width: 242px;
     display: inline-block;
-    margin-right: 15px;
+    margin: 10px;
+}
+.category img{
+    width: 230px; height: 140px;
+}
+.category a{
+    text-decoration: none;
+}
+.category a{
+    color: #181818;
+}
+.category p{
+    margin-top: 5px;
+    font-size: 12px;
+    font-weight: 700;
+    color: rgb(127, 127, 127);
+}
+.category .line{
+    width: 235px; height: 2px;
+    background-color: #7b94ff;
+}
+.category .num{
+    font-size: 15px;
+    color: #7b94ff;
+}
+.category span{
+    font-size: 13px;
+    font-weight: 700;
+    color: rgb(127, 127, 127);
+}
+.category .right{
+    float: right;
+    position: relative;
+    right: 5px;
+    top: 3px;
 }
