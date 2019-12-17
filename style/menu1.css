@@ -1,0 +1,74 @@
+/*
+    1. 전체 프레임
+    2. 셀펀 로고 및 소개
+    3. 펀딩 단계
+    4. 서로 다른 관점에서의 셀펀
+    5. 셀펀의 장점
+    6. 펀딩 신청 규약
+    7. 펀딩 시작하기 버튼
+*/
+
+/*  1. 전체 프레임   */
+*{
+    margin: 0;
+    padding: 0;
+}
+/*  2. 셀펀 로고 및 소개   */
+
+#logoex{
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid silver;
+}
+#logoex h4{
+    font-weight: bold;
+    padding: 20px;
+}
+#logoex img{
+    padding: 15px;
+}
+#logoex p{
+    padding: 15px 50px;
+    font-size: 1.4em;
+
+}
+/*  3. 펀딩 단계    */
+#maru{
+    text-align: center;
+    padding: 20px;
+    border-bottom: 1px solid silver;
+}
+
+#maru img{
+    width: 150px;
+
+}
+
+#maru1 p{
+    width: 140px;
+
+}
+#maru1{
+    display: inline-block;
+    vertical-align: text-top;
+    padding: 15px 50px;
+}
+#startProject{
+    text-align: center;
+    width: 300px; height: 50px;
+    border: 1px solid silver;
+    background-color: cornflowerblue;
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 8px;
+    margin: 0 auto;
+
+}
+/*  4. 서로 다른 관점에서의 셀펀   */
+/*  5. 셀펀의 장점   */
+/*  6. 펀딩 신청 규약 */
+/*  7. 펀딩 시작하기 버튼 */
+
+
+
