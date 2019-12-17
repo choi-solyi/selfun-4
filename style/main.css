@@ -35,13 +35,14 @@ h3{
 /*  3. 메인 first      */
 .mainfirst{
     margin: 2px auto;
+    padding: 20px 2px;
     float: left;
+
 }
 .mainFir{
     position: relative;
     display: inline-block;
-    margin: 0px 15px auto;
-
+    margin: 15px;
     padding: 10px;
     width: 184px; height: 240px;
     border: 1px solid silver;
@@ -79,13 +80,13 @@ h3{
 #tab{
     float: right;
     width: 300px; height: 400px;
-    padding: 4px;
+    padding: 20px 7px;
+    position: relative;
 }
 #tab ul li{
     list-style: none;
     display: inline-block;
-    margin: 0px;
-    padding: 0px;
+    margin: 0px; padding: 0px;
     float: left;
     position: relative;
 
@@ -152,7 +153,7 @@ h3{
 #item1{
     float: left;
     position: relative;
-    right: 10px;
+    right: 14px;
 
 }
 #item1img{
@@ -170,7 +171,7 @@ h3{
 #item2img{
     position: relative;
     padding: 5px;
-    right: 57px;
+    right: 134px;
     bottom: 5px;
 }
 li img{
@@ -183,8 +184,8 @@ li img{
 
 .mainsec{
     clear: both;
-    background-color: #cccccc;
-    padding: 10px 0px;
+    background-color: #dfdfdf;
+    padding: 10px 0px 30px 0px;;
 
 }
 .mainsec ul{
@@ -209,7 +210,7 @@ li img{
     left: 10px;
 }
 .mainsec #title{
-    padding: 15px 0px;
+    padding: 7px 0px;
     font-size: 17px;
 }
 #nums{
@@ -218,6 +219,25 @@ li img{
 }
 
 /*  6. 메인 thrd       */
+.mainthr{
+    margin: 30px;
+    padding: 10px;
+}
 /*  7. 펀딩 시작하기     */
+#barogagi{
+    width: 100%;
+    height: 45px;
+    margin: 3px auto;
+    padding: 4px 0px;
 
+    background-color: #cccccc;
+
+
+}
+#barogagi p{
+    color: #181818;
+    text-align: center;
+    font-size: 2em;
+
+}
 
