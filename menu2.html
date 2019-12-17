@@ -9,9 +9,8 @@
     <!--<meta name="viewport" content="width=device-width">-->
     <link rel="stylesheet" href="style/media-size.css">
     <script src = "https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src='https://kit.fontawesome.com/a076d05399.js'></script><!-- angle-left icon-->
-    <script src='https://kit.fontawesome.com/a076d05399.js'></script><!-- angle-right icon-->
-    <script src='https://kit.fontawesome.com/a076d05399.js'></script><!--search icon-->
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script><!--icon-->
+    <script src="js/menu2_category.js"></script>
     <script src="js/index.js"></script>
     <script>
 
@@ -40,65 +39,67 @@
      <!--category start-->
       <div>
          <nav id="navcg">
-            <button><i class="fas fa-angle-left"></i></button>
+            <button id="chevronleft"><i class="fas fa-chevron-left"></i></button>
              <ul id="category">
+
                  <li>
                      <a href=""><img src="img/menu2/gray.jpg" alt="전체보기">
-                        <br><span>전체보기</span>
+                        <br><p>전체보기</p>
                      </a>
                  </li>
                  <li>
                      <a href=""><img src="img/menu2/gray.jpg" alt="테크ㆍ가전">
-                        <br><span>테크ㆍ가전</span>
+                        <br><p>테크ㆍ가전</p>
                      </a>
                  </li>
                  <li>
                      <a href=""><img src="img/menu2/gray.jpg" alt="패션ㆍ잡화">
-                        <br><span>패션ㆍ잡화</span>
+                        <br><p>패션ㆍ잡화</p>
                      </a>
                  </li>
                  <li>
                      <a href=""><img src="img/menu2/gray.jpg" alt="뷰티">
-                        <br><span>뷰티</span>
+                        <br><p>뷰티</p>
                      </a>
                  </li>
                  <li>
                      <a href=""><img src="img/menu2/gray.jpg" alt="홈리빙">
-                        <br><span>홈리빙</span>
+                        <br><p>홈리빙</p>
                      </a>
                  </li>
                  <li>
                      <a href=""><img src="img/menu2/gray.jpg" alt="푸드">
-                        <br><span>푸드</span>
+                        <br><p>푸드</p>
                      </a>
                  </li>
                  <li>
                      <a href=""><img src="img/menu2/gray.jpg" alt="디자인소품">
-                        <br><span>디자인소품</span>
+                        <br><p>디자인소품</p>
                      </a>
                  </li>
                  <li>
                      <a href=""><img src="img/menu2/gray.jpg" alt="반려동물">
-                        <br><span>반려동물</span>
+                        <br><p>반려동물</p>
                      </a>
                  </li>
                  <li>
                      <a href=""><img src="img/menu2/gray.jpg" alt="공연ㆍ컬쳐">
-                        <br><span>공연ㆍ컬쳐</span>
+                        <br><p>공연ㆍ컬쳐</p>
                      </a>
                  </li>
                  <li>
                      <a href=""><img src="img/menu2/gray.jpg" alt="교육ㆍ키즈">
-                        <br><span>교육ㆍ키즈</span>
+                        <br><p>교육ㆍ키즈</p>
                      </a>
                  </li>
                  <li>
                      <a href=""><img src="img/menu2/gray.jpg" alt="캠페인">
-                        <br><span>캠페인</span>
+                        <br><p>캠페인</p>
                      </a>
                  </li>
+
              </ul>
-             <button><i class="fas fa-angle-right"></i></button>
+             <button id="chevronright"><i class="fas fa-chevron-right"></i></button>
          </nav>
          <form name="frm">
           <div id="block1"><b>전체보기</b>
@@ -107,16 +108,16 @@
             <input type="search" id="search" name="search" value="검색">
             <button id="searchicons"><i class='fas fa-search'></i></button>
               <select name="sel1" id="sel1">
-               <option value="">전체</option>
-               <option value="">진행중</option>
-               <option value="">마감완료</option>
+               <option value="whole">전체</option>
+               <option value="ing">진행중</option>
+               <option value="end">마감완료</option>
               </select>
               <select name="sel2" id="sel2">
                <option value="">추천순</option>
                <option value="">인기순</option>
                <option value="">최신순</option>
                <option value="">마감 임박순</option>
-               <option value="">최다 후원순</option>
+               <option value="maxsupport">최다 후원순</option>
              </select>
             </span>
           </div>
