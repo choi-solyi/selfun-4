@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<title>slide_banner</title>
+<meta charset="utf-8" />
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.min.js"></script>
+<script type="text/javascript" src="js/slide_banner.js"></script>
+<style>
+html {width:100%; height: 100%; overflow-y: scroll;}
+*{margin: 0; padding: 0;}
+body { font-family: Dotum, Arial; color:#74767a; line-height: 120%;font-size: 12px; }
+
+a, a:link, a:visited {color: #74767a;									  text-decoration:none;}
+ul {list-style-type: none;}
+
+
+#wrap {}
+
+#brandVisual{position: relative; width: 100%;
+			 min-width:1000px; margin: 0 auto;
+			 overflow:hidden; height: 500px;
+			 background:#8c908c;}
+#brandVisual ul { position: relative; float: left;
+				  width: 100%; height: 500px;}
+#brandVisual li { position: absolute; width: 100%;
+				  height: 500px;}
+#brandVisual li a {display:block; text-indent: -9999px;}
+#brandVisual .visual_0 { left: 0px ; background: url('img/0.png') 50% 0 no-repeat; }
+
+#brandVisual .visual_1 { left: 100% ; background: url('img/1.png') 50% 0 no-repeat; }
+
+#brandVisual .visual_2 { left: 200% ; background: url('img/2.png') 50% 0 no-repeat; }
+
+
+#buttonList:after {content:"";
+				   display: block; clear: both;}
+
+#buttonList li {
+	background: url('img/btnVisual.png') 0 -16px no-repeat; width: 14px; height: 15px;
+	float: left; position: relative; left: 50%; top: -135px; overflow:hidden; margin: 0 5px; cursor:pointer;}
+
+#buttonList li.on { background-position: 0 0 ;}
+
+#buttonList li a { display: block; text-indent: -9999px; }
+
+</style>
+</head>
+
+<body>
+	<div id="wrap">
+		<div id="brandVisual">
+			<ul>
+				<li class="visual_0"><a href="#">배너이미지 1</a></li>
+				<li class="visual_1"><a href="#">배너이미지 2</a></li>
+				<li class="visual_2"><a href="#">배너이미지 3</a></li>
+			</ul>
+		</div>
+		<ul id="buttonList">
+			<li class="on"><a href="#">배너1</a></li>
+			<li><a href="#">배너2</a></li>
+			<li><a href="#">배너3</a></li>
+		</ul>
+	</div>
+</body>
+</html>
