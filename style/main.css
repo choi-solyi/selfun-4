@@ -39,13 +39,8 @@ h3{
     margin: 2px auto;
 
     padding: 5px;
-    width: 200px; height: 240px;
+    width: 184px; height: 240px;
     border: 1px solid silver;
-}
-element.style {
-    opacity: 1;
-    width: 60%;
-    transform: translate3d(22px, 0px, 0px);
 }
 
 #title{
@@ -148,5 +143,3 @@ element.style {
     clear: both;
     border: 1px solid silver;
 }
-
-
