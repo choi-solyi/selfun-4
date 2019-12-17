@@ -1,22 +1,37 @@
-#mainbig{
-    margin: 0px auto;
-    height: 220px;
-}
+/*
+    1. 전체 공용
+    2. 메인big
+    3. 메인 first
+    4. 메인 랭킹
+    5. 메인 sec
+    6. 메인 thrd
+    7. 펀딩 시작하기    */
+
+
+/*  1. 전체 공용  */
 h3{
     margin: 10px;
     padding: 3px;
 }
-.mainfirst{
-    margin: 2px auto;
-    float: left;
+#per{
+    color: #7b94ff;
+    font-weight: 800;
+}
+/*  2. 메인big          */
+#mainbig{
+    margin: 0px auto;
+    height: 220px;
 }
 #mainbig img{
     width: 12121px;
     opacity: 1;
     transform: translate3d(0px, 0px, 0px);
-
 }
-
+/*  3. 메인 first      */
+.mainfirst{
+    margin: 2px auto;
+    float: left;
+}
 .mainFir{
     position: relative;
     display: inline-block;
@@ -54,17 +69,11 @@ h3{
     float: right;
     margin: 5px 0px;
 }
-#per{
-    color: #7b94ff;
-    font-weight: 800;
-}
 
-
-
+/*  4. 메인 랭킹        */
 #tab{
     float: right;
     width: 300px; height: 500px;
-    border: 1px solid silver;
 }
 #tab ul li{
     list-style: none;
@@ -117,19 +126,21 @@ h3{
     padding: 0px 5px;
     margin: 0px 4px;
 }
-
-.mainsec{
-    clear: both;
-}
-
-
-.lis1{
-    position: relative;
-    right: 20px;
-}
-
 #lis1 a{
     width: 270px;
     position: relative;
     left: 450px;
 }
+
+/*  5. 메인 sec        */
+/*  6. 메인 thrd       */
+/*  7. 펀딩 시작하기     */
+
+
+
+.mainsec{
+    clear: both;
+    border: 1px solid silver;
+}
+
+
