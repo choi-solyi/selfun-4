@@ -71,7 +71,7 @@ select{
 .thumbnail{
     width: 244px;
     display: inline-block;
-    margin: 10px;
+    margin: 10px 10px 40px;
 }
 .thumbnail img{
     width: 245px; height: 150px;
@@ -101,6 +101,9 @@ select{
     font-size: 13px;
     font-weight: 700;
     color: rgb(127, 127, 127);
+}
+.thumbnail .success{
+    color: #7b94ff;
 }
 .thumbnail .right{
     float: right;
