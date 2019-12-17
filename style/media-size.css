@@ -7,7 +7,9 @@
     ul.mainnav li{
         position: relative;
         top: 4px;
-
+    }
+    #last_menu{
+        width: 90%;
     }
 }
 @media screen and (min-width:768px) and (max-width:1023px){
@@ -15,11 +17,18 @@
         width: 75%;
         /*background-color:lightblue;*/
     }
+    #last_menu{
+        width: 75%;
+    }
 }
 @media screen and (min-width:1024px){
     body{
         width: 804px;
        /*background-color: lightcyan;*/
+    }
+
+    #last_menu{
+      width:804px;
     }
 }
 

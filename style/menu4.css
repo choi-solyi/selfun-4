@@ -1,0 +1,98 @@
+
+        .full{
+            width: 100%;
+            margin: 0 auto;
+        }
+
+/*coming soon*/
+        .sheader{
+            width: 100%;
+        }
+        .sheader h1{
+            font-size: 50px;
+            margin: 0;
+            padding-left: 5%;
+            padding-right: 5%;
+        }
+        .sheader p{
+            margin-top: 0;
+            margin-bottom: 3%;
+            padding-left: 5%;
+            padding-right: 5%;
+        }
+
+/*제품 이미지 & 내용*/
+        .sbody{
+            width: 100%;
+            margin: 0 auto;
+        }
+        .sbody div{
+            display: inline-block;
+        }
+        .item1{
+            width: 42%;
+            padding-left: 5%;
+        }
+        .item2{
+            width: 42%;
+            padding-left: 5%;
+            padding-right: 5%;
+        }
+        .sbody img{width: 100%;}
+        input{
+            border: 2px solid black;
+            width: 100%; height: 50px;
+            background-color: indianred;
+            border-radius: 20px;
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 10%;
+        }
+        .emp{
+            clear: both;
+        }
+        .line{
+            border: 2px solid silver;
+            width: 500px;
+            margin: 20px auto;
+        }
+        .imgName{
+            position: absolute;
+            color: aliceblue;
+            margin: 7px;
+        }
+        .respon{
+            opacity: 0.4;
+            font-size: 12px;
+            position: relative;
+            top: -15px;
+        }
+
+/*후기로 검증된 베스트 제품란*/
+        .sfooter{
+            border: 1px solid silver;
+            padding-left: 5%;
+            padding-right: 5%;
+        }
+        .hugi{
+            width: 100%;
+            font-size: 22px;
+            margin-bottom: 8px;
+        }
+        .hugi p{
+            margin: 0
+        }
+        .hugiimg{
+            width: 37%;
+            float: left;
+        }
+        .hugiex{
+            float: left;
+            width: 55%;
+            padding-left: 5%;
+        }
+        .hugiex input{
+            margin: 0px;
+            width: 40%;height: 40px;
+            margin-top: 10%;
+        }

@@ -1,10 +1,33 @@
-.fas fa-angle-left{
-    border: 1px solid transparent;
+#navcg{
+    display: inline-block;
+    margin-top: 30px;
 }
-.fas fa-angle-right{
+#chevronleft{
+    float: left;
+    position: relative;
+    top: 20px;
     border: 1px solid transparent;
+    padding: 10px;
+    background-color: white;
+}
+#chevronleft i{
+    font-size: 30px;
+    color: rgb(127, 127, 127);
+}
+#chevronright{
+    float: right;
+    position: relative;
+    bottom: 100px;
+    border: 1px solid transparent;
+    padding: 10px;
+    background-color: white;
+}
+#chevronright i{
+    font-size: 30px;
+    color: rgb(127, 127, 127);
 }
 #category{
+    height: 100px;
     position: relative;
     top: 0px;
     margin: 10px;
@@ -13,7 +36,7 @@
 #category li{
     list-style: none;
     display: inline-block;
-    margin: 0px 20px 5px 0px
+    margin: 0px 10px 5px 20px;
 }
 #category li a{
     text-decoration: none;
@@ -24,12 +47,13 @@
     background-color: gray;
     border-radius: 50%;
 }
-
-#category li a span{
+#category li a p{
+    margin: 0px;
     color: #181818;
     font-size: 12px;
     font-weight: 700;
     position: relative;
+    text-align: center;
 }
 /*form 전체보기 search select*/
 #block1{
