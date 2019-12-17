@@ -1,14 +1,14 @@
 #navcg{
-    display: inline-block;
-    margin-top: 30px;
+    width: 100%;
+    margin-top: 50px;
 }
 #chevronleft{
     float: left;
     position: relative;
-    top: 20px;
+    top: 5px;
     border: 1px solid transparent;
     padding: 10px;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
 }
 #chevronleft i{
     font-size: 30px;
@@ -17,7 +17,7 @@
 #chevronright{
     float: right;
     position: relative;
-    bottom: 100px;
+    bottom: 90px;
     border: 1px solid transparent;
     padding: 10px;
     background-color: white;
@@ -27,11 +27,14 @@
     color: rgb(127, 127, 127);
 }
 #category{
-    height: 100px;
+    width: 90%;
     position: relative;
     top: 0px;
     margin: 10px;
     padding-left: 0px;
+    white-space:nowrap;
+    overflow:hidden;
+    /*overflow-x:scroll;*/
 }
 #category li{
     list-style: none;
@@ -43,7 +46,6 @@
 }
 #category li a img{
     width: 60px; height: 60px;
-    border: 1px solid transparent;
     background-color: gray;
     border-radius: 50%;
 }
@@ -133,4 +135,7 @@ select{
     float: right;
     position: relative;
     top: 3px;
+}
+.a{
+    border: 2px solid #7b94ff;
 }

@@ -8,9 +8,9 @@
     <meta name="viewport" content="width=device-width initial-scale=1.0 minimum-scale=3.0">
     <!--<meta name="viewport" content="width=device-width">-->
     <link rel="stylesheet" href="style/media-size.css">
-    <script src = "https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src='https://kit.fontawesome.com/a076d05399.js'></script><!--icon-->
-    <script src="js/menu2_category.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <!--icon-->
     <script src="js/index.js"></script>
     <script>
 
@@ -21,8 +21,10 @@
     <header>
         <div class="event"><a href="#"> Event 바로가기 >></a></div>
         <div class="logo"><a href="#"><img src="img/logo.jpg"></a></div>
-        <div class="login"><p><a href="#">회원가입</a><a href="#">로그인</a></div>
-      <!--  <img src="img/logo.jpg" alt="logo" id="logo"> -->
+        <div class="login">
+            <p><a href="#">회원가입</a><a href="#">로그인</a>
+        </div>
+        <!--  <img src="img/logo.jpg" alt="logo" id="logo"> -->
     </header>
     <nav>
         <ul class="mainnav">
@@ -35,331 +37,599 @@
     </nav>
 
     <article>
-    <div>
-     <!--category start-->
-      <div>
-         <nav id="navcg">
-            <button id="chevronleft"><i class="fas fa-chevron-left"></i></button>
-             <ul id="category">
+        <div>
+            <!--category start-->
+            <div>
+                <nav id="navcg">
+                    <button id="chevronleft"><i class="fas fa-chevron-left"></i></button>
+                    <ul id="category">
+                        <li>
+                            <a href="#"><img src="img/menu2/gray.jpg" alt="전체보기">
+                                <br>
+                                <p>전체보기</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="img/menu2/gray.jpg" alt="테크ㆍ가전">
+                                <br>
+                                <p>테크ㆍ가전</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="img/menu2/gray.jpg" alt="패션ㆍ잡화">
+                                <br>
+                                <p>패션ㆍ잡화</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="img/menu2/gray.jpg" alt="뷰티">
+                                <br>
+                                <p>뷰티</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="img/menu2/gray.jpg" alt="홈리빙">
+                                <br>
+                                <p>홈리빙</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="img/menu2/gray.jpg" alt="푸드">
+                                <br>
+                                <p>푸드</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="img/menu2/gray.jpg" alt="디자인소품">
+                                <br>
+                                <p>디자인소품</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="img/menu2/gray.jpg" alt="반려동물">
+                                <br>
+                                <p>반려동물</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="img/menu2/gray.jpg" alt="공연ㆍ컬쳐">
+                                <br>
+                                <p>공연ㆍ컬쳐</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="img/menu2/gray.jpg" alt="교육ㆍ키즈">
+                                <br>
+                                <p>교육ㆍ키즈</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="img/menu2/gray.jpg" alt="캠페인">
+                                <br>
+                                <p>캠페인</p>
+                            </a>
+                        </li>
 
-                 <li>
-                     <a href=""><img src="img/menu2/gray.jpg" alt="전체보기">
-                        <br><p>전체보기</p>
-                     </a>
-                 </li>
-                 <li>
-                     <a href=""><img src="img/menu2/gray.jpg" alt="테크ㆍ가전">
-                        <br><p>테크ㆍ가전</p>
-                     </a>
-                 </li>
-                 <li>
-                     <a href=""><img src="img/menu2/gray.jpg" alt="패션ㆍ잡화">
-                        <br><p>패션ㆍ잡화</p>
-                     </a>
-                 </li>
-                 <li>
-                     <a href=""><img src="img/menu2/gray.jpg" alt="뷰티">
-                        <br><p>뷰티</p>
-                     </a>
-                 </li>
-                 <li>
-                     <a href=""><img src="img/menu2/gray.jpg" alt="홈리빙">
-                        <br><p>홈리빙</p>
-                     </a>
-                 </li>
-                 <li>
-                     <a href=""><img src="img/menu2/gray.jpg" alt="푸드">
-                        <br><p>푸드</p>
-                     </a>
-                 </li>
-                 <li>
-                     <a href=""><img src="img/menu2/gray.jpg" alt="디자인소품">
-                        <br><p>디자인소품</p>
-                     </a>
-                 </li>
-                 <li>
-                     <a href=""><img src="img/menu2/gray.jpg" alt="반려동물">
-                        <br><p>반려동물</p>
-                     </a>
-                 </li>
-                 <li>
-                     <a href=""><img src="img/menu2/gray.jpg" alt="공연ㆍ컬쳐">
-                        <br><p>공연ㆍ컬쳐</p>
-                     </a>
-                 </li>
-                 <li>
-                     <a href=""><img src="img/menu2/gray.jpg" alt="교육ㆍ키즈">
-                        <br><p>교육ㆍ키즈</p>
-                     </a>
-                 </li>
-                 <li>
-                     <a href=""><img src="img/menu2/gray.jpg" alt="캠페인">
-                        <br><p>캠페인</p>
-                     </a>
-                 </li>
+                    </ul>
+                    <button id="chevronright"><i class="fas fa-chevron-right"></i></button>
+                </nav>
+                <form name="frm">
+                    <div id="block1"><b>전체보기</b>
+                        <span id="searchbox">
+                            <label for="search"></label>
+                            <input type="search" id="search" name="search" value="검색">
+                            <button id="searchicons"><i class='fas fa-search'></i></button>
+                            <select name="sel1" id="sel1">
+                                <option value="whole">전체</option>
+                                <option value="ing">진행중</option>
+                                <option value="end">마감완료</option>
+                            </select>
+                            <select name="sel2" id="sel2">
+                                <option value="">추천순</option>
+                                <option value="">인기순</option>
+                                <option value="">최신순</option>
+                                <option value="">마감 임박순</option>
+                                <option value="maxsupport">최다 후원순</option>
+                            </select>
+                        </span>
+                    </div>
+                </form>
+            </div>
+            <!--category end-->
+            <div id="block1line"></div>
+            <!-- thumbnail start -->
+            <div id="block2">
+                <!-- thumbnail 1 -->
+                <div class="thumbnail">
+                    <a href="#"><img src="https://cdn.wadiz.kr/wwwwadiz/green001/2019/1129/20191129101256068_54277.jpg" alt="집사의반격"></a>
+                    <a href="#"><b>캣휠혁명! 빠져나올 수 없는 마성의 질주가 시작된다</b></a>
+                    <p>반려동물<span> | </span>집사의반격</p>
+                    <div class="line"></div>
+                    <div><span class="left"><b class="num">859%</b>ㆍ25,795,000원</span><span class="right">종료ㆍ<span class="success">성공</span></span></div>
+                </div>
+                <!-- thumbnail 2 -->
+                <div class="thumbnail">
+                    <a href="#"><img src="https://cdn.wadiz.kr/wwwwadiz/green001/2019/1127/20191127180408378_54247.png" alt="투앤하프"></a>
+                    <a href="#"><b>비싼 매트리스 사지 않고도 신박한 잠자리를 만들 수 있다고?</b></a>
+                    <p>홈리빙<span> | </span>투앤하프</p>
+                    <div class="line"></div>
+                    <div><span class="left"><b class="num">508%</b>ㆍ5,088,000원</span><span class="right">5일 남음</span></div>
+                </div>
+                <!-- thumbnail 3 -->
+                <div class="thumbnail">
+                    <a href="#"><img src="https://cdn.wadiz.kr/wwwwadiz/green001/2018/0403/20180403120703243_18647.jpg" alt="로우로우"></a>
+                    <a href="#"><b>사진가가 말하고 로우로우가 만든, 카메라백</b></a>
+                    <p>패션ㆍ잡화<span> | </span>로우로우</p>
+                    <div class="line"></div>
+                    <div><span class="left"><b class="num">8%</b>ㆍ188,000원</span><span class="right">2일 남음</span></div>
+                </div>
+                <!-- thumbnail 4 -->
+                <div class="thumbnail">
+                    <a href="#"><img src="https://cdn.wadiz.kr/wwwwadiz/green001/2019/1004/20191004113814371_48815.png" alt="김우재"></a>
+                    <a href="#"><b>해로운 과학자들 - 유사과학이 과학자를 고소하다</b></a>
+                    <p>캠페인<span> | </span>김우재</p>
+                    <div class="line"></div>
+                    <div><span class="left"><b class="num">348%</b>ㆍ17,278,845원</span><span class="right">12일 남음</span></div>
+                </div>
+                <!-- thumbnail 5 -->
+                <div class="thumbnail">
+                    <a href="#"><img src="https://cdn.wadiz.kr/wwwwadiz/green001/2019/1128/20191128130152089_52527.jpg" alt="스니프"></a>
+                    <a href="#"><b>'따수미 침낭' 하나로 우리 베이비들 월동 준비 끝!</b></a>
+                    <p>반려동물<span> | </span>스니프</p>
+                    <div class="line"></div>
+                    <div><span class="left"><b class="num">228%</b>ㆍ637,000원</span><span class="right">1일 남음</span></div>
+                </div>
+                <!-- thumbnail 6 -->
+                <div class="thumbnail">
+                    <a href="#"><img src="https://cdn.wadiz.kr/wwwwadiz/green001/2019/1206/20191206181003428_53315.jpeg" alt="(주)미스터네이처"></a>
+                    <a href="#"><b>[설탕NO,팜유NO]마약같은 중독성! 미스터 크림치즈 스프레드</b></a>
+                    <p>푸드<span> | </span>㈜미스터네이처</p>
+                    <div class="line"></div>
+                    <div><span class="left"><b class="num">1342%</b>ㆍ10.749,000원</span><span class="right">종료ㆍ<span class="success">성공</span></span></div>
+                </div>
+                <!-- thumbnail 7 -->
+                <div class="thumbnail">
+                    <a href="#"><img src="https://cdn.wadiz.kr/wwwwadiz/green002/2019/0830/20190830113951278_43844.jpg" alt="(주)미스터네이처"></a>
+                    <a href="#"><b>세상에서 오직 하나뿐인 수공예 여권케이스</b></a>
+                    <p>패션ㆍ잡화<span> | </span>박훈서</p>
+                    <div class="line"></div>
+                    <div><span class="left"><b class="num">42%</b>ㆍ349,000원</span><span class="right">5일 남음</span></div>
+                </div>
+                <!-- thumbnail 8 -->
+                <div class="thumbnail">
+                    <a href="#"><img src="https://cdn.wadiz.kr/wwwwadiz/green001/2019/1203/20191203142013971_47716.jpg" alt="젠틀프로젝트"></a>
+                    <a href="#"><b>[남자 필독]남자의 00이 밝아지는 톤업크림</b></a>
+                    <p>뷰티<span> | </span>젠틀프로젝트</p>
+                    <div class="line"></div>
+                    <div><span class="left"><b class="num">1141%</b>ㆍ8,707,320원</span><span class="right">5일 남음</span></div>
+                </div>
+                <!-- thumbnail 9 -->
+                <div class="thumbnail">
+                    <a href="#"><img src="https://cdn.wadiz.kr/wwwwadiz/green001/2019/1127/20191127164533481_52632.jpg" alt="HONEST & TRUST"></a>
+                    <a href="#"><b>[삶의 질 급상승] 2만원대로 만나는 보들보들 솜털 샤워가운!</b></a>
+                    <p>홈리빙<span> | </span>HONEST&TRUST</p>
+                    <div class="line"></div>
+                    <div><span class="left"><b class="num">342%</b>ㆍ2.948,000원</span><span class="right">5일 남음</span></div>
+                </div>
+                <!-- thumbnail 10 -->
+                <div class="thumbnail">
+                    <a href="#"><img src="https://cdn.wadiz.kr/wwwwadiz/green001/2019/1031/20191031154543421_51448.jpg" alt="노르디코"></a>
+                    <a href="#"><b>엄마와 아빠 그리고 우리아이 모두가 편해지는 로로기저귀가방</b></a>
+                    <p>교육ㆍ키즈<span> | </span>노르디코</p>
+                    <div class="line"></div>
+                    <div><span class="left"><b class="num">123%</b>ㆍ1,230.000원</span><span class="right">1일 남음</span></div>
+                </div>
+                <!-- thumbnail 11 -->
+                <div class="thumbnail">
+                    <a href="#"><img src="https://cdn.wadiz.kr/wwwwadiz/green001/2019/1203/20191203154711931_54650.jpg" alt="주식회사 바로푸드"></a>
+                    <a href="#"><b>편리미엄을 위한 간편한 한끼! 전자레인지로 요리하는 오징어볶음</b></a>
+                    <p>푸드<span> | </span>주식회사 바로푸드</p>
+                    <div class="line"></div>
+                    <div><span class="left"><b class="num">50%</b>ㆍ715.000원</span><span class="right">20일 남음</span></div>
+                </div>
+                <!-- thumbnail 12 -->
+                <div class="thumbnail">
+                    <a href="#"><img src="https://cdn.wadiz.kr/wwwwadiz/green001/2018/0307/20180307134802676_17710.jpg/wadiz/format/jpg" alt="유니유노"></a>
+                    <a href="#"><b>사진으로 담을 수 없는 순간의 기록</b></a>
+                    <p>디자인소품<span> | </span>유니유노</p>
+                    <div class="line"></div>
+                    <div><span class="left"><b class="num">0%</b>ㆍ0원</span><span class="right">9일 남음</span></div>
+                </div>
+                <!-- thumbnail 13 -->
+                <div class="thumbnail">
+                    <a href="#"><img src="https://cdn.wadiz.kr/wwwwadiz/green001/2019/0930/20190930104901140_43912.jpg/wadiz/format/jpg" alt="주식회사 두루행복"></a>
+                    <a href="#"><b>추억을 담은 나만의 천연가죽 휴대폰케이스</b></a>
+                    <p>패션ㆍ잡화<span> | </span>주식회사 두루행복</p>
+                    <div class="line"></div>
+                    <div><span class="left"><b class="num">13%</b>ㆍ260.000원</span><span class="right">1일 남음</span></div>
+                </div>
+                <!-- thumbnail 14 -->
+                <div class="thumbnail">
+                    <a href="#"><img src="https://cdn.wadiz.kr/wwwwadiz/green001/2019/1112/20191112112835938_52519.jpg" alt="시온테크"></a>
+                    <a href="#"><b>와우스틱 시즌2 더 강해져서 돌아왔다! : 와우스틱 SD</b></a>
+                    <p>테크ㆍ가전<span> | </span>시온테크</p>
+                    <div class="line"></div>
+                    <div><span class="left"><b class="num">783%</b>ㆍ9,770.000원</span><span class="right">종료ㆍ<span class="success">성공</span></span></div>
+                </div>
+                <!-- thumbnail 15 -->
+                <div class="thumbnail">
+                    <a href="#"><img src="https://cdn.wadiz.kr/wwwwadiz/green001/2019/1205/20191205130816100_37338.png" alt="히즈클린"></a>
+                    <a href="#"><b>[앵콜펀딩]밝고 건강한 사타구니 만들기, 션 남성청결제</b></a>
+                    <p>뷰티<span> | </span>히즈클린</p>
+                    <div class="line"></div>
+                    <div><span class="left"><b class="num">123%</b>ㆍ1,230.000원</span><span class="right">9일 남음</span></div>
+                </div>
+                <!-- thumbnail 16 -->
+                <div class="thumbnail">
+                    <a href="#"><img src="https://cdn.wadiz.kr/wwwwadiz/green001/2019/1026/20191026221215877_42645.jpg" alt="위하다"></a>
+                    <a href="#"><b>[다세대 소통 어플리케이션]가족과 함께하는 순간 '오늘 우리'</b></a>
+                    <p>캠페인<span> | </span>위하다</p>
+                    <div class="line"></div>
+                    <div><span class="left"><b class="num">935%</b>ㆍ11,239.000원</span><span class="right">종료ㆍ<span class="success">성공</span></span></div>
+                </div>
+                <!-- thumbnail 17 -->
+                <div class="thumbnail">
+                    <a href="#"><img src="https://cdn.wadiz.kr/wwwwadiz/green001/2019/1121/20191121183520501_47057.jpg" alt="나그참파코리아"></a>
+                    <a href="#"><b>숙면을 위한 아로마테라피! 나그참파 기프트 세트</b></a>
+                    <p>홈리빙<span> | </span>나그참파코리아</p>
+                    <div class="line"></div>
+                    <div><span class="left"><b class="num">7738%</b>ㆍ38,691,400원</span><span class="right">14일 남음</span></div>
+                </div>
+                <!-- thumbnail 18 -->
+                <div class="thumbnail">
+                    <a href="#"><img src="https://cdn.wadiz.kr/wwwwadiz/green001/2019/1112/20191112164800554_49208.jpg" alt="mundum"></a>
+                    <a href="#"><b>자가진단으로 찾아보는 나를 위한 맞춤형 세안제 먼덤 솝 블록!</b></a>
+                    <p>뷰티<span> | </span>mundum</p>
+                    <div class="line"></div>
+                    <div><span class="left"><b class="num">2783%</b>ㆍ31,230.000원</span><span class="right">4일 남음</span></div>
+                </div>
+                <!-- thumbnail 19 -->
+                <div class="thumbnail">
+                    <a href="#"><img src="https://cdn.wadiz.kr/wwwwadiz/green001/2019/1111/20191111041900042_51800.jpg" alt="토들윙"></a>
+                    <a href="#"><b>반려동물 건강지킴이! 펫라이트 테라피</b></a>
+                    <p>반려동물<span> | </span>토들윙</p>
+                    <div class="line"></div>
+                    <div><span class="left"><b class="num">80%</b>ㆍ1,790,000원</span><span class="right">19일 남음</span></div>
+                </div>
+                <!-- thumbnail 20 -->
+                <div class="thumbnail">
+                    <a href="#"><img src="https://cdn.wadiz.kr/wwwwadiz/green002/2019/1125/20191125211529534_50688.jpg" alt="해박스"></a>
+                    <a href="#"><b>656명의 목소리를 담은 [유아 미세먼지 마스크]</b></a>
+                    <p>교육ㆍ키즈<span> | </span>해박스</p>
+                    <div class="line"></div>
+                    <div><span class="left"><b class="num">656%</b>ㆍ6,560.000원</span><span class="right">1일 남음</span></div>
+                </div>
+                <!-- thumbnail 21 -->
+                <div class="thumbnail">
+                    <a href="#"><img src="https://cdn.wadiz.kr/wwwwadiz/green001/2019/1120/20191120182510008_53610.jpg" alt="디어넛츠"></a>
+                    <a href="#"><b>쫀득쫀득, 폭신폭신! 밑을 수 없는 비건파운드케이크, 디어브레드</b></a>
+                    <p>푸드<span> | </span>디어넛츠</p>
+                    <div class="line"></div>
+                    <div><span class="left"><b class="num">123%</b>ㆍ1,230.000원</span><span class="right">9일 남음</span></div>
+                </div>
+                <!-- thumbnail 22 -->
+                <div class="thumbnail">
+                    <a href="#"><img src="https://cdn.wadiz.kr/wwwwadiz/green001/2019/1205/20191205100902342_53690.jpg" alt="민트투어"></a>
+                    <a href="#"><b>세계 최고 잘츠부르크 페스티벌 100주년 클래식투어</b></a>
+                    <p>공연ㆍ컬쳐<span> | </span>민트투어</p>
+                    <div class="line"></div>
+                    <div><span class="left"><b class="num">317%</b>ㆍ63,450,000원</span><span class="right">8일 남음</span></div>
+                </div>
+                <!-- thumbnail 23 -->
+                <div class="thumbnail">
+                    <a href="#"><img src="https://cdn.wadiz.kr/wwwwadiz/green001/2019/0902/20190902150356410_44947.jpg" alt="풍림전자 주식회사"></a>
+                    <a href="#"><b>인덕션? 이제 가지고 다니세요! [스스로 조리하는 스마트 인덕션]</b></a>
+                    <p>테크ㆍ가전<span> | </span>풍림전자 주식회사</p>
+                    <div class="line"></div>
+                    <div><span class="left"><b class="num">37%</b>ㆍ930.000원</span><span class="right">29일 남음</span></div>
+                </div>
+                <!-- thumbnail 24 -->
+                <div class="thumbnail">
+                    <a href="#"><img src="https://cdn.wadiz.kr/wwwwadiz/green002/2019/1121/20191121130105410_53702.jpg" alt="포락잔"></a>
+                    <a href="#"><b>우리만의 도원결의! 즐거운 술자리를 위한 네개의 술잔, 포락잔</b></a>
+                    <p>홈리빙<span> | </span>포락잔</p>
+                    <div class="line"></div>
+                    <div><span class="left"><b class="num">85%</b>ㆍ930.000원</span><span class="right">5일 남음</span></div>
+                </div>
+                <!-- thumbnail 25 -->
+                <div class="thumbnail">
+                    <a href="#"><img src="https://cdn.wadiz.kr/wwwwadiz/green002/2017/1210/20171210150359108_16339.jpg" alt="아사달컴퍼니"></a>
+                    <a href="#"><b>당신이 원하는 모든것에 필요한 가방. 아사달컴퍼니 타우더플백</b></a>
+                    <p>패션ㆍ잡화<span> | </span>아사달컴퍼니</p>
+                    <div class="line"></div>
+                    <div><span class="left"><b class="num">122%</b>ㆍ3,682.000원</span><span class="right">종료ㆍ<span class="success">성공</span></span></div>
+                </div>
+                <!-- thumbnail 26 -->
+                <div class="thumbnail">
+                    <a href="#"><img src="https://cdn.wadiz.kr/wwwwadiz/green002/2019/0320/20190320115236363_32331.jpg" alt="㈜손오공"></a>
+                    <a href="#"><b>아기사진 거장의 작품이 힐링 인형으로 탄생하다 : 앤 게디스</b></a>
+                    <p>디자인소품<span> | </span>㈜손오공</p>
+                    <div class="line"></div>
+                    <div><span class="left"><b class="num">75%</b>ㆍ830.000원</span><span class="right">9일 남음</span></div>
+                </div>
+                <!-- thumbnail 27 -->
+                <div class="thumbnail">
+                    <a href="#"><img src="https://cdn.wadiz.kr/wwwwadiz/green002/2019/1212/20191212155506625_31187.png" alt="위클래식 / WECLASSIC"></a>
+                    <a href="#"><b>박은태&정선아와 함께하는 헐리우드 필름 콘서트 </b></a>
+                    <p>공연ㆍ컬쳐<span> | </span>위클래식 / WECLASSIC</p>
+                    <div class="line"></div>
+                    <div><span class="left"><b class="num">8702%</b>ㆍ130,544,000원</span><span class="right">9일 남음</span></div>
+                </div>
+                <!-- thumbnail 28 -->
+                <div class="thumbnail">
+                    <a href="#"><img src="https://cdn.wadiz.kr/wwwwadiz/green002/2019/1001/20191001141402875_48399.jpg" alt="노르디코"></a>
+                    <a href="#"><b>어디에 있든, 그 곳이 무대가 됩니다 [무선 사일런트 기타]</b></a>
+                    <p>공연ㆍ컬쳐<span> | </span>노르디코</p>
+                    <div class="line"></div>
+                    <div><span class="left"><b class="num">3971%</b>ㆍ119,149,000원</span><span class="right">종료ㆍ<span class="success">성공</span></span></div>
+                </div>
 
-             </ul>
-             <button id="chevronright"><i class="fas fa-chevron-right"></i></button>
-         </nav>
-         <form name="frm">
-          <div id="block1"><b>전체보기</b>
-            <span id="searchbox">
-            <label for="search"></label>
-            <input type="search" id="search" name="search" value="검색">
-            <button id="searchicons"><i class='fas fa-search'></i></button>
-              <select name="sel1" id="sel1">
-               <option value="whole">전체</option>
-               <option value="ing">진행중</option>
-               <option value="end">마감완료</option>
-              </select>
-              <select name="sel2" id="sel2">
-               <option value="">추천순</option>
-               <option value="">인기순</option>
-               <option value="">최신순</option>
-               <option value="">마감 임박순</option>
-               <option value="maxsupport">최다 후원순</option>
-             </select>
-            </span>
-          </div>
-         </form>
-     </div>
-      <!--category end-->
-      <div id="block1line"></div>
-       <!-- thumbnail start -->
-      <div id="block2">
-        <!-- thumbnail 1 -->
-        <div class="thumbnail">
-            <a href="#"><img src="https://cdn.wadiz.kr/wwwwadiz/green001/2019/1129/20191129101256068_54277.jpg" alt="집사의반격"></a>
-            <a href="#"><b>캣휠혁명! 빠져나올 수 없는 마성의 질주가 시작된다</b></a>
-          <p>반려동물<span> | </span>집사의반격</p>
-          <div class="line"></div>
-            <div><span class="left"><b class="num">859%</b>ㆍ25,795,000원</span><span class="right">종료ㆍ<span class="success">성공</span></span></div>
-        </div>
-        <!-- thumbnail 2 -->
-        <div class="thumbnail">
-            <a href="#"><img src="https://cdn.wadiz.kr/wwwwadiz/green001/2019/1127/20191127180408378_54247.png" alt="투앤하프"></a>
-            <a href="#"><b>비싼 매트리스 사지 않고도 신박한 잠자리를 만들 수 있다고?</b></a>
-          <p>홈리빙<span> | </span>투앤하프</p>
-          <div class="line"></div>
-          <div><span class="left"><b class="num">508%</b>ㆍ5,088,000원</span><span class="right">5일 남음</span></div>
-        </div>
-        <!-- thumbnail 3 -->
-        <div class="thumbnail">
-            <a href="#"><img src="https://cdn.wadiz.kr/wwwwadiz/green001/2018/0403/20180403120703243_18647.jpg" alt="로우로우"></a>
-            <a href="#"><b>사진가가 말하고 로우로우가 만든, 카메라백</b></a>
-          <p>패션ㆍ잡화<span> | </span>로우로우</p>
-          <div class="line"></div>
-            <div><span class="left"><b class="num">8%</b>ㆍ188,000원</span><span class="right">2일 남음</span></div>
-        </div>
-        <!-- thumbnail 4 -->
-        <div class="thumbnail">
-            <a href="#"><img src="https://cdn.wadiz.kr/wwwwadiz/green001/2019/1004/20191004113814371_48815.png" alt="김우재"></a>
-            <a href="#"><b>해로운 과학자들 - 유사과학이 과학자를 고소하다</b></a>
-          <p>캠페인<span> | </span>김우재</p>
-          <div class="line"></div>
-            <div><span class="left"><b class="num">348%</b>ㆍ17,278,845원</span><span class="right">12일 남음</span></div>
-        </div>
-        <!-- thumbnail 5 -->
-        <div class="thumbnail">
-            <a href="#"><img src="https://cdn.wadiz.kr/wwwwadiz/green001/2019/1128/20191128130152089_52527.jpg" alt="스니프"></a>
-            <a href="#"><b>'따수미 침낭' 하나로 우리 베이비들 월동 준비 끝!</b></a>
-          <p>반려동물<span> | </span>스니프</p>
-          <div class="line"></div>
-            <div><span class="left"><b class="num">228%</b>ㆍ637,000원</span><span class="right">1일 남음</span></div>
-        </div>
-        <!-- thumbnail 6 -->
-        <div class="thumbnail">
-            <a href="#"><img src="https://cdn.wadiz.kr/wwwwadiz/green001/2019/1206/20191206181003428_53315.jpeg" alt="(주)미스터네이처"></a>
-            <a href="#"><b>[설탕NO,팜유NO]마약같은 중독성! 미스터 크림치즈 스프레드</b></a>
-          <p>푸드<span> | </span>㈜미스터네이처</p>
-          <div class="line"></div>
-            <div><span class="left"><b class="num">1342%</b>ㆍ10.749,000원</span><span class="right">종료ㆍ<span class="success">성공</span></span></div>
-        </div>
-        <!-- thumbnail 7 -->
-        <div class="thumbnail">
-            <a href="#"><img src="https://cdn.wadiz.kr/wwwwadiz/green002/2019/0830/20190830113951278_43844.jpg" alt="(주)미스터네이처"></a>
-            <a href="#"><b>세상에서 오직 하나뿐인 수공예 여권케이스</b></a>
-          <p>패션ㆍ잡화<span> | </span>박훈서</p>
-          <div class="line"></div>
-            <div><span class="left"><b class="num">42%</b>ㆍ349,000원</span><span class="right">5일 남음</span></div>
-        </div>
-        <!-- thumbnail 8 -->
-        <div class="thumbnail">
-            <a href="#"><img src="https://cdn.wadiz.kr/wwwwadiz/green001/2019/1203/20191203142013971_47716.jpg" alt="젠틀프로젝트"></a>
-            <a href="#"><b>[남자 필독]남자의 00이 밝아지는 톤업크림</b></a>
-          <p>뷰티<span> | </span>젠틀프로젝트</p>
-          <div class="line"></div>
-            <div><span class="left"><b class="num">1141%</b>ㆍ8,707,320원</span><span class="right">5일 남음</span></div>
-        </div>
-        <!-- thumbnail 9 -->
-        <div class="thumbnail">
-            <a href="#"><img src="https://cdn.wadiz.kr/wwwwadiz/green001/2019/1127/20191127164533481_52632.jpg" alt="HONEST & TRUST"></a>
-            <a href="#"><b>[삶의 질 급상승] 2만원대로 만나는 보들보들 솜털 샤워가운!</b></a>
-          <p>홈리빙<span> | </span>HONEST&TRUST</p>
-          <div class="line"></div>
-            <div><span class="left"><b class="num">342%</b>ㆍ2.948,000원</span><span class="right">5일 남음</span></div>
-        </div>
-        <!-- thumbnail 10 -->
-        <div class="thumbnail">
-            <a href="#"><img src="https://cdn.wadiz.kr/wwwwadiz/green001/2019/1031/20191031154543421_51448.jpg" alt="노르디코"></a>
-            <a href="#"><b>엄마와 아빠 그리고 우리아이 모두가 편해지는 로로기저귀가방</b></a>
-          <p>교육ㆍ키즈<span> | </span>노르디코</p>
-          <div class="line"></div>
-          <div><span class="left"><b class="num">123%</b>ㆍ1,230.000원</span><span class="right">1일 남음</span></div>
-        </div>
-        <!-- thumbnail 11 -->
-        <div class="thumbnail">
-            <a href="#"><img src="https://cdn.wadiz.kr/wwwwadiz/green001/2019/1203/20191203154711931_54650.jpg" alt="주식회사 바로푸드"></a>
-            <a href="#"><b>편리미엄을 위한 간편한 한끼! 전자레인지로 요리하는 오징어볶음</b></a>
-          <p>푸드<span> | </span>주식회사 바로푸드</p>
-          <div class="line"></div>
-          <div><span class="left"><b class="num">50%</b>ㆍ715.000원</span><span class="right">20일 남음</span></div>
-        </div>
-        <!-- thumbnail 12 -->
-        <div class="thumbnail">
-            <a href="#"><img src="https://cdn.wadiz.kr/wwwwadiz/green001/2018/0307/20180307134802676_17710.jpg/wadiz/format/jpg" alt="유니유노"></a>
-            <a href="#"><b>사진으로 담을 수 없는 순간의 기록</b></a>
-          <p>디자인소품<span> | </span>유니유노</p>
-          <div class="line"></div>
-          <div><span class="left"><b class="num">0%</b>ㆍ0원</span><span class="right">9일 남음</span></div>
-        </div>
-        <!-- thumbnail 13 -->
-       <div class="thumbnail">
-            <a href="#"><img src="https://cdn.wadiz.kr/wwwwadiz/green001/2019/0930/20190930104901140_43912.jpg/wadiz/format/jpg" alt="주식회사 두루행복"></a>
-            <a href="#"><b>추억을 담은 나만의 천연가죽 휴대폰케이스</b></a>
-          <p>패션ㆍ잡화<span> | </span>주식회사 두루행복</p>
-          <div class="line"></div>
-          <div><span class="left"><b class="num">13%</b>ㆍ260.000원</span><span class="right">1일 남음</span></div>
-        </div>
-        <!-- thumbnail 14 -->
-        <div class="thumbnail">
-            <a href="#"><img src="https://cdn.wadiz.kr/wwwwadiz/green001/2019/1112/20191112112835938_52519.jpg" alt="시온테크"></a>
-            <a href="#"><b>와우스틱 시즌2 더 강해져서 돌아왔다! : 와우스틱 SD</b></a>
-          <p>테크ㆍ가전<span> | </span>시온테크</p>
-          <div class="line"></div>
-          <div><span class="left"><b class="num">783%</b>ㆍ9,770.000원</span><span class="right">종료ㆍ<span class="success">성공</span></span></div>
-        </div>
-        <!-- thumbnail 15 -->
-        <div class="thumbnail">
-            <a href="#"><img src="https://cdn.wadiz.kr/wwwwadiz/green001/2019/1205/20191205130816100_37338.png" alt="히즈클린"></a>
-            <a href="#"><b>[앵콜펀딩]밝고 건강한 사타구니 만들기, 션 남성청결제</b></a>
-          <p>뷰티<span> | </span>히즈클린</p>
-          <div class="line"></div>
-          <div><span class="left"><b class="num">123%</b>ㆍ1,230.000원</span><span class="right">9일 남음</span></div>
-        </div>
-        <!-- thumbnail 16 -->
-        <div class="thumbnail">
-            <a href="#"><img src="https://cdn.wadiz.kr/wwwwadiz/green001/2019/1026/20191026221215877_42645.jpg" alt="위하다"></a>
-            <a href="#"><b>[다세대 소통 어플리케이션]가족과 함께하는 순간 '오늘 우리'</b></a>
-          <p>캠페인<span> | </span>위하다</p>
-          <div class="line"></div>
-          <div><span class="left"><b class="num">935%</b>ㆍ11,239.000원</span><span class="right">종료ㆍ<span class="success">성공</span></span></div>
-        </div>
-        <!-- thumbnail 17 -->
-        <div class="thumbnail">
-            <a href="#"><img src="https://cdn.wadiz.kr/wwwwadiz/green001/2019/1121/20191121183520501_47057.jpg" alt="나그참파코리아"></a>
-            <a href="#"><b>숙면을 위한 아로마테라피! 나그참파 기프트 세트</b></a>
-          <p>홈리빙<span> | </span>나그참파코리아</p>
-          <div class="line"></div>
-          <div><span class="left"><b class="num">7738%</b>ㆍ38,691,400원</span><span class="right">14일 남음</span></div>
-        </div>
-        <!-- thumbnail 18 -->
-        <div class="thumbnail">
-            <a href="#"><img src="https://cdn.wadiz.kr/wwwwadiz/green001/2019/1112/20191112164800554_49208.jpg" alt="mundum"></a>
-            <a href="#"><b>자가진단으로 찾아보는 나를 위한 맞춤형 세안제 먼덤 솝 블록!</b></a>
-          <p>뷰티<span> | </span>mundum</p>
-          <div class="line"></div>
-          <div><span class="left"><b class="num">2783%</b>ㆍ31,230.000원</span><span class="right">4일 남음</span></div>
-        </div>
-        <!-- thumbnail 19 -->
-        <div class="thumbnail">
-            <a href="#"><img src="https://cdn.wadiz.kr/wwwwadiz/green001/2019/1111/20191111041900042_51800.jpg" alt="토들윙"></a>
-            <a href="#"><b>반려동물 건강지킴이! 펫라이트 테라피</b></a>
-          <p>반려동물<span> | </span>토들윙</p>
-          <div class="line"></div>
-          <div><span class="left"><b class="num">80%</b>ㆍ1,790,000원</span><span class="right">19일 남음</span></div>
-        </div>
-        <!-- thumbnail 20 -->
-        <div class="thumbnail">
-            <a href="#"><img src="https://cdn.wadiz.kr/wwwwadiz/green002/2019/1125/20191125211529534_50688.jpg" alt="해박스"></a>
-            <a href="#"><b>656명의 목소리를 담은 [유아 미세먼지 마스크]</b></a>
-          <p>교육ㆍ키즈<span> | </span>해박스</p>
-          <div class="line"></div>
-          <div><span class="left"><b class="num">656%</b>ㆍ6,560.000원</span><span class="right">1일 남음</span></div>
-        </div>
-        <!-- thumbnail 21 -->
-        <div class="thumbnail">
-            <a href="#"><img src="https://cdn.wadiz.kr/wwwwadiz/green001/2019/1120/20191120182510008_53610.jpg" alt="디어넛츠"></a>
-            <a href="#"><b>쫀득쫀득, 폭신폭신! 밑을 수 없는 비건파운드케이크, 디어브레드</b></a>
-          <p>푸드<span> | </span>디어넛츠</p>
-          <div class="line"></div>
-          <div><span class="left"><b class="num">123%</b>ㆍ1,230.000원</span><span class="right">9일 남음</span></div>
-        </div>
-        <!-- thumbnail 22 -->
-       <div class="thumbnail">
-            <a href="#"><img src="https://cdn.wadiz.kr/wwwwadiz/green001/2019/1205/20191205100902342_53690.jpg" alt="민트투어"></a>
-            <a href="#"><b>세계 최고 잘츠부르크 페스티벌 100주년 클래식투어</b></a>
-          <p>공연ㆍ컬쳐<span> | </span>민트투어</p>
-          <div class="line"></div>
-          <div><span class="left"><b class="num">317%</b>ㆍ63,450,000원</span><span class="right">8일 남음</span></div>
-        </div>
-        <!-- thumbnail 23 -->
-       <div class="thumbnail">
-            <a href="#"><img src="https://cdn.wadiz.kr/wwwwadiz/green001/2019/0902/20190902150356410_44947.jpg" alt="풍림전자 주식회사"></a>
-            <a href="#"><b>인덕션? 이제 가지고 다니세요! [스스로 조리하는 스마트 인덕션]</b></a>
-          <p>테크ㆍ가전<span> | </span>풍림전자 주식회사</p>
-          <div class="line"></div>
-          <div><span class="left"><b class="num">37%</b>ㆍ930.000원</span><span class="right">29일 남음</span></div>
-        </div>
-        <!-- thumbnail 24 -->
-       <div class="thumbnail">
-            <a href="#"><img src="https://cdn.wadiz.kr/wwwwadiz/green002/2019/1121/20191121130105410_53702.jpg" alt="포락잔"></a>
-            <a href="#"><b>우리만의 도원결의! 즐거운 술자리를 위한 네개의 술잔, 포락잔</b></a>
-          <p>홈리빙<span> | </span>포락잔</p>
-          <div class="line"></div>
-          <div><span class="left"><b class="num">85%</b>ㆍ930.000원</span><span class="right">5일 남음</span></div>
-        </div>
-        <!-- thumbnail 25 -->
-       <div class="thumbnail">
-            <a href="#"><img src="https://cdn.wadiz.kr/wwwwadiz/green002/2017/1210/20171210150359108_16339.jpg" alt="아사달컴퍼니"></a>
-            <a href="#"><b>당신이 원하는 모든것에 필요한 가방. 아사달컴퍼니 타우더플백</b></a>
-          <p>패션ㆍ잡화<span> | </span>아사달컴퍼니</p>
-          <div class="line"></div>
-          <div><span class="left"><b class="num">122%</b>ㆍ3,682.000원</span><span class="right">종료ㆍ<span class="success">성공</span></span></div>
-        </div>
-        <!-- thumbnail 26 -->
-        <div class="thumbnail">
-            <a href="#"><img src="https://cdn.wadiz.kr/wwwwadiz/green002/2019/0320/20190320115236363_32331.jpg" alt="㈜손오공"></a>
-            <a href="#"><b>아기사진 거장의 작품이 힐링 인형으로 탄생하다 : 앤 게디스</b></a>
-          <p>디자인소품<span> | </span>㈜손오공</p>
-          <div class="line"></div>
-          <div><span class="left"><b class="num">75%</b>ㆍ830.000원</span><span class="right">9일 남음</span></div>
-        </div>
-        <!-- thumbnail 27 -->
-       <div class="thumbnail">
-            <a href="#"><img src="https://cdn.wadiz.kr/wwwwadiz/green002/2019/1212/20191212155506625_31187.png" alt="위클래식 / WECLASSIC"></a>
-            <a href="#"><b>박은태&정선아와 함께하는 헐리우드 필름 콘서트 </b></a>
-          <p>공연ㆍ컬쳐<span> | </span>위클래식 / WECLASSIC</p>
-          <div class="line"></div>
-          <div><span class="left"><b class="num">8702%</b>ㆍ130,544,000원</span><span class="right">9일 남음</span></div>
-        </div>
-        <!-- thumbnail 28 -->
-        <div class="thumbnail">
-            <a href="#"><img src="https://cdn.wadiz.kr/wwwwadiz/green002/2019/1001/20191001141402875_48399.jpg" alt="노르디코"></a>
-            <a href="#"><b>어디에 있든, 그 곳이 무대가 됩니다  [무선 사일런트 기타]</b></a>
-          <p>공연ㆍ컬쳐<span> | </span>노르디코</p>
-          <div class="line"></div>
-          <div><span class="left"><b class="num">3971%</b>ㆍ119,149,000원</span><span class="right">종료ㆍ<span class="success">성공</span></span></div>
-        </div>
+                <!-- thumbnail 29 -->
+                <div class="thumbnail">
+                    <a href="#"><img src="https://cdn.wadiz.kr/wwwwadiz/green001/2018/1115/20181115150641843_27150.png" alt="동물자유연대"></a>
+                    <a href="#"><b> "사지마세요, 입양하세요" : 동물자유연대 2019 캘린더</b></a>
+                    <p>캠페인<span> | </span>동물자유연대</p>
+                    <div class="line"></div>
+                    <div><span class="left"><b class="num">453%</b>ㆍ45,230.000원</span><span class="right">6일 남음</span></div>
+                </div>
+                <!-- thumbnail 30 -->
+                <div class="thumbnail">
+                    <a href="#"><img src="https://cdn.wadiz.kr/wwwwadiz/green001/2019/1216/20191216102952096_51891.jpg" alt="베리홉"></a>
+                    <a href="#"><b>[2억5천 신화]5천명의 서포터가 인정한 진짜 미백 앰플!</b></a>
+                    <p>뷰티<span> | </span>베리홉</p>
+                    <div class="line"></div>
+                    <div><span class="left"><b class="num">29994%</b>ㆍ149,074,000원</span><span class="right">12일 남음</span></div>
+                </div>
+                <!-- thumbnail 31 -->
+                <div class="thumbnail">
+                    <a href="#"><img src="https://cdn.wadiz.kr/wwwwadiz/green001/2019/1119/20191119183156257_52098.jpg" alt="SJ생활건강"></a>
+                    <a href="#"><b>작지만 깔끔하게 쓰레기를 처리하는 "와이즈홀더 미니"</b></a>
+                    <p>홈리빙<span> | </span>SJ생활건강</p>
+                    <div class="line"></div>
+                    <div><span class="left"><b class="num">6%</b>ㆍ1,860.000원</span><span class="right">29일 남음</span></div>
+                </div>
+                <!-- thumbnail 32 -->
+                <div class="thumbnail">
+                    <a href="#"><img src="https://cdn.wadiz.kr/wwwwadiz/green002/2015/1207/20151207090638304_2833.jpg" alt="지숨"></a>
+                    <a href="#"><b>[지숨갤러리]전주한옥마을 살리는'한지사진'</b></a>
+                    <p>디자인소품<span> | </span>지숨</p>
+                    <div class="line"></div>
+                    <div><span class="left"><b class="num">23%</b>ㆍ230.000원</span><span class="right">종료</span></div>
+                </div>
+                <!-- thumbnail 33 -->
+                <div class="thumbnail">
+                    <a href="#"><img src="https://cdn.wadiz.kr/wwwwadiz/green001/2019/0131/20190131180407110_29413.jpg" alt="주식회사 마뜨"></a>
+                    <a href="#"><b>사진보다 실물이 이쁜 아도방가죽, vintage 장지갑&반지갑</b></a>
+                    <p>패션ㆍ잡화<span> | </span>주식회사 마뜨</p>
+                    <div class="line"></div>
+                    <div><span class="left"><b class="num">13%</b>ㆍ1,230.000원</span><span class="right">2일 남음</span></div>
+                </div>
+                <!-- thumbnail 34 -->
+                <div class="thumbnail">
+                    <a href="#"><img src="https://cdn.wadiz.kr/wwwwadiz/green001/2018/0404/20180404014426803_19150.jpg" alt="(주)누트"></a>
+                    <a href="#"><b>진짜 동화는 아이들의 상상속에 이미 있어요.</b></a>
+                    <p>교육ㆍ키즈<span> | </span>(주)누트</p>
+                    <div class="line"></div>
+                    <div><span class="left"><b class="num">123%</b>ㆍ1,230.000원</span><span class="right">9일 남음</span></div>
+                </div>
 
-
-       </div>
-        <!-- thumbnail end -->
-    </div>
+                <!-- thumbnail 35 -->
+                <div class="thumbnail">
+                    <a href="#"><img src="https://cdn.wadiz.kr/wwwwadiz/green002/2015/1013/20151013171906814_2778.jpg" alt="임지영"></a>
+                    <a href="#"><b>[ 덕후축제 ]여러분의 덕력을 펼쳐보아요!</b></a>
+                    <p>공연ㆍ컬쳐<span> | </span>임지영</p>
+                    <div class="line"></div>
+                    <div><span class="left"><b class="num">327%</b>ㆍ16,367,000원</span><span class="right">종료ㆍ<span class="success">성공</span></span></div>
+                </div>
+                <!-- thumbnail 36 -->
+                <div class="thumbnail">
+                    <a href="#"><img src="https://cdn.wadiz.kr/wwwwadiz/green002/2019/1120/20191120112719586_51570.jpg" alt="AME Custom Earphone"></a>
+                    <a href="#"><b>AME Radioso정전형 이어폰 앵콜 이젠 커스텀으로 가자</b></a>
+                    <p>테크ㆍ가전<span> | </span>AME Custom Earphone</p>
+                    <div class="line"></div>
+                    <div><span class="left"><b class="num">123%</b>ㆍ1,230.000원</span><span class="right">9일 남음</span></div>
+                </div>
+                <!-- thumbnail 37 -->
+                <div class="thumbnail">
+                    <a href="#"><img src="https://cdn.wadiz.kr/wwwwadiz/green001/2019/1105/20191105172937139_51845.jpg" alt="정성깃든"></a>
+                    <a href="#"><b>[프리미엄 자연조미료]작은 큐브 한 개에 깊고 진한 한우 국물이!</b></a>
+                    <p>푸드<span> | </span>정성깃든</p>
+                    <div class="line"></div>
+                    <div><span class="left"><b class="num">89%</b>ㆍ890.000원</span><span class="right">35일 남음</span></div>
+                </div>
+                <!-- thumbnail 38 -->
+                <div class="thumbnail">
+                    <a href="#"><img src="https://cdn.wadiz.kr/wwwwadiz/green001/2019/1114/20191114214630105_36417.jpg" alt="시노테"></a>
+                    <a href="#"><b>소중한 순간을 담은 스마트폰 사진 목걸이</b></a>
+                    <p>패션ㆍ잡화<span> | </span>시노테</p>
+                    <div class="line"></div>
+                    <div><span class="left"><b class="num">0%</b>ㆍ0원</span><span class="right">종료</span></div>
+                </div>
+                <!-- thumbnail 39 -->
+                <div class="thumbnail">
+                    <a href="#"><img src="https://cdn.wadiz.kr/wwwwadiz/green001/2019/0329/20190329175324703_33023.jpg" alt="play46"></a>
+                    <a href="#"><b>우리가족 케미확인하기, 부모-아이 기질분석 보고서</b></a>
+                    <p>교육ㆍ키즈<span> | </span>play46</p>
+                    <div class="line"></div>
+                    <div><span class="left"><b class="num">3243%</b>ㆍ32,435,000원</span><span class="right">1일 남음</span></div>
+                </div>
+                <!-- thumbnail 40 -->
+                <div class="thumbnail">
+                    <a href="#"><img src="https://cdn.wadiz.kr/wwwwadiz/green001/2019/1215/20191215112239348_40974.png" alt="사실주의베이컨"></a>
+                    <a href="#"><b>[만들어주세요!]서포터가 요청한 저칸고지 무설탕 베이컨</b></a>
+                    <p>푸드<span> | </span>사실주의베이컨</p>
+                    <div class="line"></div>
+                    <div><span class="left"><b class="num">725%</b>ㆍ7,253,220원</span><span class="right">12일 남음</span></div>
+                </div>
+                <!-- thumbnail 41 -->
+                <div class="thumbnail">
+                    <a href="#"><img src="https://cdn.wadiz.kr/wwwwadiz/green001/2019/1120/20191120163147497_53068.jpg" alt="프랑스적인 삶"></a>
+                    <a href="#"><b>[견생사진 프로젝트] 댕댕아, 학교가자!</b><br></a>
+                    <p>반려동물<span> | </span>프랑스적인 삶</p>
+                    <div class="line"></div>
+                    <div><span class="left"><b class="num">150%</b>ㆍ1,750.000원</span><span class="right">15일 남음</span></div>
+                </div>
+                <!-- thumbnail 42 -->
+                <div class="thumbnail">
+                    <a href="#"><img src="https://cdn.wadiz.kr/wwwwadiz/green001/2019/0819/20190819175416346_41305.png" alt="코드잇 (Codeit)"></a>
+                    <a href="#"><b>[6차 앵콜] 내가 좋아서 하는 코딩공부, 코드잇</b></a>
+                    <p>교육ㆍ키즈<span> | </span>코드잇 (Codeit)</p>
+                    <div class="line"></div>
+                    <div><span class="left"><b class="num">123%</b>ㆍ1,230.000원</span><span class="right">9일 남음</span></div>
+                </div>
+                <!-- thumbnail 43 -->
+                <div class="thumbnail">
+                    <a href="#"><img src="https://cdn.wadiz.kr/wwwwadiz/green002/2018/1227/20181227234452898_29175.png" alt="몰가드(MOLGUARD)"></a>
+                    <a href="#"><b>카드 한장으로 몰카를 찾는 방법, 몰가드 프로젝트</b></a>
+                    <p>캠페인<span> | </span>몰가드(MOLGUARD)</p>
+                    <div class="line"></div>
+                    <div><span class="left"><b class="num">5047%</b>ㆍ25,238,100원</span><span class="right">종료ㆍ<span class="success">성공</span></span></div>
+                </div>
+                <!-- thumbnail 44-->
+                <div class="thumbnail">
+                    <a href="#"><img src="https://cdn.wadiz.kr/wwwwadiz/green001/2019/1127/20191127145156613_51673.jpg" alt="스윗아이디어스"></a>
+                    <a href="#"><b>휴대용 안경닦이 포켓클리너! 어디에서나 가볍고 심플하게</b></a>
+                    <p>디자인소품<span> | </span>스윗아이디어스</p>
+                    <div class="line"></div>
+                    <div><span class="left"><b class="num">4561%</b>ㆍ22,806,800원</span><span class="right">9일 남음</span></div>
+                </div>
+                <!-- thumbnail 45 -->
+                <div class="thumbnail">
+                    <a href="#"><img src="https://cdn.wadiz.kr/wwwwadiz/green001/2019/1129/20191129213747339_54463.jpg" alt="자몽한고양이"></a>
+                    <a href="#"><b>[고양이]추억을 담다, 고양이 수염보관함</b></a>
+                    <p>반려동물<span> | </span>자몽한고양이</p>
+                    <div class="line"></div>
+                    <div><span class="left"><b class="num">123%</b>ㆍ1,230.000원</span><span class="right">9일 남음</span></div>
+                </div>
+                <!-- thumbnail 46 -->
+                <div class="thumbnail">
+                    <a href="#"><img src="https://cdn.wadiz.kr/wwwwadiz/green001/2019/1030/20191030104420566_44128.jpg" alt="㈜싱크랩"></a>
+                    <a href="#"><b>[발각질제거]샵 가지마세요! 씻고 바르는 풋케어 전용 화장품</b></a>
+                    <p>뷰티<span> | </span>㈜싱크랩</p>
+                    <div class="line"></div>
+                    <div><span class="left"><b class="num">98%</b>ㆍ998,000원</span><span class="right">3일 남음</span></div>
+                </div>
+                <!-- thumbnail 47 -->
+                <div class="thumbnail">
+                    <a href="#"><img src="https://cdn.wadiz.kr/wwwwadiz/green001/2019/1117/20191117184054275_53262.jpg" alt="술고래"></a>
+                    <a href="#"><b>설날에 술고래 주병세트로 특별한 선물을 준비해 보세요.</b></a>
+                    <p>홈리빙<span> | </span>술고래</p>
+                    <div class="line"></div>
+                    <div><span class="left"><b class="num">460%</b>ㆍ2,302,500원</span><span class="right">12일 남음</span></div>
+                </div>
+                <!-- thumbnail 48 -->
+                <div class="thumbnail">
+                    <a href="#"><img src="https://cdn.wadiz.kr/wwwwadiz/green002/2019/1128/20191128123904930_54299.png" alt="청파약쟁이"></a>
+                    <a href="#"><b>시각장애인을 위한 '볼록이 약 구분 스티커'</b></a>
+                    <p>캠페인<span> | </span>청파약쟁이</p>
+                    <div class="line"></div>
+                    <div><span class="left"><b class="num">123%</b>ㆍ1,230.000원</span><span class="right">9일 남음</span></div>
+                </div>
+                <!-- thumbnail 49 -->
+                <div class="thumbnail">
+                    <a href="#"><img src="https://cdn.wadiz.kr/wwwwadiz/green002/2019/0520/20190520142428340_35724.jpg" alt="스튜디오 록"></a>
+                    <a href="#"><b>한 장 한장, 다 탐나는 예쁜 사진엽서북</b></a>
+                    <p>디자인소품<span> | </span>스튜디오 록</p>
+                    <div class="line"></div>
+                    <div><span class="left"><b class="num">1%</b>ㆍ23,000원</span><span class="right">9일 남음</span></div>
+                </div>
+                <!-- thumbnail 50 -->
+                <div class="thumbnail">
+                    <a href="#"><img src="https://cdn.wadiz.kr/wwwwadiz/green001/2019/0129/20190129142730968_27532.jpg" alt="프롬일랑"></a>
+                    <a href="#"><b>손 끝에서 종이로 꽃을 피우다! [페이퍼플라워 클래스, 전시]</b></a>
+                    <p>공연ㆍ컬쳐<span> | </span>프롬일랑</p>
+                    <div class="line"></div>
+                    <div><span class="left"><b class="num">1436%</b>ㆍ21,542,000원</span><span class="right">9일 남음</span></div>
+                </div>
+                <!-- thumbnail 51 -->
+                <div class="thumbnail">
+                    <a href="#"><img src="https://cdn.wadiz.kr/wwwwadiz/green001/2019/1125/20191125204109431_45347.jpg/wadiz/format/jpg" alt="예스콜"></a>
+                    <a href="#"><b>개인정보 유출방지!! 분실위치 추적!! 스마트 보안 USB메모리</b></a>
+                    <p>테크ㆍ가전<span> | </span>예스콜</p>
+                    <div class="line"></div>
+                    <div><span class="left"><b class="num">323%</b>ㆍ4,230.000원</span><span class="right">9일 남음</span></div>
+                </div>
+                <!-- thumbnail 52 -->
+                <div class="thumbnail">
+                    <a href="#"><img src="https://cdn.wadiz.kr/wwwwadiz/green001/2019/0911/20190911145331509_43518.jpg" alt="말랑하니 주식회사"></a>
+                    <a href="#"><b>크로스백이 힙시트가 되는, 세상 신박한 꿀육아템 2in1</b></a>
+                    <p>교육ㆍ키즈<span> | </span>말랑하니 주식회사</p>
+                    <div class="line"></div>
+                    <div><span class="left"><b class="num">123%</b>ㆍ1,230.000원</span><span class="right">9일 남음</span></div>
+                </div>
+                <!-- thumbnail 53 -->
+                <div class="thumbnail">
+                    <a href="#"><img src="https://cdn.wadiz.kr/wwwwadiz/green002/2017/0703/20170703130636598_13625.jpg" alt="디오시네마"></a>
+                    <a href="#"><b>2차 앵콜펀딩! 영화 [좋아해,너를] 개봉 확정 기념 특별 유료 시사회</b></a>
+                    <p>공연ㆍ컬쳐<span> | </span>디오시네마</p>
+                    <div class="line"></div>
+                    <div><span class="left"><b class="num">1398%</b>ㆍ27,968,000원</span><span class="right">종료ㆍ<span class="success">성공</span></span></div>
+                </div>
+                <!-- thumbnail 54 -->
+                <div class="thumbnail">
+                    <a href="#"><img src="https://cdn.wadiz.kr/wwwwadiz/green001/2019/1120/20191120163804383_51962.jpg" alt="안파"></a>
+                    <a href="#"><b>또 깨졌니? 난 범퍼가 지켜주는데[안파 거북이 강화유리 필름]</b></a>
+                    <p>테크ㆍ가전<span> | </span>안파</p>
+                    <div class="line"></div>
+                    <div><span class="left"><b class="num">68%</b>ㆍ715,.000원</span><span class="right">25일 남음</span></div>
+                </div>
+                <!-- thumbnail 55-->
+                <div class="thumbnail">
+                    <a href="#"><img src="https://cdn.wadiz.kr/wwwwadiz/green002/2019/1130/20191130140816343_53233.jpg" alt="크리에디터"></a>
+                    <a href="#"><b>골덴에코백 한장으로 보육원아이들의 산타가 되어주세요.</b></a>
+                    <p>캠페인<span> | </span>크리에디터</p>
+                    <div class="line"></div>
+                    <div><span class="left"><b class="num">23%</b>ㆍ351,500원</span><span class="right">7일 남음</span></div>
+                </div>
+                <!-- thumbnail 56 -->
+                <div class="thumbnail">
+                    <a href="#"><img src="https://cdn.wadiz.kr/wwwwadiz/green001/2019/1210/20191210011826814_50487.jpg" alt="천역목욕가게 니치"></a>
+                    <a href="#"><b>아침, 저녁 세안 똑같이하세요? 깨끗한 피부를 위한 천연비누!</b></a>
+                    <p>뷰티<span> | </span>천역목욕가게 니치</p>
+                    <div class="line"></div>
+                    <div><span class="left"><b class="num">100%</b>ㆍ880,000원</span><span class="right">1일 남음</span></div>
+                </div>
+                <!-- thumbnail 57 -->
+                <div class="thumbnail">
+                    <a href="#"><img src="https://cdn.wadiz.kr/wwwwadiz/green001/2019/1128/20191128153355083_51776.jpg" alt="링케"></a>
+                    <a href="#"><b>모든 노트북에서 OK! 휴대용 노트북 스탠드 링케 폴딩2</b></a>
+                    <p>테크ㆍ가전<span> | </span>링케</p>
+                    <div class="line"></div>
+                    <div><span class="left"><b class="num">1065%</b>ㆍ5,326,200원</span><span class="right">16일 남음</span></div>
+                </div>
+                <!-- thumbnail 58 -->
+                <div class="thumbnail">
+                    <a href="#"><img src="https://cdn.wadiz.kr/wwwwadiz/green001/2019/1121/20191121173619626_51722.jpg" alt="주식회사 에이치케이팜"></a>
+                    <a href="#"><b>[하루 두번, 10초로 촉촉해지는 습관]가장 쉬운 보습 방법 츄어블정</b></a>
+                    <p>푸드<span> | </span>주식회사 에이치케이팜</p>
+                    <div class="line"></div>
+                    <div><span class="left"><b class="num">16%</b>ㆍ160,000원</span><span class="right">28일 남음</span></div>
+                </div>
+                <!-- thumbnail 59 -->
+                <div class="thumbnail">
+                    <a href="#"><img src="https://cdn.wadiz.kr/wwwwadiz/green001/2019/1106/20191106231330688_36263.jpg" alt="컨트롤9"></a>
+                    <a href="#"><b>펜과 노트, 글을 사랑하는 사람들의 다이어리 커버</b></a>
+                    <p>교육ㆍ키즈<span> | </span>컨트롤9</p>
+                    <div class="line"></div>
+                    <div><span class="left"><b class="num">1340%</b>ㆍ13,408,500원원</span><span class="right">5일 남음</span></div>
+                </div>
+                <!-- thumbnail 60 -->
+                <div class="thumbnail">
+                    <a href="#"><img src="https://cdn.wadiz.kr/wwwwadiz/green001/2019/1124/20191124031450594_53261.jpg" alt="다온펫푸드"></a>
+                    <a href="#"><b>[댕냥이]편식! 영양부족!! 댕냥이에게 이건어때요?</b></a>
+                    <p>반려동물<span> | </span>다온펫푸드</p>
+                    <div class="line"></div>
+                    <div><span class="left"><b class="num">98%</b>ㆍ870,000원</span><span class="right">13일 남음</span></div>
+                </div>
+            </div>
+            <!-- thumbnail end -->
+        </div>
     </article>
     <footer>
-       <div><p>selfun</p></div>
+        <div>
+            <p>selfun</p>
+        </div>
 
     </footer>
-</body>
-</html>
+    <script src="js/menu2.js"></script>
+</body></html>
