@@ -1,0 +1,264 @@
+/*
+    index.css
+    1. 전체 레이아웃 (헤더 내비 아티클 푸터)
+    2. 헤더 내부
+    2-1. 이벤트
+    2-2. 로고
+    3. 네비 설정
+    3-1. 리스트 설정
+    3-2.
+    4. 아티클
+    5. 푸터
+*/
+
+/*   1. 전체 레이아웃 (헤더 내비 아티클 푸터)    */
+body{
+    margin: 0px auto !important;
+    padding: 0px;
+}
+header{
+
+}
+nav{
+    clear: both;
+    /*width: 55%;*/
+    position: relative;
+    top: -20px;
+    margin: 2% auto;
+    margin-top: 0px;
+    background-color: #f8f8f8;
+}
+article{
+    /*width: 55%;*/
+    position: relative;
+    top: -30px;
+    margin:  auto;
+    margin-top: 10px;
+}
+footer{
+    width: 100%; height: 180px;
+    background-color: #7b94ff;
+}
+
+
+/*    2-1. 이벤트    */
+div.event{
+    width: 100%; height: 30px;
+    background-color: #7b94ff;
+    text-align: center;
+}
+.event a{
+    margin: 15px;    padding: 5px;
+
+}
+.event a:link, .event a:visited{
+    color: azure;
+    text-decoration: none;
+}
+/*    2-2. 로고    */
+.logo{
+    text-align: center;
+    padding: 10px;
+    /*font-size: 2.5em;
+    font-style: italic;
+    font-weight: 900;*/
+}
+.logo img{
+    width: 130px;
+}
+.mypage{
+    float:left;
+    position: relative;
+    top: 20px; left:5px;
+    width: 30px;
+}
+.login{
+    float: right ;
+    text-align:right ;
+    position: relative ;
+    right: 1% ;
+    bottom: 60px ;
+    font-size: 0.7em ;
+    font-weight: 600 ;
+    font-size: 10px ;
+}
+.login a{
+    padding: 5px ;
+}
+.login a:link, .login a:visited{
+    color: #181818;
+    text-decoration: none;
+}
+
+/*    3-1. 리스트 설정    */
+ul.mainnav{
+    text-align: center;
+  /* margin-left: auto;
+    margin-right: auto;
+    display: table;*/
+    display: flex;
+    position: relative;
+    position: -webkit-sticky;
+    position: sticky;
+    justify-content: space-between;
+    transition: top .25s;
+    z-index: 100;
+    border-top: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+    /*background-color: ;*/
+    padding: 0px;
+    width: 100%;
+    height: 44px;
+    margin: 0px;
+}
+
+ul.mainnav li{
+    display: inline-block;
+    list-style: none;
+    margin: 5px;    padding: 5px 15px;
+  /*  border-top: 1px solid silver;
+    border-bottom: 1px solid silver;*/
+}
+
+ul.mainnav li a:link, ul.mainnav li a:visited{
+    color: #181818;
+    text-decoration: none;
+}
+ul.mainnav li a:hover{
+    color: #7b94ff;
+}
+/*    4. 아티클    */
+.ar1{
+    height: 300px;
+    margin: 2% auto;
+    border: 1px solid silver;
+    padding: 0px 10px;
+}
+
+/*    5. 푸터    */
+footer div{
+    padding: 5px;
+    color: white;
+
+}
+
+#explain{
+    font-size: 0.4em;
+}
+#cs{
+    font-weight: 900;
+    font-size: 15px;
+    float: left;
+}
+#blog{
+    float:right;
+    margin:30px;
+    background-color: #7b94ff;
+}
+#blog a:visited, #blog a:link{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    font-style: italic;
+}
+#addr p{
+    clear: both;
+
+    font-size: 0.2em;
+}
+
+/*    js적용 클래스    */
+.menuclick{
+    font-weight: 600;
+}
+.menuclickcol{
+    color:aqua;
+}
+
+/*------------------------------------------------*/
+
+/*wrap 시작*/
+
+.wrap
+{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+#event_title
+{
+    margin-top:0px;
+    text-align: left;
+    font-size:4em;
+}
+
+#event1
+{
+    border: 1px solid silver;
+    margin: 10px;
+    padding: 10px;
+}
+#event1 #section1
+{
+    margin: 10px 0px 10px 10px;
+    padding: 10px 0px 10px 10px;
+    float:left;
+    width:65%;
+}
+
+#event1 #section1 h3
+{
+    margin: 3px 0px 10px 0px
+}
+
+#event1 #div_img1
+{
+    float:right;
+    width:25%;
+    margin-top:40px;
+    margin-right:0px;
+}
+#event1 #mini_title h4,h5
+{
+    display: inline;
+}
+
+#event1 #mini_footer h6
+{
+    display: inline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#clear
+{
+    clear: both;
+}
