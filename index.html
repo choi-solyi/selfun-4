@@ -8,21 +8,101 @@
     <meta name="viewport" content="width=device-width initial-scale=1.0 minimum-scale=3.0">
     <!--<meta name="viewport" content="width=device-width">-->
     <link rel="stylesheet" href="style/media-size.css">
+
+<!--    부트스트랩 시작-->
     <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js">
-    <script src = "https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<!--    부트스트랩 끝-->
 
-    <script src="js/index.js"></script>
-    <script>
 
-    </script>
+<!--sideMenu css 링크-->
+<link rel="stylesheet" href="style/index_sideMenu.css">
+<!--sideMenu css 링크 끝-->
+
 </head>
 
 <body>
     <header>
         <div class="event"><a href="#"> Event 바로가기 >></a></div>
-        <div class="mypage"><a href="#"><img src="img/mymenu.png"></a></div>
+        <!-- SideMenu 시작 -->
+  <div id="wrapper">
+  <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
+    <ul class="nav sidebar-nav">
+      <li class="sidebar-brand">
+          <a href="#"> selfun </a>
+      </li>
+
+      <li>
+          <a href="#">
+          <i class="fa fa-fw fa-home"></i>
+          Home</a>
+      </li>
+
+      <li>
+          <a href="#">
+          <i class="fa fa-fw fa-folder">
+          </i> Page one</a>
+      </li>
+
+      <li>
+          <a href="#">
+          <i class="fa fa-fw fa-file-o"></i>
+          Second page</a>
+      </li>
+
+      <li>
+          <a href="#">
+          <i class="fa fa-fw fa-cog"></i>
+          Third page</a>
+      </li>
+<!--    드롭다운 시작 -->
+     <!--
+      <li class="dropdown">
+       <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+       <i class="fa fa-fw fa-plus"></i> Dropdown <span class="caret">
+       </span></a>
+        <ul class="dropdown-menu" role="menu">
+          <li class="dropdown-header">Dropdown heading</li>
+          <li><a href="#">Action</a></li>
+          <li><a href="#">Another action</a></li>
+          <li><a href="#">Something else here</a></li>
+          <li><a href="#">Separated link</a></li>
+          <li><a href="#">One more separated link</a></li>
+        </ul>
+      </li>
+-->
+<!--드롭다운 끝-->
+
+      <li>
+          <a href="#">
+          <i class="fa fa-fw fa-bank"></i>
+          Page four</a>
+      </li>
+      <li>
+          <a href="#">
+          <i class="fa fa-fw fa-dropbox">
+          </i> Page 5</a>
+      </li>
+      <li>
+          <a href="#">
+          <i class="fa fa-fw fa-twitter"></i>
+          Last page</a>
+      </li>
+    </ul>
+  </nav>
+  <!-- /#sidebar-wrapper -->
+
+  <!-- Page Content -->
+  <div id="page-content-wrapper mypage">
+    <button type="button" class="hamburger is-closed animated fadeInLeft" data-toggle="offcanvas">
+    <span class="hamb-top"></span>
+    <span class="hamb-middle"></span>
+    <span class="hamb-bottom"></span>
+    </button>
+  </div>
+</div>
+<!-- SideMenu 끝 -->
         <div class="logo"><a href="#"><img src="img/logo.jpg"></a></div>
         <div class="login"><p><a href="#">회원가입</a><a href="#">로그인</a></div>
       <!--  <img src="img/logo.jpg" alt="logo" id="logo"> -->
@@ -71,5 +151,23 @@
        </div>
 
     </footer>
+
+
+
+
+<!--index js 시작-->
+<script src="js/index.js"></script>
+<!--index js 끝-->
+
+<!--    jquery 스크립트 시작-->
+   <script src = "https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<!--    jquery 스크립트 끝-->
+
+<!--sidemenu 스크립트 시작-->
+    <script src="js/index_sideMenu.js"></script>
+<!--sidemenu 스크립트 끝-->
 </body>
 </html>
