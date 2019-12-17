@@ -1,0 +1,62 @@
+/*order*/
+#likeorder{
+    width: 100%;
+
+    border-top: 1px solid rgb(224, 224, 224);
+}
+#likeorder b{
+    width: 50%;
+    margin-bottom: 15px;
+        border-bottom: 1px solid rgb(224, 224, 224);
+}
+#left{
+    float: left;
+    padding: 12px;
+    text-align: center;
+    border-right: 1px solid silver;
+}
+#right{
+    float: left;
+    padding: 12px;
+    text-align: center;
+}
+#likeorder b a{
+    text-decoration: none;
+    color: rgb(224, 224, 224);
+}
+.line{
+    width: 100%; height: 1px;
+    background-color:rgb(224, 224, 224);
+    margin-bottom: 10px
+}
+.date{
+    vertical-align: middle;
+    color: rgb(224, 224, 224);
+    font-size: 11px;
+    padding: 5px 10px;
+}
+.orderimg{
+    float: left;
+}
+.orderimg img{
+
+    width: 80px; height: 80px;
+    margin-right: 10px;
+}
+.sein{
+    display: inline-block;
+}
+.seal{
+    width: 80px;height: 20px;
+    padding: 10px; padding-bottom: 10px;
+    background-color:rgb(127, 127, 127);
+}
+.epil{
+    text-align: center;
+    position: relative;
+    top: 10px;
+    background-color: #7b94ff;
+    width: 100%;
+    margin: 10px 0px; padding: 10px;
+    clear: both;
+}
