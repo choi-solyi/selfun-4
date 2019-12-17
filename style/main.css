@@ -53,3 +53,23 @@ h3{
     float: right;
     margin: 5px 0px;
 }
+
+
+ul li.m1{
+    list-style: none;
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    float: right;
+}
+
+ul li.m1 ol li{
+    display: inline-block;
+    padding: 5px 30px;
+}
+
+li p{
+    padding: 0px;
+    margin: 0px;
+}
+
