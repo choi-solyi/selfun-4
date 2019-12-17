@@ -9,6 +9,7 @@
 
 
 /*  1. 전체 공용  */
+
 h3{
     margin: 10px;
     padding: 3px;
@@ -20,13 +21,13 @@ h3{
 /*  2. 메인big          */
 #mainbig{
     margin: 0px auto;
-    height: 220px;
+    height: 300px;
 }
-#mainbig img{
+/*#mainbig img{
     width: 12121px;
     opacity: 1;
     transform: translate3d(0px, 0px, 0px);
-}
+}*/
 /*  3. 메인 first      */
 .mainfirst{
     margin: 2px auto;
