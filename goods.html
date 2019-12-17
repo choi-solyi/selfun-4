@@ -155,11 +155,17 @@
             </div>
             <hr>
             <div id="middle_title">
-                <p>주문종료 7일 남음</p>
-                <p>18명 주문중</p>
-                <p>Progress bar</p>
-                <p>제품 제작에 필요한 최소수량</p>
-                <p>제작/판매 가능한 최다 수령</p>
+                <h3>주문종료 7일 남음</h3>
+                <h4>18명 주문중</h4>
+                <div class="progress" style="height:10px;">
+  <div class="progress-bar" role="progressbar" style="width: 25%;height:10px;background-color: #7b94ff;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+               <ul>
+                   <li><p>제품 제작에 필요한 최소수량</p></li>
+                   <li><p>제작/판매 가능한 최다 수령</p></li>
+               </ul>
+
+
             </div>
         </div>
 <!--        상단 페이지 끝 -->
@@ -182,7 +188,7 @@
                     <p class="desc_detail">
 		    		 <span class="ico_product quote_up"></span>
                         <em>주문제작되는 제품입니다.</em>
-                        <em>주문기간 : 12.11 오후 05시  ~ 12.23 오후 05시</em>
+                        <em>주문기간 : 12/11 오후 05시  ~ 12.23 오후 05시</em>
                         <span class="ico_product quote_down"></span>
                     </p>
                 <div class="info_thumb">
@@ -343,9 +349,11 @@
 
 <!--하단 메뉴 시작-->
 <div id="last_menu">
-    <p>좋아요</p>
-    <p>주문하기</p>
-
+    <section id="good">
+        <img src="img/heart.png" alt="">
+        <p>좋아요</p>
+    </section>
+    <section id="order">주문하기</section>
 </div>
 
 
