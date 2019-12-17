@@ -1,28 +1,42 @@
-#cate1 li{
+.fas fa-angle-left{
+    border: 1px solid transparent;
+}
+.fas fa-angle-right{
+    border: 1px solid transparent;
+}
+#category{
+    position: relative;
+    top: 0px;
+    margin: 10px;
+    padding-left: 0px;
+}
+#category li{
     list-style: none;
     display: inline-block;
+    margin: 0px 20px 5px 0px
 }
-#cate1 li a{
-
+#category li a{
+    text-decoration: none;
 }
-#cate1 li a img{
-    width: 50px; height: 50px;
-    border: 1px solid silver;
+#category li a img{
+    width: 60px; height: 60px;
+    border: 1px solid transparent;
     background-color: gray;
     border-radius: 50%;
 }
-#cate2 li{
-    list-style: none;
-    display: inline-block;
-}
-#cate2 li a{
-    font-size: 13px;
-    border: 1px solid silver;
-    text-decoration: none;
+
+#category li a span{
     color: #181818;
+    font-size: 12px;
+    font-weight: 700;
+    position: relative;
 }
+/*form 전체보기 search select*/
 #block1{
     margin: 13px 0px;
+}
+#block1 b{
+    font-size: 22px;
 }
 #searchbox{
     width: 375px;

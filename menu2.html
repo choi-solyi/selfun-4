@@ -9,6 +9,8 @@
     <!--<meta name="viewport" content="width=device-width">-->
     <link rel="stylesheet" href="style/media-size.css">
     <script src = "https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script><!-- angle-left icon-->
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script><!-- angle-right icon-->
     <script src='https://kit.fontawesome.com/a076d05399.js'></script><!--search icon-->
     <script src="js/index.js"></script>
     <script>
@@ -30,7 +32,6 @@
             <li><a href="#">신규</a></li>
             <li><a href="#">오픈 예정</a></li>
             <li><a href="#">성공 사례</a></li>
-
         </ul>
     </nav>
 
@@ -38,38 +39,69 @@
     <div>
      <!--category start-->
       <div>
-         <nav>
-             <ul id="cate1">
-                 <li><a href=""><img src="img/menu2/gray.jpg" alt="전체보기"></a></li>
-                 <li><a href=""><img src="img/menu2/gray.jpg" alt="테크ㆍ가전"></a></li>
-                 <li><a href=""><img src="img/menu2/gray.jpg" alt="패션ㆍ잡화"></a></li>
-                 <li><a href=""><img src="img/menu2/gray.jpg" alt="뷰티"></a></li>
-                 <li><a href=""><img src="img/menu2/gray.jpg" alt="홈리빙"></a></li>
-                 <li><a href=""><img src="img/menu2/gray.jpg" alt="푸드"></a></li>
-                 <li><a href=""><img src="img/menu2/gray.jpg" alt="디자인소품"></a></li>
-                 <li><a href=""><img src="img/menu2/gray.jpg" alt="반려동물"></a></li>
-                 <li><a href=""><img src="img/menu2/gray.jpg" alt="공연ㆍ컬쳐"></a></li>
-                 <li><a href=""><img src="img/menu2/gray.jpg" alt="교육ㆍ키즈"></a></li>
-                 <li><a href=""><img src="img/menu2/gray.jpg" alt="캠페인"></a></li>
+         <nav id="navcg">
+            <button><i class="fas fa-angle-left"></i></button>
+             <ul id="category">
+                 <li>
+                     <a href=""><img src="img/menu2/gray.jpg" alt="전체보기">
+                        <br><span>전체보기</span>
+                     </a>
+                 </li>
+                 <li>
+                     <a href=""><img src="img/menu2/gray.jpg" alt="테크ㆍ가전">
+                        <br><span>테크ㆍ가전</span>
+                     </a>
+                 </li>
+                 <li>
+                     <a href=""><img src="img/menu2/gray.jpg" alt="패션ㆍ잡화">
+                        <br><span>패션ㆍ잡화</span>
+                     </a>
+                 </li>
+                 <li>
+                     <a href=""><img src="img/menu2/gray.jpg" alt="뷰티">
+                        <br><span>뷰티</span>
+                     </a>
+                 </li>
+                 <li>
+                     <a href=""><img src="img/menu2/gray.jpg" alt="홈리빙">
+                        <br><span>홈리빙</span>
+                     </a>
+                 </li>
+                 <li>
+                     <a href=""><img src="img/menu2/gray.jpg" alt="푸드">
+                        <br><span>푸드</span>
+                     </a>
+                 </li>
+                 <li>
+                     <a href=""><img src="img/menu2/gray.jpg" alt="디자인소품">
+                        <br><span>디자인소품</span>
+                     </a>
+                 </li>
+                 <li>
+                     <a href=""><img src="img/menu2/gray.jpg" alt="반려동물">
+                        <br><span>반려동물</span>
+                     </a>
+                 </li>
+                 <li>
+                     <a href=""><img src="img/menu2/gray.jpg" alt="공연ㆍ컬쳐">
+                        <br><span>공연ㆍ컬쳐</span>
+                     </a>
+                 </li>
+                 <li>
+                     <a href=""><img src="img/menu2/gray.jpg" alt="교육ㆍ키즈">
+                        <br><span>교육ㆍ키즈</span>
+                     </a>
+                 </li>
+                 <li>
+                     <a href=""><img src="img/menu2/gray.jpg" alt="캠페인">
+                        <br><span>캠페인</span>
+                     </a>
+                 </li>
+                 <button><i class="fas fa-angle-right"></i></button>
              </ul>
          </nav>
-         <nav>
-            <ul id="cate2">
-                <li><a href="">전체보기</a></li>
-                <li><a href="">테크ㆍ가전</a></li>
-                <li><a href="">패션ㆍ잡화</a></li>
-                <li><a href="">뷰티</a></li>
-                <li><a href="">홈리빙</a></li>
-                <li><a href="">푸드</a></li>
-                <li><a href="">디자인소품</a></li>
-                <li><a href="">반려동물</a></li>
-                <li><a href="">공연ㆍ컬쳐</a></li>
-                <li><a href="">교육ㆍ키즈</a></li>
-                <li><a href="">캠페인</a></li>
-            </ul>
-         </nav>
          <form name="frm">
-          <h3 id="block1">전체보기
+          <div id="block1"><b>전체보기</b>
             <span id="searchbox">
             <label for="search"></label>
             <input type="search" id="search" name="search" value="검색">
@@ -87,7 +119,7 @@
                <option value="">최다 후원순</option>
              </select>
             </span>
-          </h3>
+          </div>
          </form>
      </div>
       <!--category end-->
