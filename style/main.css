@@ -8,6 +8,7 @@ h3{
 }
 .mainfirst{
     margin: 2px auto;
+    float: left;
 }
 #mainbig img{
     width: 12121px;
@@ -45,7 +46,7 @@ h3{
     font-weight: bold;
     margin: 5px 0px;
 }
-#per{
+.mainFir #per{
     position: relative;
     bottom: 48px;
     font-weight: 800;
@@ -53,23 +54,82 @@ h3{
     float: right;
     margin: 5px 0px;
 }
+#per{
+    color: #7b94ff;
+    font-weight: 800;
+}
 
 
-ul li.m1{
+
+#tab{
+    float: right;
+    width: 300px; height: 500px;
+    border: 1px solid silver;
+}
+#tab ul li{
     list-style: none;
     display: inline-block;
     margin: 0px;
     padding: 0px;
-    float: right;
+    float: left;
 }
-
-ul li.m1 ol li{
+#tab ul li h3 a{
+    margin: 0px;
     display: inline-block;
     padding: 5px 30px;
+    border-top:1px solid silver;
+    border-bottom:1px solid silver;
 }
+#tab a{
+    text-decoration: none;
+    color: black;
+    font-size: 0.8em;
+}
+#tab h3+div{
+    position: absolute;
+    left: 50px;
+    width: 350px;
+    display: none;
+}
+#tab h3+div a{
+    margin-left: 15px;
+    display: block;
 
-li p{
+}
+#title2{
+    font-weight: 800;
+
+}
+#tab li p{
     padding: 0px;
     margin: 0px;
 }
 
+#tab>#per{
+    float: left;
+    padding: 0px 5px;
+    margin: 0px 4px;
+}
+#cate{
+    position: relative;
+    bottom: 16px;
+    left: 40px;
+    padding: 0px 5px;
+    margin: 0px 4px;
+}
+
+.mainsec{
+    clear: both;
+}
+
+
+.lis1{
+    position: relative;
+    right: 20px;
+}
+
+#lis1 a{
+    width: 270px;
+    position: relative;
+    left: 450px;
+}
