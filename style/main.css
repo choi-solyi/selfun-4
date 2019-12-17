@@ -35,7 +35,9 @@ h3{
 /*  3. 메인 first      */
 .mainfirst{
     margin: 2px auto;
+    padding: 20px 2px;
     float: left;
+
 }
 .mainFir{
     position: relative;
@@ -182,7 +184,7 @@ li img{
 
 .mainsec{
     clear: both;
-    background-color: #cccccc;
+    background-color: #dfdfdf;
     padding: 10px 0px 30px 0px;;
 
 }
