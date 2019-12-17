@@ -139,28 +139,45 @@ h3{
 }
 
 #lis1 a{
-    width: 240px;
+    width: 200px;
     position: relative;
     right: 50px;
 }
 #lis2 a{
-    width: 240px;
+    width: 200px;
     position: relative;
     right: 130px;
 }
 
+#item1{
+    float: left;
+    position: relative;
+    right: 10px;
+
+}
+#item1img{
+    position: relative;
+    padding: 5px;
+    right: 57px;
+    bottom: 5px;
+}
+#item2{
+    float: left;
+    position: relative;
+    right: 10px;
+
+}
+#item2img{
+    position: relative;
+    padding: 5px;
+    right: 57px;
+    bottom: 5px;
+}
 li img{
-    width: 80px;
-    position: fixed;
-    align-items: ;
+    width: 90px;
+    position: relative;
 }
 
-#lis1 a{
-    float: left;
-}
-#lis1 img{
-    float: right;
-}
 /*  5. 메인 sec        */
 
 
