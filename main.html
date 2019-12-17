@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
     <meta charset="UTF-8">
     <title>Selfun</title>
@@ -9,46 +10,49 @@
     <!--<meta name="viewport" content="width=device-width">-->
     <link rel="stylesheet" href="style/media-size.css">
     <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" type="text/css" href="./slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
+<!-----------------------메인 큰 이미지 css--------------->
+   <style type="text/css">
+        .slider {
+            width: 60%;
+            margin: 0px auto;
+        }
 
-  <link rel="stylesheet" type="text/css" href="./slick/slick.css">
-  <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
-  <style type="text/css">
-    /** {
-      box-sizing: border-box;
-    }*/
-    .slider {
-        width: 60%;
-        margin: 0px auto;
-    }
-    .slick-slide {
-      margin: 0px 20px;
-    }
-    .slick-slide img {
-      width: 100%;
-    }
-    .slick-prev:before,
-    .slick-next:before {
-      color: white;
-    }
-    .slick-slide {
-      transition: all ease-in-out .3s;
-      opacity: .2;
-    }
-    .slick-active {
-      opacity: .5;
-    }
-    .slick-current {
-      opacity: 1;
-    }
-    .lazy{
-        width: 100% !important;
-    }
-  </style>
+        .slick-slide {
+            margin: 0px 20px;
+        }
 
-    <script src = "https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        .slick-slide img {
+            width: 100%;
+        }
+
+        .slick-prev:before,
+        .slick-next:before {
+            color: white;
+        }
+
+        .slick-slide {
+            transition: all ease-in-out .3s;
+            opacity: .2;
+        }
+
+        .slick-active {
+            opacity: .5;
+        }
+
+        .slick-current {
+            opacity: 1;
+        }
+
+        .lazy {
+            width: 100% !important;
+        }
+    </style>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="js/index.js"></script>
-
-   <script src="js/main.js"></script>
+    <script src="js/main.js"></script>
     <script>
     </script>
 </head>
@@ -58,8 +62,10 @@
         <div class="event"><a href="#"> Event 바로가기 >></a></div>
         <div class="mypage"><a href="#"><img src="img/mymenu.png"></a></div>
         <div class="logo"><a href="#"><img src="img/logo.jpg"></a></div>
-        <div class="login"><p><a href="#">회원가입</a><a href="#">로그인</a></div>
-      <!--  <img src="img/logo.jpg" alt="logo" id="logo"> -->
+        <div class="login">
+            <p><a href="#">회원가입</a><a href="#">로그인</a>
+        </div>
+        <!--  <img src="img/logo.jpg" alt="logo" id="logo"> -->
     </header>
     <nav>
         <ul class="mainnav">
@@ -72,120 +78,117 @@
     </nav>
 
     <article>
-<!--
+        <!--
       <div id="mainbig">
           <a href="#"><img src="https://cdn.wadiz.kr/ft/images/green001/2019/1126/20191126120512840_1099.jpg" alt=""></a>
       </div>
 -->
 
-  <section class="lazy slider" data-sizes="70vw">
+        <section class="lazy slider" data-sizes="70vw">
 
-    <div>
-      <img
-      data-lazy="https://cdn.wadiz.kr/ft/images/green001/2019/1213/20191213162517016_1210.jpg?text=3-350w"
-      data-srcset="https://cdn.wadiz.kr/ft/images/green001/2019/1213/20191213162517016_1210.jpg?text=3-650w 650w, https://cdn.wadiz.kr/ft/images/green001/2019/1213/20191213162517016_1210.jpg?text=3-960w 960w"
-      data-sizes="100vw">
-    </div>
+            <div>
+                <img data-lazy="https://cdn.wadiz.kr/ft/images/green001/2019/1213/20191213162517016_1210.jpg?text=3-350w" data-srcset="https://cdn.wadiz.kr/ft/images/green001/2019/1213/20191213162517016_1210.jpg?text=3-650w 650w, https://cdn.wadiz.kr/ft/images/green001/2019/1213/20191213162517016_1210.jpg?text=3-960w 960w" data-sizes="100vw">
+            </div>
 
-    <div>
-      <img data-lazy="https://cdn.wadiz.kr/ft/images/green001/2019/1126/20191126120512840_1099.jpg?text=2-350w" data-srcset="https://cdn.wadiz.kr/ft/images/green001/2019/1126/20191126120512840_1099.jpg?text=2-650w 650w, https://cdn.wadiz.kr/ft/images/green001/2019/1126/20191126120512840_1099.jpg?text=2-960w 960w" data-sizes="100vw">
-    </div>
-    <div>
-      <img data-lazy="https://cdn.wadiz.kr/ft/images/green001/2019/1213/20191213162517016_1210.jpg?text=3-350w"  data-srcset="https://cdn.wadiz.kr/ft/images/green001/2019/1213/20191213162517016_1210.jpg?text=3-650w 650w, https://cdn.wadiz.kr/ft/images/green001/2019/1213/20191213162517016_1210.jpg?text=3-960w 960w" data-sizes="100vw">
-    </div>
-    <div>
-      <img data-lazy="https://cdn.wadiz.kr/ft/images/green001/2019/1203/20191203161438658_1633.jpg?text=4-350w"  data-srcset="https://cdn.wadiz.kr/ft/images/green001/2019/1203/20191203161438658_1633.jpg?text=4-650w 650w, https://cdn.wadiz.kr/ft/images/green001/2019/1203/20191203161438658_1633.jpg?text=4-960w 960w" data-sizes="100vw">
-    </div>
-<!--    <div>
+            <div>
+                <img data-lazy="https://cdn.wadiz.kr/ft/images/green001/2019/1126/20191126120512840_1099.jpg?text=2-350w" data-srcset="https://cdn.wadiz.kr/ft/images/green001/2019/1126/20191126120512840_1099.jpg?text=2-650w 650w, https://cdn.wadiz.kr/ft/images/green001/2019/1126/20191126120512840_1099.jpg?text=2-960w 960w" data-sizes="100vw">
+            </div>
+            <div>
+                <img data-lazy="https://cdn.wadiz.kr/ft/images/green001/2019/1213/20191213162517016_1210.jpg?text=3-350w" data-srcset="https://cdn.wadiz.kr/ft/images/green001/2019/1213/20191213162517016_1210.jpg?text=3-650w 650w, https://cdn.wadiz.kr/ft/images/green001/2019/1213/20191213162517016_1210.jpg?text=3-960w 960w" data-sizes="100vw">
+            </div>
+            <div>
+                <img data-lazy="https://cdn.wadiz.kr/ft/images/green001/2019/1203/20191203161438658_1633.jpg?text=4-350w" data-srcset="https://cdn.wadiz.kr/ft/images/green001/2019/1203/20191203161438658_1633.jpg?text=4-650w 650w, https://cdn.wadiz.kr/ft/images/green001/2019/1203/20191203161438658_1633.jpg?text=4-960w 960w" data-sizes="100vw">
+            </div>
+            <!--    <div>
       <img data-lazy="http://placehold.it/350x300?text=5-350w"  data-srcset="http://placehold.it/650x300?text=5-650w 650w, http://placehold.it/960x300?text=5-960w 960w" data-sizes="100vw">
     </div>
     <div>
       <img data-lazy="http://placehold.it/350x300?text=6-350w"  data-srcset="http://placehold.it/650x300?text=6-650w 650w, http://placehold.it/960x300?text=6-960w 960w">
     </div>-->
-  </section>
+        </section>
 
-  <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
-  <script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
-  <script type="text/javascript">
-    $(document).on('ready', function() {
-      $(".vertical-center-4").slick({
-        dots: true,
-        vertical: true,
-        centerMode: true,
-        slidesToShow: 4,
-        slidesToScroll: 2
-      });
-      $(".vertical-center-3").slick({
-        dots: true,
-        vertical: true,
-        centerMode: true,
-        slidesToShow: 3,
-        slidesToScroll: 3
-      });
-      $(".vertical-center-2").slick({
-        dots: true,
-        vertical: true,
-        centerMode: true,
-        slidesToShow: 2,
-        slidesToScroll: 2
-      });
-      $(".vertical-center").slick({
-        dots: true,
-        vertical: true,
-        centerMode: true,
-      });
-      $(".vertical").slick({
-        dots: true,
-        vertical: true,
-        slidesToShow: 3,
-        slidesToScroll: 3
-      });
-      $(".regular").slick({
-        dots: true,
-        infinite: true,
-        slidesToShow: 3,
-        slidesToScroll: 3
-      });
-      $(".center").slick({
-        dots: true,
-        infinite: true,
-        centerMode: true,
-        slidesToShow: 5,
-        slidesToScroll: 3
-      });
-      $(".variable").slick({
-        dots: true,
-        infinite: true,
-        variableWidth: true
-      });
-      $(".lazy").slick({
-        lazyLoad: 'ondemand', // ondemand progressive anticipated
-        infinite: true
-      });
-    });
-</script>
+        <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+        <script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
+        <script type="text/javascript">
+            $(document).on('ready', function() {
+                $(".vertical-center-4").slick({
+                    dots: true,
+                    vertical: true,
+                    centerMode: true,
+                    slidesToShow: 4,
+                    slidesToScroll: 2
+                });
+                $(".vertical-center-3").slick({
+                    dots: true,
+                    vertical: true,
+                    centerMode: true,
+                    slidesToShow: 3,
+                    slidesToScroll: 3
+                });
+                $(".vertical-center-2").slick({
+                    dots: true,
+                    vertical: true,
+                    centerMode: true,
+                    slidesToShow: 2,
+                    slidesToScroll: 2
+                });
+                $(".vertical-center").slick({
+                    dots: true,
+                    vertical: true,
+                    centerMode: true,
+                });
+                $(".vertical").slick({
+                    dots: true,
+                    vertical: true,
+                    slidesToShow: 3,
+                    slidesToScroll: 3
+                });
+                $(".regular").slick({
+                    dots: true,
+                    infinite: true,
+                    slidesToShow: 3,
+                    slidesToScroll: 3
+                });
+                $(".center").slick({
+                    dots: true,
+                    infinite: true,
+                    centerMode: true,
+                    slidesToShow: 5,
+                    slidesToScroll: 3
+                });
+                $(".variable").slick({
+                    dots: true,
+                    infinite: true,
+                    variableWidth: true
+                });
+                $(".lazy").slick({
+                    lazyLoad: 'ondemand', // ondemand progressive anticipated
+                    infinite: true
+                });
+            });
+        </script>
 
-      <!--aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-->
+        <!--aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-->
 
-      <section class="mainfirst">
-      <h3>이 펀딩 어때요?</h3>
-       <div class="mainFir">
-         <a href="#"><img src="img/main/1-1.jpg"></a>
-         <p id="title">오래된 레코드판으로 노트를 만듭니다.</p>
-         <p id="name">레트로 상점</p>
-         <p id="days">21일 남음</p>
-         <p id="won">2,553,553원</p>
-         <p id="per">253%</p>
-       </div>
-       <div class="mainFir">
-         <a href="#"><img src="img/main/1-2.jpg"></a>
-         <p id="title">관계에 지친 이를 위로하는 그림책 -어린 곰의 아침식사-</p>
-         <p id="name">TK</p>
-         <p id="days">41일 남음</p>
-         <p id="won">3,864,000원</p>
-         <p id="per">257%</p>
-       </div>
-       <!--<div class="mainFir">
+        <section class="mainfirst">
+            <h3>이 펀딩 어때요?</h3>
+            <div class="mainFir">
+                <a href="#"><img src="img/main/1-1.jpg"></a>
+                <p id="title">오래된 레코드판으로 노트를 만듭니다.</p>
+                <p id="name">레트로 상점</p>
+                <p id="days">21일 남음</p>
+                <p id="won">2,553,553원</p>
+                <p id="per">253%</p>
+            </div>
+            <div class="mainFir">
+                <a href="#"><img src="img/main/1-2.jpg"></a>
+                <p id="title">관계에 지친 이를 위로하는 그림책 -어린 곰의 아침식사-</p>
+                <p id="name">TK</p>
+                <p id="days">41일 남음</p>
+                <p id="won">3,864,000원</p>
+                <p id="per">257%</p>
+            </div>
+            <!--<div class="mainFir">
          <a href="#"><img src="img/main/1-3.jfif"></a>
          <p id="title">"도시 사람들, 나는 소도시 영천에 산다" 무크지</p>
          <p id="name">기억과 아카이브</p>
@@ -205,73 +208,159 @@
         <aside id="tab">
             <h3>실시간 랭킹</h3>
             <ul>
-           <li class="m1">
-               <h3><a href="#">투자</a></h3>
-               <div id="lis1">
-                   <a href="#"><p id="title2">[연9%] 전세계100여개 매장돌파ㅣ줄서서먹는 츄러스</p>
-                       <p id="per">102%</p><p id="cate">채권</p></a>
-                   <a href="#"><p id="title2">증액 예정ㅣ700%돌파ㅣ바이오산업 투자ㅣ전임상 완료</p>
-                       <p id="per">791%</p><p id="cate">스타트업</p></a>
-                   <a href="#"><p id="title2">플랫폼 투자 | 삼성C-LAB 선발 | 1인 쇼호스트 서비스</p>
-                       <p id="per">110%</p><p id="cate">스타트업</p></a>
-                   <a href="#"><p id="title2">악기 산업 투자 | 아마존 소비자 평가 100% positive</p>
-                       <p id="per">6%</p><p id="cate">스타트업</p></a>
-                   <a href="#"><p id="title2">교육혁신기업 | 교육분야 최대 펀딩액 기록 | 자녀미래투자</p>
-                       <p id="per">87%</p><p id="cate">스타트업</p></a>
-               </div>
-           </li>
+                <li class="m1">
+                    <h3><a href="#">투자</a></h3>
+                    <div id="lis1">
+                        <div id="item1">
+                            <a href="#">
+                                <p id="title2">[연9%] 전세계100여개 매장돌파ㅣ줄서서먹는 츄러스</p>
+                                <p id="per">102%</p>
+                                <p id="cate">채권</p>
+                            </a>
+                        </div>
+                        <div id="item1img">
+                            <img src="img/main/rank1-1.jpg">
+                        </div>
 
-           <li class="m1">
-               <h3><a href="#">리워드</a></h3>
-               <div id="lis1">
-                   <a href="#"><p id="title2">단 한방으로!! 어떤 치아든 평생 하얗게!! [블링키트]</p>
-                       <p id="per">4,692%</p><p id="cate">뷰티</a>
-                   <a href="#"><p id="title2">[글로벌 5억] 100년간 변하지 않은 와이퍼의 혁신ㅣ킴블레이드</p>
-                       <p id="per">417%</p><p id="cate">스포츠</p></a>
-                   <a href="#"><p id="title2">배틀그라운드ㅣ무조건 0.1 초 빨리 쏘게 해주는 [롤라 트리거]</p>
-                       <p id="per">277%</p><p id="cate">게임/취미</p></a>
-                   <a href="#"><p id="title2">써 본 마스크 중 최고네요. 성능도, 착용감도 저세상급 [세컨드스킨마스크]</p>                 <p id="per">10,243%</p><p id="cate">패션/잡화</p></a>
-                   <a href="#"><p id="title2">[와디즈최초공개] 드디어 나왔다! 진짜 연탄불에 한땀한땀 구운 순살족발!</p>
-                       <p id="per">1,135%</p><p id="cate">푸드</p></a>
-               </div>
-           </li>
+                        <div id="item1">
+                            <a href="#">
+                                <p id="title2">증액 예정ㅣ700%돌파ㅣ바이오산업 투자ㅣ전임상 완료</p>
+                                <p id="per">791%</p>
+                                <p id="cate">스타트업</p>
+                            </a>
+                        </div>
+                        <div id="item1img">
+                            <img src="img/main/rank1-2.jpg">
+                        </div>
 
-       </ul>
+                        <div id="item1">
+                            <a href="#">
+                                <p id="title2">플랫폼 투자 | 삼성C-LAB 선발 | 1인 쇼호스트 서비스</p>
+                                <p id="per">110%</p>
+                                <p id="cate">스타트업</p>
+                            </a>
+                        </div>
+                        <div id="item1img">
+                            <img src="img/main/rank2-1.jpg">
+                        </div>
+
+                        <div id="item1">
+                            <a href="#">
+                                <p id="title2">악기 산업 투자 | 아마존 소비자 평가 100% positive</p>
+                                <p id="per">6%</p>
+                                <p id="cate">스타트업</p>
+                            </a>
+                        </div>
+
+                        <div id="item1img">
+                            <img src="img/main/rank1-5.jpg">
+                        </div>
+
+                        <div id="item1">
+                            <a href="#">
+                                <p id="title2">교육혁신기업 | 교육분야 최대 펀딩액 기록 | 자녀미래투자</p>
+                                <p id="per">87%</p>
+                                <p id="cate">스타트업</p>
+                            </a></div>
+                        <div id="item1img">
+                            <img src="img/main/rank1-4">
+                        </div>
+                    </div>
+                </li>
+
+                <li class="m1">
+                    <h3><a href="#">리워드</a></h3>
+                    <div id="lis2">
+                        <div id="item2">
+                            <a href="#">
+                                <p id="title2">단 한방으로!! 어떤 치아든 평생 하얗게!! [블링키트]</p>
+                                <p id="per">4,692%</p>
+                                <p id="cate">뷰티</p>
+                            </a></div>
+                        <div id="item2img">
+                            <img src="img/main/rank2-1.jpg"></div>
+
+                        <div id="item2">
+                            <a href="#">
+                                <p id="title2">[글로벌 5억] 100년간 변하지 않은 와이퍼의 혁신ㅣ킴블레이드</p>
+                                <p id="per">417%</p>
+                                <p id="cate">스포츠</p>
+                            </a></div>
+                        <div id="item2img">
+                            <img src="img/main/rank2-2.jpg"></div>
+
+                        <div id="item2">
+                            <a href="#">
+                                <p id="title2">배틀그라운드ㅣ무조건 0.1 초 빨리 쏘게 해주는 [롤라 트리거]</p>
+                                <p id="per">277%</p>
+                                <p id="cate">게임/취미</p>
+                            </a></div>
+                        <div id="item2img">
+                            <img src="img/main/rank2-3.jpg"></div>
+
+                        <div id="item2">
+                            <a href="#">
+                                <p id="title2">성능도, 착용감도 저세상급 [세컨드스킨마스크]</p>
+                                <p id="per">10,243%</p>
+                                <p id="cate">패션/잡화</p>
+                            </a></div>
+                        <div id="item2img">
+                            <img src="img/main/rank2-4.jpg"></div>
+
+                        <div id="item2">
+                            <a href="#">
+                                <p id="title2">드디어 나왔다! 진짜 연탄불에 한땀한땀 구운 순살족발!</p>
+                                <p id="per">1,135%</p>
+                                <p id="cate">푸드</p>
+                            </a></div>
+                        <div id="item2img">
+                            <img src="img/main/rank2-5.jpg"></div>
+                    </div>
+                </li>
+
+            </ul>
         </aside>
-       <section class="mainsec">
-          <h3>진행중인 기획전</h3>
-           <ul>
-               <li><a href="#"><p>2020 신년 준비 위원회</p><p>50</p><p>개 프로젝트</p></a></li>
-               <li><a href="#"><p>휴식에 집중하는 시간</p><p>50</p><p>개 프로젝트</p></a></li>
-           </ul>
+        <section class="mainsec">
+            <h3>진행중인 기획전</h3>
+            <ul>
+                <li><a href="#"><img src="/img/main/2-1.jpg" alt="">
+                        <p id="title">2020 신년 준비 위원회</p>
+                        <p id="nums">50개 프로젝트</p>
+                    </a></li>
+                <li><a href="#"><img src="/img/main/2-2.jpg" alt="">
+                        <p id="title">휴식에 집중하는 시간</p>
+                        <p id="nums">50개 프로젝트</p>
+                    </a></li>
+            </ul>
 
-       </section>
+        </section>
 
     </article>
     <footer>
-       <div>
-         <div id="explain">셀펀은 플랫폼 제공자로서 프로젝트의 당사자가 아니며, 직접적인 통신판매를 진행하지 않습니다. 프로젝트의 완수 및 선물제공의 책임은 해당 프로젝트의 창작자에게 있으며, 프로젝트와 관련하여 후원자와 발생하는 법적 분쟁에 대한 책임은 해당 창작자가 부담합니다.</div>
-         <div id="cs">
-            <p>셀펀 대표 고객 센터 <br>1577-4444<br>info@selfun.com
-         </div>
-         <div id="blog">
-             개발자
-             <a href="#">최솔이</a>
-             <a href="#">하화수</a>
-             <a href="#">이병운</a>
-             <a href="#">박승태</a>
-             <a href="#">임동진</a>
-         </div>
-         <div id="addr">
-            <p>대표이사 최솔이 | 사업자 등록번호 123-22-444555 |
-            서울시 서초구 강남대로 459 (서초동, 백암빌딩) |
-            © selfun Co., Ltd.</p>
-         </div>
+        <div>
+            <div id="explain">셀펀은 플랫폼 제공자로서 프로젝트의 당사자가 아니며, 직접적인 통신판매를 진행하지 않습니다. 프로젝트의 완수 및 선물제공의 책임은 해당 프로젝트의 창작자에게 있으며, 프로젝트와 관련하여 후원자와 발생하는 법적 분쟁에 대한 책임은 해당 창작자가 부담합니다.</div>
+            <div id="cs">
+                <p>셀펀 대표 고객 센터 <br>1577-4444<br>info@selfun.com
+            </div>
+            <div id="blog">
+                개발자
+                <a href="#">최솔이</a>
+                <a href="#">하화수</a>
+                <a href="#">이병운</a>
+                <a href="#">박승태</a>
+                <a href="#">임동진</a>
+            </div>
+            <div id="addr">
+                <p>대표이사 최솔이 | 사업자 등록번호 123-22-444555 |
+                    서울시 서초구 강남대로 459 (서초동, 백암빌딩) |
+                    © selfun Co., Ltd.</p>
+            </div>
 
 
 
-       </div>
+        </div>
 
     </footer>
 </body>
+
 </html>
