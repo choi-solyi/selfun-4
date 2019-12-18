@@ -14,11 +14,9 @@
     margin: 0;
     padding: 0;
 }
-.mainFir div{
-    width: 90% !important;
-}
+
 h3{
-    margin: 0px 10px;
+    margin: 2px 10px;
     padding: 3px;
 }
 #per{
@@ -38,7 +36,7 @@ h3{
 /*  3. 메인 first      */
 .mainfirst{
     margin: 2px auto;
-    padding: 20px 2px;
+    padding: 27px 2px 40px 2px;
     float: left;
 }
 #abcabc{
@@ -47,50 +45,64 @@ h3{
 .mainFir{
     position: relative;
     display: inline-block;
-    margin: 15px;
-    padding: 10px;
-    width: 380px !important;
-    height: 350px;
+    margin: 20px 14px;
+    padding: 8px;
+    width: 190px ;
+    height: 260px;
     border: 1px solid silver;
 }
 
 #title{
-    margin: 0px;
+    margin: 10px 5px;
     font-weight: 800;
     font-size: 0.85em;
 }
 #name{
-    margin: 5px 0px;;
-    font-size: 0.5em;
+    margin: 10px 5px;;
+    font-size: 0.8em;
 }
 #days{
     float: left;
-    margin: 5px 0px;
+    margin: 10px 5px;
 }
 #won{
     float: right;
     font-size: 0.9em;
     font-weight: bold;
-    margin: 5px 0px;
+    margin: 10px 5px;
 }
 .mainFir #per{
     position: relative;
-    bottom: 48px;
-    font-weight: 800;
-    color: #7b94ff;
     float: right;
-    margin: 5px 0px;
+    bottom: 60px;
+    font-weight: 900;
+    color: #7b94ff;
+    margin: 10px 5px;
 }
 
 .mainFir a{
     width: 330px;
     margin: 0 auto;
 }
+#foot{
+    clear: both;
+    border: 1px solid silver;
+    width: 190px;
+    height: 20px;
+    padding: 15px 10px;
+    text-align: center;
+    position: relative;
+    bottom: 20px;
+    right: 10px;
+    background-color: antiquewhite;
+}
+
 /*  4. 메인 랭킹        */
 #tab{
     float: right;
     width: 300px; height: 400px;
-    padding: 20px 7px;
+
+    padding: 27px 2px;
     position: relative;
 }
 #tab ul li{
@@ -102,7 +114,7 @@ h3{
 
 }
 #tab ul li h3 a{
-    margin: 0px;
+    margin: 5px 0px;
     display: inline-block;
     padding: 2px 10px;
     border-top:1px solid silver;
@@ -165,23 +177,26 @@ h3{
     float: left;
     position: relative;
     right: 14px;
+    padding: 7px 0px;
 
 }
 #item1img{
     position: relative;
-    padding: 5px;
+     padding: 10px 0px;
     right: 57px;
     bottom: 5px;
+
 }
 #item2{
     float: left;
     position: relative;
     right: 10px;
+    padding: 7px 0px;
 
 }
 #item2img{
     position: relative;
-    padding: 5px;
+     padding: 10px 0px;
     right: 134px;
     bottom: 5px;
 }
@@ -197,7 +212,8 @@ li img{
 .mainsec{
     clear: both;
     background-color: #dfdfdf;
-    padding: 10px 0px 30px 0px;;
+    padding: 18px 4px 30px 0px;
+    margin: 20px 0px 15px 0px;;
 
 }
 .mainsec ul{
@@ -220,6 +236,8 @@ li img{
     float: right;
     position: relative;
     left: 10px;
+    width: 40%;
+    padding: 0;
 }
 .mainsec #title{
     padding: 7px 0px;
@@ -228,11 +246,12 @@ li img{
 #nums{
     font-size: 0.9em;
     font-style: italic;
+    padding: 3px
 }
 
 /*  6. 메인 thrd       */
 .mainthr{
-    margin: 30px;
+    margin: 20px;
     padding: 10px;
 }
 /*  7. 펀딩 시작하기     */
