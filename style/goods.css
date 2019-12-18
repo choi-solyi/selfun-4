@@ -274,6 +274,13 @@ footer div{
     margin: 0px;
     font-size: 4px;
 }
+.progress-bar
+{
+    width: 25%;
+    height:10px;
+    background-color: rgb(219,99,97) ;
+}
+
 
 * {
   box-sizing: border-box;
@@ -310,7 +317,7 @@ footer div{
   list-style: none;
 }
 
-.tabHeader li.active { background: #7b94ff; }
+.tabHeader li.active { background: silver; }
 
 .tabContent .active { display: block; }
 
