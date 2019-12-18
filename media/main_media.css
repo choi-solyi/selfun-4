@@ -144,12 +144,10 @@
         width: 240px;
         padding: 0px 10px !important;
     }
-
     #tab li p {
         padding: 0px;
         margin: 0px;
     }
-
     #lis2 {
         position: fixed;
         right: 20px;
