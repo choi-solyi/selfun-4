@@ -14,6 +14,9 @@
     margin: 0;
     padding: 0;
 }
+.mainFir div{
+    width: 90% !important;
+}
 h3{
     margin: 0px 10px;
     padding: 3px;
@@ -37,14 +40,17 @@ h3{
     margin: 2px auto;
     padding: 20px 2px;
     float: left;
-
+}
+#abcabc{
+    width: 300px !important;
 }
 .mainFir{
     position: relative;
     display: inline-block;
     margin: 15px;
     padding: 10px;
-    width: 184px; height: 240px;
+    width: 380px !important;
+    height: 350px;
     border: 1px solid silver;
 }
 
@@ -76,6 +82,10 @@ h3{
     margin: 5px 0px;
 }
 
+.mainFir a{
+    width: 330px;
+    margin: 0 auto;
+}
 /*  4. 메인 랭킹        */
 #tab{
     float: right;

@@ -67,10 +67,10 @@
 .slick-next:before
 {
     font-family: 'slick';
-    font-size: 30px;
+    font-size: 35px;
     line-height: 1;
 
-    opacity: .75;
+    opacity: .55;
     color: white;
 
     -webkit-font-smoothing: antialiased;
@@ -100,6 +100,7 @@
 {
     right: -15px;
 }
+
 [dir='rtl'] .slick-next
 {
     right: auto;

@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="style/main.css">
     <link rel="stylesheet" type="text/css" href="./slick/slick.css">
     <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    
     <!-----------------------메인 큰 이미지 css--------------->
     <style type="text/css">
         .slider {
@@ -49,10 +51,21 @@
             width: 100% !important;
         }
     </style>
-
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
     <script src="js/index.js"></script>
     <script src="js/main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+
+    <script>
+        $(document).ready(function(){
+      $('.aslider').bxSlider({
+    mode: 'fade',
+    slideWidth: 600
+  });
+    });
+    </script>
     <script>
     </script>
 </head>
@@ -89,6 +102,7 @@
             <div>
                 <img data-lazy="img/main/big1.jpg?text=3-350w" data-srcset="img/main/big1.jpg?text=3-650w 650w, img/main/big1.jpg?text=3-960w 960w" data-sizes="100vw">
             </div>
+
             <div>
                 <img data-lazy="img/main/big2.jpg?text=2-350w" data-srcset="img/main/big2.jpg?text=2-650w 650w, img/main/big2.jpg?text=2-960w 960w" data-sizes="100vw">
             </div>
@@ -98,7 +112,12 @@
             <div>
                 <img data-lazy="img/main/big1.jpg?text=4-350w" data-srcset="img/main/big1.jpg?text=4-650w 650w, img/main/big1.jpg?text=4-960w 960w" data-sizes="100vw">
             </div>
-
+            <!--    <div>
+      <img data-lazy="http://placehold.it/350x300?text=5-350w"  data-srcset="http://placehold.it/650x300?text=5-650w 650w, http://placehold.it/960x300?text=5-960w 960w" data-sizes="100vw">
+    </div>
+    <div>
+      <img data-lazy="http://placehold.it/350x300?text=6-350w"  data-srcset="http://placehold.it/650x300?text=6-650w 650w, http://placehold.it/960x300?text=6-960w 960w">
+    </div>-->
         </section>
 
         <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
@@ -164,25 +183,57 @@
 
 
         <section class="mainfirst">
-
             <h3>이 펀딩 어때요?</h3>
-<div class="mainFir">
-                <a href="#"><img src="img/main/1-1.jpg"></a>
-                <p id="title">오래된 레코드판으로 노트를 만듭니다.</p>
-                <p id="name">레트로 상점</p>
-                <p id="days">21일 남음</p>
-                <p id="won">2,553,553원</p>
-                <p id="per">253%</p>
-            </div>
-            <div class="mainFir">
-                <a href="#"><img src="img/main/1-2.jpg"></a>
-                <p id="title">관계에 지친 이를 위로하는 그림책 -어린 곰의 아침식사-</p>
-                <p id="name">TK</p>
-                <p id="days">41일 남음</p>
-                <p id="won">3,864,000원</p>
-                <p id="per">257%</p>
-            </div>
-
+            <div class="aslider">
+                <div class="mainFir">
+                    <a href="#"><img src="img/main/1-1.jpg"></a>
+                    <p id="title">오래된 레코드판으로 노트를 만듭니다.</p>
+                    <p id="name">레트로 상점</p>
+                    <p id="days">21일 남음</p>
+                    <p id="won">2,553,553원</p>
+                    <p id="per">253%</p>
+                </div>
+                <div class="mainFir">
+                    <a href="#"><img src="img/main/1-2.jpg"></a>
+                    <p id="title">관계에 지친 이를 위로하는 그림책 -어린 곰의 아침식사-</p>
+                    <p id="name">TK</p>
+                    <p id="days">41일 남음</p>
+                    <p id="won">3,864,000원</p>
+                    <p id="per">257%</p>
+                </div>
+                <div class="mainFir">
+                    <a href="#"><img src="img/main/1-3.jfif"></a>
+                    <p id="title">"도시 사람들, 나는 소도시 영천에 산다" 무크지</p>
+                    <p id="name">기억과 아카이브</p>
+                    <p id="days">23일 남음</p>
+                    <p id="won">3,122,000원</p>
+                    <p id="per">512%</p>
+                </div>
+                <div class="mainFir">
+                    <a href="#"><img src="img/main/1-1.jpg"></a>
+                    <p id="title">오래된 레코드판으로 노트를 만듭니다.</p>
+                    <p id="name">레트로 상점</p>
+                    <p id="days">21일 남음</p>
+                    <p id="won">2,553,553원</p>
+                    <p id="per">253%</p>
+                </div>
+                <div class="mainFir">
+                    <a href="#"><img src="img/main/1-2.jpg"></a>
+                    <p id="title">관계에 지친 이를 위로하는 그림책 -어린 곰의 아침식사-</p>
+                    <p id="name">TK</p>
+                    <p id="days">41일 남음</p>
+                    <p id="won">3,864,000원</p>
+                    <p id="per">257%</p>
+                </div>
+                <div class="mainFir">
+                    <a href="#"><img src="img/main/1-3.jfif"></a>
+                    <p id="title">"도시 사람들, 나는 소도시 영천에 산다" 무크지</p>
+                    <p id="name">기억과 아카이브</p>
+                    <p id="days">23일 남음</p>
+                    <p id="won">3,122,000원</p>
+                    <p id="per">512%</p>
+                </div>
+  </div>
             <!--<div class="mainFir">
          <a href="#"><img src="img/main/1-3.jfif"></a>
          <p id="title">"도시 사람들, 나는 소도시 영천에 산다" 무크지</p>
@@ -318,7 +369,7 @@
         <section class="mainsec">
             <h3>진행중인 기획전</h3>
             <ul>
-                <li><a href="#"><img src="/img/main/2-1.jpg" alt="2020 신년 준비 위원회">
+                <li><a href="#"><img src="/img/main/2-1.jpg" alt="">
                         <p id="title">2020 신년 준비 위원회</p>
                         <p id="nums">50개 프로젝트</p>
                     </a></li>
@@ -382,11 +433,13 @@
 
 
         </section>
-<section>
-    <div id="barogagi">
-        <a href="menu5.html"><p>성공사례 보러가기</p></a>
-    </div>
-</section>
+        <section>
+            <div id="barogagi">
+                <a href="menu5.html">
+                    <p>성공사례 보러가기</p>
+                </a>
+            </div>
+        </section>
     </article>
     <footer>
         <div>
@@ -413,6 +466,4 @@
         </div>
 
     </footer>
-</body>
-
-</html>
+</body></html>
