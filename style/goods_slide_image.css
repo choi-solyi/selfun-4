@@ -93,14 +93,14 @@ img
 
 .prev_btn
 {
-    background-color: #00bfff;
+    background-color: silver;
     color: #fff;
     left: 50px;
 }
 
 .next_btn
 {
-    background-color: #dc143c;
+    background-color: silver;
     color: #fff;
     right: 50px;
 }
