@@ -41,12 +41,10 @@
 
 #maru img{
     width: 150px;
-
 }
 
 #maru1 p{
     width: 140px;
-
 }
 #maru1{
     display: inline-block;
@@ -56,7 +54,6 @@
 #startProject{
     text-align: center;
     width: 300px; height: 50px;
-    border: 1px solid silver;
     background-color: cornflowerblue;
     color: white;
     font-size: 24px;
@@ -66,7 +63,86 @@
 
 }
 /*  4. 서로 다른 관점에서의 셀펀   */
+#for{
+    text-align: center;
+    padding: 20px;
+    border-bottom: 1px solid silver;
+}
+#fors{
+    display: inline-block;
+    vertical-align: text-top;
+    padding: 15px 20px;
+    width: 240px;
+
+}
+#forwho{
+    font-size: 24px;
+}
+
+#makeline{
+    border: 2px solid pink;
+    width: 180px;
+    padding: 0px 40px;
+    margin: 10px auto;
+}
+#brandline{
+    border: 2px solid skyblue;
+    width: 180px;
+    padding: 0px 40px;
+    margin: 10px auto;
+}
+#campline{
+    border: 2px solid lightgreen;
+    width: 180px;
+    padding: 0px 40px;
+    margin: 10px auto;
+}
+
+#tit{
+    font-size: 16px;
+    font-weight: 600;
+}
+#exp{
+    font-size: 13px;
+}
+
+#makebtn{
+    background-color: pink;
+    width: 150px;
+    margin: 0 auto;
+    padding: 7px;
+    font-weight: 700;
+}
+#brandbtn{
+    background-color: skyblue;
+    width: 150px;
+    margin: 0 auto;
+    padding: 7px;
+    font-weight: 700;
+}
+#campbtn{
+    background-color: lightgreen;
+    width: 150px;
+    margin: 0 auto;
+    padding: 7px;
+    font-weight: 700;
+}
 /*  5. 셀펀의 장점   */
+#strtproj{
+    padding: 20px;
+    border-bottom: 1px solid silver
+}
+
+#strtproj #tit{
+    padding: 5px;
+    margin: 0px;
+}
+
+#strtproj #exp{
+    padding: 5px;
+
+}
+
 /*  6. 펀딩 신청 규약 */
 /*  7. 펀딩 시작하기 버튼 */
 
