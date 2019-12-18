@@ -1,41 +1,325 @@
 /*  모바일  */
-@media screen and (max-width:767px){
-    body{
+@media screen and (max-width:767px) {
+    *{
+        margin: 0;
+        padding: 0;
+
+    }
+    body {
         /*background-color:ivory;*/
         width: 90%;
         font-size: 0.79em;
     }
-    ul.mainnav li{
+
+    ul.mainnav li {
         position: relative;
         top: 4px;
     }
-    #last_menu{
-        width: 90%;
+
+    h3 {
+        font-size: 1.8em;
     }
+    .mainfirst {
+        margin: 2px auto;
+        padding: 27px 2px 5px 2px !important;
+        float: left;
+    }
+
+    .mainFir {
+        margin: 0px;
+        padding: 8px;
+        width: 90% !important;
+        height: 20% !important;
+        border: 1px solid silver;
+    }
+
+    #foot {
+        display: none;
+        clear: both;
+        border: 1px solid silver;
+        width: 190px;
+        height: 20px;
+        padding: 15px 10px;
+        text-align: center;
+        position: relative;
+        bottom: 20px;
+        right: 10px;
+        background-color: antiquewhite;
+    }
+
+    #title {
+        margin: 10px 5px;
+        font-weight: 800;
+        font-size: 1.5em !important;
+    }
+
+    #name {
+        margin: 10px 5px;
+        font-size: 1.2em !important;
+    }
+
+    #days {
+        float: left;
+        margin: 10px 5px;
+        font-size: 1.3em;
+    }
+
+    #won {
+        float: right;
+        font-size: 1.4em !important;
+        font-weight: bold;
+        margin: 10px 5px;
+    }
+
+    #per {
+        float: right;
+        font-size: 1.4em !important;
+        font-weight: bold;
+        margin: 10px 5px;
+        position: absolute;
+        left: 105px;
+        top: -22px;
+    }
+
+    .mainFir a {
+        width: 330px;
+        margin: 0 auto;
+    }
+
+
+    /* 랭킹 */
+    #tab {
+        clear: both;
+        width: 90% !important;
+        height: 510px !important;
+        font-size: 1.05em;
+        padding: 10px !important;
+        margin: 0 auto !important;
+        position: relative;
+        right: 40px;
+    }
+
+    #tab ul li {
+        list-style: none;
+        display: inline-block;
+        margin: 0px;
+        padding: 0px;
+        float: left;
+        position: relative;
+    }
+
+    #tab ul li h3 a {
+        margin: 5px 0px;
+        display: inline-block;
+        padding: 2px 10px;
+        border-top: 1px solid silver;
+        border-bottom: 1px solid silver;
+    }
+
+    #tab a {
+        text-decoration: none;
+        color: black;
+        font-size: 1.2em !important;
+    }
+
+
+
+    #tab h3 + div a {
+        margin-left: 15px;
+        display: block;
+        width: 104% !important;
+        position: relative;
+        right: 50px;
+
+    }
+
+    #title2 {
+        font-weight: 800;
+        width: 390px;
+    }
+
+    #tab li p {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    #lis2 {
+        position: fixed;
+        right: 20px;
+    }
+
+    #tab #per {
+        padding: 0px 5px;
+        margin: 0px 4px;
+        position: absolute;
+        left: 4px;
+        top: 25px;
+        font-size: 1.42em !important;
+    }
+
+    #cate {
+        position: relative;
+        bottom: 1px !important;
+        float: right;
+        padding: 0px 5px;
+        margin: 0px 4px;
+    }
+    #items{
+        width: 80%!;
+        height: 90px;
+    }
+
+    #lis1{
+        width: 500px !important;
+    }
+    #lis1 a {
+        width: 300px !important;
+        position: relative;
+    }
+
+    #lis2 a {
+        width: 200px;
+        position: relative;
+    }
+
+    #item1 {
+        float: left;
+        position: relative;
+        width: 70% !important;
+        padding: 7px 0px;
+    }
+
+    #item1img {
+        float: right !important;
+        position: relative;
+        padding: 5px 3px !important;
+        left: 40px !important;
+        bottom: 5px;
+    }
+    #item1img img{
+        width: 135px;
+    }
+
+    #item2 {
+        float: left;
+        position: relative;
+        width: 70% !important;
+        padding: 7px 0px;
+    }
+
+    #item2img {
+        position: relative;
+        padding: 10px 0px;
+        right: 134px;
+        bottom: 5px;
+    }
+
+    li img {
+        width: 90px;
+        padding: 3px 0px;
+        position: relative;
+    }
+
+    /*  5. 메인 sec        */
+
+
+    .mainsec {
+        clear: both;
+        background-color: #dfdfdf;
+        padding: 18px 4px 30px 0px;
+        margin: 20px 0px 15px 0px;
+        ;
+
+    }
+
+    .mainsec ul {
+        list-style: none;
+        padding: 0px 25px;
+    }
+
+    .mainsec ul li {
+        display: inline-block;
+        width: 330px;
+        padding: 0px 10px;
+        border: 1px solid silver;
+        margin: 10px;
+        background-color: white;
+    }
+
+    .mainsec ul li a:link,
+    :visited {
+        color: #181818;
+        text-decoration: none;
+    }
+
+    .mainsec img {
+        float: right;
+        position: relative;
+        left: 10px;
+        width: 40%;
+        padding: 0;
+    }
+
+    .mainsec #title {
+        padding: 7px 0px;
+        font-size: 17px;
+    }
+
+    #nums {
+        font-size: 0.9em;
+        font-style: italic;
+        padding: 3px
+    }
+
+    /*  6. 메인 thrd       */
+    .mainthr {
+        margin: 20px;
+        padding: 10px;
+    }
+
+    /*  7. 펀딩 시작하기     */
+    #barogagi {
+        width: 50%;
+        height: 45px;
+        margin: 3px auto;
+        padding: 4px 0px;
+
+        background-color: #7b94ff;
+    }
+
+    #barogagi a:link,
+    a:visited {
+        text-decoration: none;
+    }
+
+    #barogagi p {
+        color: white;
+        text-align: center;
+        font-size: 2em;
+    }
+
+
 }
 
 /*  태블릿  */
-@media screen and (min-width:768px) and (max-width:1023px){
-    body{
+@media screen and (min-width:768px) and (max-width:1023px) {
+    body {
         width: 75%;
         /*background-color:lightblue;*/
-    }
-    #last_menu{
-        width: 75%;
     }
 }
 
 /*  pc  */
-@media screen and (min-width:1024px){
-    body{
+@media screen and (min-width:1024px) {
+    body {
         width: 804px;
         /*background-color: lightcyan;*/
     }
 }
 
 img {
-	max-width: 100%;
-	height: auto;
-	width: auto\9; /* ie8 */
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
+    /* ie8 */
 }
-
