@@ -1,0 +1,24 @@
+/*  모바일  */
+@media screen and (max-width:767px){
+    .item1,.item2{
+        width: 90%;
+    }
+}
+
+/*  태블릿  */
+@media screen and (min-width:768px) and (max-width:1023px){
+
+}
+
+/*  pc  */
+@media screen and (min-width:1024px){
+
+
+
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	width: auto\9; /* ie8 */
+}
