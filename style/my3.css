@@ -1,0 +1,45 @@
+.sheader{
+    width: 100%;
+    text-align: center;
+}
+.sheader>section{
+    width: 40%;
+    margin: 0 auto;padding: 10px;
+    background-color:  #E7E7E7;
+}
+.sheader h3{
+    margin: 0;
+}
+.sbody{
+    width: 100%;
+}
+.sbody div{
+
+    width: 90%;
+    display: inline-block;
+}
+p button{
+    width: 5%;
+    display: inline-block;
+    float: right;
+    border-radius: 50%;
+    border-style: none;
+}
+.sbodyH{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.sbody>.sbodyD{
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: justify;
+    display: none;
+}
+
+
+
+
+
+
+
+/* #7b94ff (메인컬러) / #181818 (검정) / #cccccc(회색)*/
