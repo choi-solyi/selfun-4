@@ -25,7 +25,9 @@
 <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
 <!--goods css 링크 끝-->
 
-
+<!--goods slide image 링크 시작-->
+<link rel="stylesheet" href="style/goods_slide_image.css">
+<!--goods slide image 링크 끝-->
 </head>
 
 <body>
@@ -138,7 +140,11 @@
             </div>
 
             <div id="img_main">
-                <img src="img/goods/product1.png" alt="상품1">
+                <div class="slider_wrapper">
+                    <div class="slider"></div>
+                    <!-- /.slider -->
+                    <div class="slider_objects"></div>
+                </div>
             </div>
 
             <div id="title">
@@ -440,5 +446,8 @@
 			});
 		</script>
 <!--goods 스크립트 끝-->
+
+<script src="js/goods_slide_image.js"></script>
+
 </body>
 </html>
