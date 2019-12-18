@@ -1,0 +1,23 @@
+@media screen and (max-width:767px){
+/*    menu5 css 시작*/
+    #main_img_wrap{min-height: 50%;}
+    #intro_text,#intro_button{max-width: 89%;}
+    #intro_button .btn1, .btn2{width:100%;margin-bottom: 10px;}
+/*    menu5 css 끝*/
+}
+@media screen and (min-width:768px) and (max-width:1023px){
+    /*    menu5 css 시작*/
+    #main_img_wrap{min-height: 50%;}
+    #intro_text,#intro_button{max-width: 75%;}
+    #intro_button .btn1, .btn2{width:100%;margin-bottom: 10px;}
+    /*    menu5 css 끝*/
+}
+@media screen and (min-width:1024px){
+
+    /*    menu5 css 시작*/
+    #main_img_wrap{min-height: 40%;}
+    #intro_text,#intro_button{max-width: 768px;}
+    #intro_button .btn1, .btn2{width:45%;}
+    #intro_button .btn2{margin-left: 40px;}
+/*    menu5 css 끝*/
+}

@@ -1,0 +1,15 @@
+@media screen and (max-width:767px){
+/*    goods css 시작*/
+    #last_menu{width: 90%;}
+/*    goods css 끝*/
+}
+@media screen and (min-width:768px) and (max-width:1023px){
+    /*    goods css 시작*/
+    #last_menu{width: 75%;}
+    /*    goods css 끝*/
+}
+@media screen and (min-width:1024px){
+    /*    goods css 시작*/
+    #last_menu{width: 804px;}
+    /*    goods css 끝*/
+}

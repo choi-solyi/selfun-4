@@ -29,10 +29,7 @@
 @media screen and (min-width:1024px){
     body{
         width: 804px;
-       /*background-color: lightcyan;*/
-    }
-    #last_menu{
-      width:804px;
+        /*background-color: lightcyan;*/
     }
 }
 
