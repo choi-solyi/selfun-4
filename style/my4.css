@@ -7,7 +7,7 @@
     width: 50%;
     margin-bottom: 13px;
     border-bottom: 1px solid rgb(224, 224, 224);
-       background-color: rgb(224, 224, 224,0.5);
+    background-color: rgb(224, 224, 224,0.5);
 }
 #left{
     float: left;
@@ -34,6 +34,27 @@
     margin-right: 0px;
     width: 100%; height:250px;
     margin-bottom: 10px;
+}
+#heart1{
+    font-size: 24px;
+    position: relative;
+    left: 210px;
+    top: 248px;
+    color: red;
+}
+#heart2{
+    font-size: 24px;
+    position: relative;
+    left: 210px;
+    top: 248px;
+    color: red;
+}
+#heart3{
+    font-size: 24px;
+    position: relative;
+    left: 210px;
+    top: 248px;
+    color: red;
 }
 /*.like #heart1{
     font-size: 24px;
