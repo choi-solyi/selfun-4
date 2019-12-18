@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
     <meta charset="UTF-8">
     <title>Selfun</title>
@@ -40,102 +41,101 @@
     <article>
         <div>
             <!--category start-->
-            <div>
-                <nav id="navcg">
-                    <button id="chevronleft"><i class="fas fa-chevron-left"></i></button>
-                    <ul id="category">
-                        <li>
+            <!--<div>-->
+            <nav id="navcg">
+                <div class="container">
+                    <div class="g-scrolling-carousel">
+                        <div class="items">
                             <a href="#"><img src="img/menu2/category.png" alt="전체보기">
                                 <br>
                                 <p>전체보기</p>
                             </a>
-                        </li>
-                        <li>
+
+
                             <a href="#"><img src="img/menu2/category_tech.jpg" alt="테크ㆍ가전">
                                 <br>
                                 <p>테크ㆍ가전</p>
                             </a>
-                        </li>
-                        <li>
+
+
                             <a href="#"><img src="img/menu2/category_fashion1.jpg" alt="패션ㆍ잡화">
                                 <br>
                                 <p>패션ㆍ잡화</p>
                             </a>
-                        </li>
-                        <li>
+
+
                             <a href="#"><img src="img/menu2/category_beauty.jpg" alt="뷰티">
                                 <br>
                                 <p>뷰티</p>
                             </a>
-                        </li>
-                        <li>
+
+
                             <a href="#"><img src="img/menu2/category_homeliving.jpg" alt="홈리빙">
                                 <br>
                                 <p>홈리빙</p>
                             </a>
-                        </li>
-                        <li>
+
+
                             <a href="#"><img src="img/menu2/category_food2.jpg" alt="푸드">
                                 <br>
                                 <p>푸드</p>
                             </a>
-                        </li>
-                        <li>
+
+
                             <a href="#"><img src="img/menu2/category_design.png" alt="디자인소품">
                                 <br>
                                 <p>디자인소품</p>
                             </a>
-                        </li>
-                        <li>
+
+
                             <a href="#"><img src="img/menu2/category_animal.jpg" alt="반려동물">
                                 <br>
                                 <p>반려동물</p>
                             </a>
-                        </li>
-                        <li>
+
+
                             <a href="#"><img src="img/menu2/category_performance.jpg" alt="공연ㆍ컬쳐">
                                 <br>
                                 <p>공연ㆍ컬쳐</p>
                             </a>
-                        </li>
-                        <li>
+
+
                             <a href="#"><img src="img/menu2/category_kids.jpg" alt="교육ㆍ키즈">
                                 <br>
                                 <p>교육ㆍ키즈</p>
                             </a>
-                        </li>
-                        <li>
+
+
                             <a href="#"><img src="img/menu2/category_campaign.jpg" alt="캠페인">
                                 <br>
                                 <p>캠페인</p>
                             </a>
-                        </li>
-
-                    </ul>
-                    <button id="chevronright"><i class="fas fa-chevron-right"></i></button>
-                </nav>
-                <form name="frm">
-                    <div id="block1"><b>전체보기</b>
-                        <span id="searchbox">
-                            <label for="search"></label>
-                            <input type="search" id="search" name="search" value="검색">
-                            <button id="searchicons"><i class='fas fa-search'></i></button>
-                            <select name="sel1" id="sel1">
-                                <option value="whole">전체</option>
-                                <option value="ing">진행중</option>
-                                <option value="end">마감완료</option>
-                            </select>
-                            <select name="sel2" id="sel2">
-                                <option value="">추천순</option>
-                                <option value="">인기순</option>
-                                <option value="">최신순</option>
-                                <option value="">마감 임박순</option>
-                                <option value="maxsupport">최다 후원순</option>
-                            </select>
-                        </span>
+                        </div>
                     </div>
-                </form>
-            </div>
+                </div>
+            </nav>
+            <form name="frm">
+                <div id="block1"><b>전체보기</b>
+                    <span id="searchbox">
+                        <label for="search"></label>
+                        <input type="search" id="search" name="search" value="검색">
+                        <button id="searchicons"><i class='fas fa-search'></i></button>
+                        <select name="sel1" id="sel1">
+                            <option value="whole">전체</option>
+                            <option value="ing">진행중</option>
+                            <option value="end">마감완료</option>
+                        </select>
+                        <select name="sel2" id="sel2">
+                            <option value="">추천순</option>
+                            <option value="">인기순</option>
+                            <option value="">최신순</option>
+                            <option value="">마감 임박순</option>
+                            <option value="maxsupport">최다 후원순</option>
+                        </select>
+                    </span>
+                </div>
+            </form>
+            <!--</div>-->
             <!--category end-->
             <div id="block1line"></div>
             <!-- thumbnail start -->
@@ -669,4 +669,26 @@
 
     <!--menu2 스크립트-->
     <script src="js/menu2.js"></script>
+    <script>
+        $(document).ready(function() {
+            $(".g-scrolling-carousel .items").gScrollingCarousel();
+        });
+    </script>
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-36251023-1']);
+        _gaq.push(['_setDomainName', 'jqueryscript.net']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script');
+            ga.type = 'text/javascript';
+            ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+
 </body></html>
+
