@@ -1,0 +1,308 @@
+/*
+    index.css
+    1. 전체 레이아웃 (헤더 내비 아티클 푸터)
+    2. 헤더 내부
+    2-1. 이벤트
+    2-2. 로고
+    3. 네비 설정
+    3-1. 리스트 설정
+    3-2.
+    4. 아티클
+    5. 푸터
+*/
+
+/*   1. 전체 레이아웃 (헤더 내비 아티클 푸터)    */
+body{
+    margin: 0px auto !important;
+    padding: 0px;
+}
+header{
+
+}
+nav{
+    clear: both;
+    /*width: 55%;*/
+    position: relative;
+    top: -20px;
+    margin: 2% auto;
+    margin-top: 0px;
+    background-color: #f8f8f8;
+}
+article{
+    /*width: 55%;*/
+    position: relative;
+    top: -30px;
+    margin:  auto;
+    margin-top: 10px;
+}
+footer{
+    clear: both;
+    width: 100%; height: 180px;
+    background-color: #cccccc;
+}
+
+
+/*    2-1. 이벤트    */
+div.event{
+    width: 100%; height: 30px;
+    background-color: #7b94ff;
+    text-align: center;
+}
+.event a{
+    margin: 15px;    padding: 5px;
+
+}
+.event a:link, .event a:visited{
+    color: azure;
+    text-decoration: none;
+}
+/*    2-2. 로고    */
+.logo{
+    text-align: center;
+    padding: 10px;
+    /*font-size: 2.5em;
+    font-style: italic;
+    font-weight: 900;*/
+}
+.logo img{
+    width: 130px;
+}
+.mypage{
+    float:left;
+    position: relative;
+    top: 20px; left:5px;
+    width: 30px;
+}
+.login{
+    float: right ;
+    text-align:right ;
+    position: relative ;
+    right: 1% ;
+    bottom: 60px ;
+    font-size: 0.7em ;
+    font-weight: 600 ;
+    font-size: 10px ;
+}
+.login a{
+    padding: 5px ;
+}
+.login a:link, .login a:visited{
+    color: #181818;
+    text-decoration: none;
+}
+
+/*    3-1. 리스트 설정    */
+ul.mainnav{
+    text-align: center;
+  /* margin-left: auto;
+    margin-right: auto;
+    display: table;*/
+    display: flex;
+    position: relative;
+    position: -webkit-sticky;
+    position: sticky;
+    justify-content: space-between;
+    transition: top .25s;
+    z-index: 100;
+    border-top: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+    /*background-color: ;*/
+    padding: 0px;
+    width: 100%;
+    height: 44px;
+    margin: 0px;
+}
+
+ul.mainnav li{
+    display: inline-block;
+    list-style: none;
+    margin: 5px;    padding: 5px 15px;
+  /*  border-top: 1px solid silver;
+    border-bottom: 1px solid silver;*/
+}
+
+ul.mainnav li a:link, ul.mainnav li a:visited{
+    color: #181818;
+    text-decoration: none;
+}
+ul.mainnav li a:hover{
+    color: #7b94ff;
+}
+/*    4. 아티클    */
+.ar1{
+    height: 300px;
+    margin: 2% auto;
+    border: 1px solid silver;
+    padding: 0px 10px;
+}
+
+/*    5. 푸터    */
+footer div{
+    padding: 5px;
+    color: #181818;
+
+}
+
+#explain{
+    font-size: 0.4em;
+}
+#cs{
+    font-weight: 900;
+    font-size: 15px;
+    float: left;
+}
+#blog{
+    float:right;
+    margin:30px;
+    background-color: #cccccc;
+}
+#blog a:visited, #blog a:link{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    font-style: italic;
+}
+#addr p{
+    clear: both;
+
+    font-size: 0.2em;
+}
+
+/*    js적용 클래스    */
+.menuclick{
+    font-weight: 600;
+}
+.menuclickcol{
+    color:aqua;
+}
+
+/*------------------------------------------------*/
+
+/*wrap 시작*/
+
+.wrap
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*main img css 시작*/
+#main_img_wrap
+{
+    text-align: center;
+  color: white;
+  background-image: url('../img/menu5/05_modify.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  position: absolute;
+  top: 145px;
+  left: 0;
+  /* Preserve aspet ratio */
+  min-width: 100%;
+}
+
+#main_img_wrap #container #intro_text
+{
+    margin: 100px auto 20px;
+}
+
+#main_img_wrap #container #intro_text h2
+{
+    text-align: left;
+    text-shadow: 2px 2px 4px #000000;
+    font-size:3em;
+    font-weight: bold;
+
+}
+
+#main_img_wrap #container #intro_button
+{
+    margin: 0px auto;
+    text-align: left;
+}
+
+
+
+#main_img_wrap #container #intro_button .btn1
+{
+    padding: 20px;
+}
+#main_img_wrap #container #intro_button .btn1 h4
+{
+    text-align: left;
+    font-weight: bold;
+    margin: 0px;
+}
+#main_img_wrap #container #intro_button .btn1 h6
+{
+    text-align: left;
+    color:#777777;
+    padding: 0px;
+    margin: 10px 0px 0px 0px;
+}
+
+
+
+#main_img_wrap #container #intro_button .btn2
+{
+    padding: 20px;
+}
+
+#main_img_wrap #container #intro_button .btn2 h4
+{
+    text-align: left;
+    font-weight: bold;
+    margin: 0px;
+}
+#main_img_wrap #container #intro_button .btn2 h6
+{
+    text-align: left;
+    color:#777777;
+    padding: 0px;
+    margin: 10px 0px 0px 0px;
+}
+
+
+/*main img css 끝*/
+#padding
+{
+  width: 100%;
+  height: 330px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.clear
+{
+    clear:both;
+    padding: 0px;
+    margin: 0px;
+}
+
