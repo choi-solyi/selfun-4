@@ -1,13 +1,13 @@
 /*like*/
 #likeorder{
-    margin: 0 auto;
     width: 100%;
-    border-top: 1px solid rgb(158, 158, 158);
+    border-top: 1px solid rgb(224, 224, 224);
 }
 #likeorder b{
     width: 50%;
-    margin-bottom: 5px;
-        border-bottom: 1px solid rgb(158, 158, 158);
+    margin-bottom: 13px;
+    border-bottom: 1px solid rgb(224, 224, 224);
+       background-color: rgb(224, 224, 224,0.5);
 }
 #left{
     float: left;
