@@ -4,7 +4,7 @@ $('li').on('click', function () {
     $(this).children().children().filter('img').css('border', '2px solid #7b94ff');
     $(this).children().children().filter('p').css('color', '#7b94ff');
 });
-$('#chevronleft').on('click', function () {
+/*$('#chevronleft').on('click', function () {
 
     var $width = $('#category>li').outerWidth(true);
 
@@ -27,4 +27,4 @@ $('#chevronright').on('click', function () {
 
     });
 
-});
+});*/
