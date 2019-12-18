@@ -1,55 +1,26 @@
-#navcg{
-    width: 100%;
+.container {
+    max-width: 100%;
     margin-top: 50px;
-}
-#chevronleft{
-    float: left;
-    position: relative;
-    top: 5px;
-    border: 1px solid transparent;
-    padding: 10px;
-    background-color: rgb(255, 255, 255);
-}
-#chevronleft i{
-    font-size: 30px;
-    color: rgb(127, 127, 127);
-}
-#chevronright{
-    float: right;
-    position: relative;
-    bottom: 90px;
-    border: 1px solid transparent;
-    padding: 10px;
     background-color: white;
 }
-#chevronright i{
-    font-size: 30px;
-    color: rgb(127, 127, 127);
-}
-#category{
-    width: 90%;
-    position: relative;
-    top: 0px;
-    margin: 10px;
-    padding-left: 0px;
-    white-space:nowrap;
-    overflow:hidden;
-    /*overflow-x:scroll;*/
-}
-#category li{
-    list-style: none;
+
+.g-scrolling-carousel .items a {
     display: inline-block;
-    margin: 0px 10px 5px 20px;
-}
-#category li a{
+    notice the comments between inline-block items margin-right: 10px;
+    width: 60px;
+    margin: 12.5px;
+    /*text-align: center;*/
     text-decoration: none;
 }
-#category li a img{
-    width: 60px; height: 60px;
+
+.g-scrolling-carousel .items a img {
+    width: 60px;
+    height: 60px;
     background-color: gray;
     border-radius: 50%;
 }
-#category li a p{
+
+.g-scrolling-carousel .items a p {
     margin: 0px;
     color: #181818;
     font-size: 12px;
@@ -57,87 +28,195 @@
     position: relative;
     text-align: center;
 }
+
+.g-scrolling-carousel {
+    position: relative;
+}
+
+.g-scrolling-carousel .items {
+    overflow-x: scroll;
+    white-space: nowrap;
+    width: 100%;
+    -webkit-overflow-scrolling: touch;
+}
+
+.g-scrolling-carousel .items::-webkit-scrollbar {
+    display: none;
+}
+
+.jc-right,
+/*동그라미*/
+.jc-left {
+    color: #757575;
+    margin-bottom: auto;
+    margin-top: auto;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 2;
+    opacity: 0.94;
+
+}
+
+.jc-right {
+    /*위치조절*/
+    right: 0px;
+}
+
+.jc-left {
+    left: -40px;
+}
+
+.jc-right:hover,
+.jc-left:hover {
+    opacity: 0.98;
+}
+
+.jc-right svg,
+/*화살표*/
+.jc-left svg {
+    position: absolute;
+    left: 0px;
+    right: 0;
+    bottom: 10px;
+    top: 0;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    fill: #181818;
+}
+
+.jc-right:hover svg,
+.jc-left:hover svg {
+    fill: #7b94ff;
+}
+
+@media (pointer: coarse) {
+
+    .jc-right,
+    .jc-left {
+        display: none !important;
+    }
+}
+
+.noselect {
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+}
+
 /*form 전체보기 search select*/
-#block1{
+#block1 {
     margin: 13px 0px;
 }
-#block1 b{
+
+#block1 b {
     font-size: 22px;
 }
-#searchbox{
+
+#searchbox {
     width: 375px;
     border: 1px solid transparent;
     /*float: right;*/
     position: absolute;
     right: 0px;
 }
-#search{
+
+#search {
     width: 150px;
     padding: 5px;
     border: 1px solid transparent;
 }
-#searchicons{
+
+#searchicons {
     border: 1px solid transparent;
     background-color: white;
     padding: 5px 7px;
 }
-select{
+
+select {
     display: inline-block;
     width: 80px;
-    margin: 3px; padding: 5px;
+    margin: 3px;
+    padding: 5px;
     border: 1px solid transparent;
 }
-#block1line{
-    width: 100%; height: 1px;
+
+#block1line {
+    width: 100%;
+    height: 1px;
     background-color: rgb(224, 224, 224);
     margin-bottom: 15px;
 }
+
 /*thumbnail 전체보기*/
-#block2{
+#block2 {
     width: 100%;
 }
-.thumbnail{
+
+.thumbnail {
     width: 244px;
     display: inline-block;
     margin: 10px 10px 40px;
 }
-.thumbnail img{
-    width: 245px; height: 150px;
+
+.thumbnail img {
+    width: 245px;
+    height: 150px;
     border-radius: 3%;
 }
-.thumbnail a{
+
+.thumbnail a {
     text-decoration: none;
 }
-.thumbnail a{
+
+.thumbnail a {
     color: #181818;
 }
-.thumbnail p{
+
+.thumbnail p {
     margin-top: 5px;
     font-size: 11px;
     font-weight: 700;
     color: rgb(127, 127, 127);
 }
-.thumbnail .line{
-    width: 245px; height: 2px;
+
+.thumbnail .line {
+    width: 245px;
+    height: 2px;
     background-color: #7b94ff;
 }
-.thumbnail .num{
+
+.thumbnail .num {
     font-size: 15px;
     color: #7b94ff;
 }
-.thumbnail span{
+
+.thumbnail span {
     font-size: 13px;
     font-weight: 700;
     color: rgb(127, 127, 127);
 }
-.thumbnail .success{
+
+.thumbnail .success {
     color: #7b94ff;
 }
-.thumbnail .right{
+
+.thumbnail .right {
     float: right;
     position: relative;
     top: 3px;
 }
-.a{
+
+.a {
     border: 2px solid #7b94ff;
 }
