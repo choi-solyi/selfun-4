@@ -1,8 +1,8 @@
-$('li').on('click', function () {
-    $('li').children().children().filter('img').css('border', '0px solid #7b94ff');
-    $('li').children().children().filter('p').css('color', 'black');
-    $(this).children().children().filter('img').css('border', '2px solid #7b94ff');
-    $(this).children().children().filter('p').css('color', '#7b94ff');
+$('a').on('click', function () {
+    $('a').children().filter('img').css('border', '0px solid #7b94ff');
+    $('a').children().filter('p').css('color', 'black');
+    $(this).children().filter('img').css('border', '2px solid #7b94ff');
+    $(this).children().filter('p').css('color', '#7b94ff');
 });
 
 
