@@ -19,6 +19,12 @@
     h3 {
         font-size: 1.8em;
     }
+    #mainbig img{
+        margin: 0px auto;
+    }
+    .slick-prev:before, .slick-next:before{
+        font-size: 34px !important;
+    }
     .mainfirst {
         margin: 2px auto;
         padding: 27px 2px 5px 2px !important;
@@ -135,7 +141,8 @@
 
     #title2 {
         font-weight: 800;
-        width: 390px;
+        width: 240px;
+        padding: 0px 10px !important;
     }
 
     #tab li p {
@@ -153,14 +160,15 @@
         margin: 0px 4px;
         position: absolute;
         left: 4px;
-        top: 35px;
+        top: 40px;
         font-size: 1.42em !important;
     }
 
     #cate {
         position: relative;
-        bottom: 1px !important;
+        top: 2px !important;
         float: right;
+        right: 115px;
         padding: 0px 5px;
         margin: 0px 4px;
     }
@@ -200,11 +208,14 @@
         float: right !important;
         position: relative;
         padding: 5px 3px !important;
-        left: 0px !important;
+        left: -170px !important;
         bottom: 5px;
+
     }
     #item1img img{
-        width: 135px;
+        width: 100px;
+        padding: 5px 10px;
+        height: 70px;
     }
 
     #item2 {
