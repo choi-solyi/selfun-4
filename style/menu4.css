@@ -9,7 +9,7 @@
         }
         .sheader h1{
             font-size: 50px;
-            margin: 0;
+            margin: 5% 0% 2% 0%;
             padding-left: 5%;
             padding-right: 5%;
         }
@@ -134,5 +134,21 @@
             background-color: #7b94ff ;
             border-style: none;
             border-radius: 20px;
+        }
+
+
+
+        .popupfull{
+            background-color: indianred;
+            width: 100%;height: 100%;
+            position: fixed;
+
+/*
+            display: flex;
+            align-items: center;
+            justify-content: center
+*/
+
+
         }
 
