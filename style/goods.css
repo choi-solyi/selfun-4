@@ -278,7 +278,7 @@ footer div{
 {
     width: 25%;
     height:10px;
-    background-color: rgb(219,99,97) ;
+    background-color: #7b94ff ;
 }
 
 
@@ -873,7 +873,7 @@ footer div{
 #last_menu #order
 {
     float:right;
-    background-color: rgb(219,99,97);
+    background-color: #7b94ff;
     width: 70%;
     padding: 20.5px;
     color:white;
