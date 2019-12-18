@@ -1,0 +1,13 @@
+{
+    "images":
+    [
+        {"file_name":"../img/goods/product1.jpg","alt":"","href":"#"},
+        {"file_name":"../img/goods/product2.jpg","alt":"","href":"#"},
+        {"file_name":"../img/goods/product3.jpg","alt":"","href":"#"},
+        {"file_name":"../img/goods/product4.jpg","alt":"","href":"#"},
+        {"file_name":"../img/goods/product5.jpg","alt":"","href":"#"}
+    ],
+    "others":
+    [
+    ]
+}

@@ -1,0 +1,160 @@
+@charset "UTF-8";
+
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+img
+{
+    display: block;
+}
+
+/* スライダー */
+
+.slider_wrapper
+{
+    width: 100%;
+    height: 40vw;
+    overflow: hidden;
+    position: relative;
+}
+
+.slider
+{
+    position: absolute;
+    width: 100%;
+}
+
+.slider div
+{
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    opacity: 0;
+}
+
+.slider img
+{
+    width: 100%;
+    height: 40vw;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+.slider_objects
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+/* 次へ・戻るボタン */
+
+.slider_btn
+{
+    position: relative;
+    pointer-events: auto;
+}
+
+.slider_btn:hover::after
+{
+    content: '';
+    display: block;
+    position: absolute;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    background-color: #ffffff88;
+}
+
+.prev_btn ,
+.next_btn
+{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: calc(50% - 25px);
+    border-radius: 50%;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    justify-content: center;
+    -ms-align-items: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.prev_btn
+{
+    background-color: #00bfff;
+    color: #fff;
+    left: 50px;
+}
+
+.next_btn
+{
+    background-color: #dc143c;
+    color: #fff;
+    right: 50px;
+}
+
+
+/* スライダーリスト */
+
+.slider_list_wrapper
+{
+    width: calc( 100% - 40px );
+    margin: 0;
+    padding: 0 20px ;
+    position: absolute;
+    bottom: 3vw;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    justify-content: center;
+    -ms-align-items: center;
+    align-items: center;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+.slider_list
+{
+    width: 15px;
+    height: 15px;
+    margin: 5px 10px 0;
+    background-color: #333;
+    border: 2px solid #fff;
+    border-radius: 50% ;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    box-shadow: 0 0 3px 1px #000;
+    cursor: pointer;
+    pointer-events: auto;
+}
+
+.active_slide
+{
+    background-color: #ffa500;
+}
+
+
+
+/* スマホの時 */
+
+@media screen and (max-width: 768px)
+{
+    .slider_btn
+    {
+        display: none;
+    }
+}
