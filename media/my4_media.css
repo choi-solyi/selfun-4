@@ -1,0 +1,40 @@
+/*  모바일  */
+@media screen and (max-width:767px){
+    body{
+        /*background-color:ivory;*/
+        width: 90%;
+        font-size: 0.79em;
+    }
+    ul.mainnav li{
+        position: relative;
+        top: 4px;
+    }
+}
+
+/*  태블릿  */
+@media screen and (min-width:768px) and (max-width:1023px){
+    body{
+        width: 75%;
+        /*background-color:lightblue;*/
+    }
+    #last_menu{
+        width: 75%;
+    }
+}
+
+/*  pc  */
+@media screen and (min-width:1024px){
+    body{
+        width: 804px;
+       /*background-color: lightcyan;*/
+    }
+    #last_menu{
+      width:804px;
+    }
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	width: auto\9; /* ie8 */
+}
