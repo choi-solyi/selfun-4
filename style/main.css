@@ -98,6 +98,7 @@ h3{
     border-top:1px solid silver;
     border-bottom:1px solid silver;
 }
+
 #tab a{
     text-decoration: none;
     color: black;
@@ -176,6 +177,7 @@ h3{
 }
 li img{
     width: 90px;
+    padding: 3px 0px;
     position: relative;
 }
 
@@ -225,19 +227,19 @@ li img{
 }
 /*  7. 펀딩 시작하기     */
 #barogagi{
-    width: 100%;
+    width: 50%;
     height: 45px;
     margin: 3px auto;
     padding: 4px 0px;
 
-    background-color: #cccccc;
-
-
+    background-color: #7b94ff;
+}
+#barogagi a:link, a:visited{
+    text-decoration: none;
 }
 #barogagi p{
-    color: #181818;
+    color: white;
     text-align: center;
     font-size: 2em;
-
 }
 
