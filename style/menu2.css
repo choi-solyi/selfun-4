@@ -67,7 +67,9 @@
 #searchbox{
     width: 375px;
     border: 1px solid transparent;
-    float: right;
+    /*float: right;*/
+    position: absolute;
+    right: 0px;
 }
 #search{
     width: 150px;

@@ -124,8 +124,12 @@
     <article>
         <div>
             <div id="likeorder">
-                <b id="left"><a href="">♥ 좋아요</a></b>
-                <b id="right"><a href="">주문ㆍ배송</a></b>
+                <!--<ul>
+                    <li><a href="">♥ 좋아요</a></li>
+                    <li><a href="">주문ㆍ배송</a></li>
+                </ul>-->
+                <b id="left"><a href="http://127.0.0.1:51100/my4.html"><i class='fas fa-heart' id="heart1"></i> 좋아요</a></b>
+                <b id="right"><a href="http://127.0.0.1:51100/my4_order.html">주문ㆍ배송</a></b>
             </div>
             <!--<div>
                --like1
@@ -155,19 +159,41 @@
             </div>
             -->
             <!--order 1-->
-            <div>
+            <div class="orderdata">
                 <p class="date">2019-01-20 15:55:57</p>
                 <div class="line"></div>
                 <div class="orderimg">
                 <a href="#"><img src="https://cdn.wadiz.kr/wwwwadiz/green002/2019/1120/20191120112719586_51570.jpg" alt="AME Custom Earphone"></a>
                 </div>
-                <div class="sein">
-                    <div class="seal">구매확정</div>
-                    <button id="inquire">1:1 문의</button>
+                    <span class="seal">구매확정</span>
+                    <button class="inquire">1:1 문의</button>
+                <a href="#" class="text"><p>AME Radioso 라디오소 정전형 이어폰 앵콜 이젠 커스텀으로 가자</p></a>
+                <div class="epil">후기작성</div>
+                <div class="line"></div>
+            </div>
+            <!--order 2-->
+            <div class="orderdata">
+                <p class="date">2019-01-20 15:55:57</p>
+                <div class="line"></div>
+                <div class="orderimg">
+                <a href="#"><img src="https://cdn.wadiz.kr/wwwwadiz/green002/2018/1227/20181227234452898_29175.png" alt="몰가드(MOLGUARD)"></a>
                 </div>
-                <a href="https://cdn.wadiz.kr/wwwwadiz/green002/2019/1120/20191120112719586_51570.jpg">
-                    <p>AME Radioso 라디오소 정전형 이어폰 앵콜 이젠 커스텀으로 가자</p>
-                </a>
+                    <span class="seal">구매확정</span>
+                    <button class="inquire">1:1 문의</button>
+                <a href="#" class="text"><p>카드 한장으로 몰카를 찾는 방법, 몰가드 프로젝트</p></a>
+                <div class="epil">후기작성</div>
+                <div class="line"></div>
+            </div>
+            <!--order 2-->
+            <div class="orderdata">
+                <p class="date">2018-08-20 19:05:57</p>
+                <div class="line"></div>
+                <div class="orderimg">
+                <a href="#"><img src="https://cdn.wadiz.kr/wwwwadiz/green001/2019/1105/20191105172937139_51845.jpg" alt="정성깃든"></a>
+                </div>
+                    <span class="seal">구매확정</span>
+                    <button class="inquire">1:1 문의</button>
+                <a href="#" class="text"><p>[프리미엄 자연조미료] 이 작은 큐브 한 개에 깊고 진한 한우 국물이!</p></a>
                 <div class="epil">후기작성</div>
                 <div class="line"></div>
             </div>
@@ -200,6 +226,7 @@
 
     </footer>
 
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script><!--이모티콘-->
 
     <!--index js 시작-->
     <script src="js/index.js"></script>
