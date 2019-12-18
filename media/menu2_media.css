@@ -1,40 +1,75 @@
 /*  모바일  */
 @media screen and (max-width:767px){
-    body{
-        /*background-color:ivory;*/
+    /*body{
+        background-color:ivory;
         width: 90%;
         font-size: 0.79em;
     }
     ul.mainnav li{
         position: relative;
         top: 4px;
+    }*/
+    .thumbnail{
+        min-width: 430px;
+        min-height: 300px;
+    }
+    .thumbnail img{
+        min-width: 430px;
+        min-height: 300px;
+    }
+    .thumbnail b{
+        font-size: 16px;
+    }
+    .thumbnail p{
+        font-size: 13px;
+    }
+    .thumbnail .line{
+        min-width: 430px;
     }
 }
 
 /*  태블릿  */
 @media screen and (min-width:768px) and (max-width:1023px){
-    body{
+    /*body{
         width: 75%;
-        /*background-color:lightblue;*/
+        background-color:lightblue;
     }
     #last_menu{
         width: 75%;
+    }*/
+    .thumbnail{
+        min-width: 290px;
+        min-height: 190px;
+        margin: 5px 10px 10px ;
+    }
+    .thumbnail img{
+        min-width: 290px;
+        min-height: 190px;
+    }
+    .thumbnail b{
+        font-size: 14px;
+    }
+    .thumbnail p{
+        font-size: 12px;
+    }
+    .thumbnail .line{
+        min-width: 290px;
     }
 }
 
 /*  pc  */
 @media screen and (min-width:1024px){
-    body{
+    /*body{
         width: 804px;
-       /*background-color: lightcyan;*/
+       background-color: lightcyan;
     }
     #last_menu{
       width:804px;
-    }
+    }*/
 }
 
 img {
-	max-width: 100%;
+	/*max-width: 100%;
 	height: auto;
-	width: auto\9; /* ie8 */
+	width: auto\9;  ie8 */
 }

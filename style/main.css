@@ -10,68 +10,75 @@
 
 /*  1. 전체 공용  */
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-h3{
+h3 {
     margin: 2px 10px;
     padding: 3px;
 }
-#per{
+
+#per {
     color: #7b94ff;
     font-weight: 800;
 }
+
 /*  2. 메인big          */
-#mainbig{
+#mainbig {
     margin: 0px auto;
     height: 300px;
+
 }
+
 /*#mainbig img{
     width: 12121px;
     opacity: 1;
     transform: translate3d(0px, 0px, 0px);
 }*/
 /*  3. 메인 first      */
-.mainfirst{
+.mainfirst {
     margin: 2px auto;
     padding: 27px 2px 40px 2px;
     float: left;
 }
-#abcabc{
-    width: 300px !important;
-}
-.mainFir{
+
+.mainFir {
     position: relative;
     display: inline-block;
     margin: 20px 14px;
     padding: 8px;
-    width: 190px ;
+    width: 190px;
     height: 260px;
     border: 1px solid silver;
 }
 
-#title{
+#title {
     margin: 10px 5px;
     font-weight: 800;
     font-size: 0.85em;
 }
-#name{
-    margin: 10px 5px;;
+
+#name {
+    margin: 10px 5px;
+    ;
     font-size: 0.8em;
 }
-#days{
+
+#days {
     float: left;
     margin: 10px 5px;
 }
-#won{
+
+#won {
     float: right;
     font-size: 0.9em;
     font-weight: bold;
     margin: 10px 5px;
 }
-.mainFir #per{
+
+.mainFir #per {
     position: relative;
     float: right;
     bottom: 60px;
@@ -80,11 +87,12 @@ h3{
     margin: 10px 5px;
 }
 
-.mainFir a{
+.mainFir a {
     width: 330px;
     margin: 0 auto;
 }
-#foot{
+
+#foot {
     clear: both;
     border: 1px solid silver;
     width: 190px;
@@ -98,63 +106,74 @@ h3{
 }
 
 /*  4. 메인 랭킹        */
-#tab{
+#tab {
     float: right;
-    width: 300px; height: 400px;
+    width: 300px;
+    height: 400px;
 
     padding: 27px 2px;
     position: relative;
 }
-#tab ul li{
+
+#tab ul li {
     list-style: none;
     display: inline-block;
-    margin: 0px; padding: 0px;
+    margin: 0px;
+    padding: 0px;
     float: left;
     position: relative;
 
 }
-#tab ul li h3 a{
+
+#tab ul li h3 a {
     margin: 5px 0px;
     display: inline-block;
     padding: 2px 10px;
-    border-top:1px solid silver;
-    border-bottom:1px solid silver;
+    border-top: 1px solid silver;
+    border-bottom: 1px solid silver;
 }
 
-#tab a{
+#tab a {
     text-decoration: none;
     color: black;
     font-size: 0.8em;
 }
-#tab h3+div{
+
+#tab h3 + div {
     position: absolute;
     left: 50px;
     width: 350px;
     display: none;
 }
-#tab h3+div a{
+
+#tab h3 + div a {
     margin-left: 15px;
     display: block;
 
 }
-#title2{
+
+#title2 {
     font-weight: 800;
 
 }
-#tab li p{
+
+#tab li p {
     padding: 0px;
     margin: 0px;
 }
-#lis2{
+
+#lis2 {
     position: fixed;
     right: 20px;
 }
-#tab>#per{
+
+#tab > #per {
     float: left;
     padding: 0px 5px;
     margin: 0px 4px;
 }
-#cate{
+
+#cate {
     position: relative;
     bottom: 16px;
     float: right;
@@ -162,45 +181,50 @@ h3{
     margin: 0px 4px;
 }
 
-#lis1 a{
+#lis1 a {
     width: 200px;
     position: relative;
     right: 50px;
 }
-#lis2 a{
+
+#lis2 a {
     width: 200px;
     position: relative;
     right: 130px;
 }
 
-#item1{
+#item1 {
     float: left;
     position: relative;
     right: 14px;
     padding: 7px 0px;
 
 }
-#item1img{
+
+#item1img {
     position: relative;
-     padding: 10px 0px;
+    padding: 10px 0px;
     right: 57px;
     bottom: 5px;
 
 }
-#item2{
+
+#item2 {
     float: left;
     position: relative;
     right: 10px;
     padding: 7px 0px;
 
 }
-#item2img{
+
+#item2img {
     position: relative;
-     padding: 10px 0px;
+    padding: 10px 0px;
     right: 134px;
     bottom: 5px;
 }
-li img{
+
+li img {
     width: 90px;
     padding: 3px 0px;
     position: relative;
@@ -209,53 +233,62 @@ li img{
 /*  5. 메인 sec        */
 
 
-.mainsec{
+.mainsec {
     clear: both;
     background-color: #dfdfdf;
     padding: 18px 4px 30px 0px;
-    margin: 20px 0px 15px 0px;;
+    margin: 20px 0px 15px 0px;
+    ;
 
 }
-.mainsec ul{
+
+.mainsec ul {
     list-style: none;
     padding: 0px 25px;
 }
-.mainsec ul li{
+
+.mainsec ul li {
     display: inline-block;
-    width:  330px;
+    width: 330px;
     padding: 0px 10px;
     border: 1px solid silver;
     margin: 10px;
     background-color: white;
 }
-.mainsec ul li a:link, :visited{
+
+.mainsec ul li a:link,
+:visited {
     color: #181818;
     text-decoration: none;
 }
-.mainsec img{
+
+.mainsec img {
     float: right;
     position: relative;
     left: 10px;
     width: 40%;
     padding: 0;
 }
-.mainsec #title{
+
+.mainsec #title {
     padding: 7px 0px;
     font-size: 17px;
 }
-#nums{
+
+#nums {
     font-size: 0.9em;
     font-style: italic;
     padding: 3px
 }
 
 /*  6. 메인 thrd       */
-.mainthr{
+.mainthr {
     margin: 20px;
     padding: 10px;
 }
+
 /*  7. 펀딩 시작하기     */
-#barogagi{
+#barogagi {
     width: 50%;
     height: 45px;
     margin: 3px auto;
@@ -263,12 +296,14 @@ li img{
 
     background-color: #7b94ff;
 }
-#barogagi a:link, a:visited{
+
+#barogagi a:link,
+a:visited {
     text-decoration: none;
 }
-#barogagi p{
+
+#barogagi p {
     color: white;
     text-align: center;
     font-size: 2em;
 }
-
