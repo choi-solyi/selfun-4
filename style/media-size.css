@@ -1,5 +1,6 @@
 /*  모바일  */
 @media screen and (max-width:767px){
+
     body{
         /*background-color:ivory;*/
         width: 90%;
@@ -22,14 +23,16 @@
 
 /*  pc  */
 @media screen and (min-width:1024px){
+
     body{
         width: 804px;
        /*background-color: lightcyan;*/
     }
+
 }
 
 img {
-	max-width: 100%;
+	max-width: 1s0%;
 	height: auto;
 	width: auto\9; /* ie8 */
 }

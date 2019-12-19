@@ -181,10 +181,7 @@
         position: relative;
         right: 85px;
     }
-    #lis1{
-        width: 500px !important;
-    }
-    #lis2{
+    #lis1, #lis2{
         width: 500px !important;
     }
     #lis1 a {
@@ -226,17 +223,10 @@
         right: 118px !important;
     }
 
-    #item2img {
-        float: right !important;
+    #lis2 img{
         position: relative;
-        padding: 0px 3px !important;
-        margin: 0px !important;
-        right: 100px !important;
+        right: 5px;
     }
-    #item2img img{
-        width: 135px;
-    }
-
     /**/
     li img {
         width: 90px;
@@ -339,7 +329,6 @@
     /*실시간 랭킹*/
     #item1{
         width: 280px;
-
         padding: 15px 0px;
         margin: 5px;
 
@@ -353,7 +342,7 @@
         width: 85%;
         height: 570px;
     }
-    #lis1 a {
+    #lis1 a, #lis2 a {
         width: 340px!important;
     }
     #item1img{
@@ -372,6 +361,14 @@
         float: right;
         padding: 0px;
         margin: 10px;
+    }
+    #lis2 a{
+        position: relative;
+        right: 30px;
+    }
+    #lis2 img{
+        position: relative;
+        left: 20px;
     }
 
      /*실시간 랭킹 요기까지*/

@@ -17,4 +17,10 @@ $(document).ready(function(){
             'border-bottom':'2px solid #7b94ff'
         }).parent().next().show();
     });
+
+    /*$('div.mainFir').mouseenter(function(){
+        $(this).fadeOut(1000)
+
+
+    });*/
 });
