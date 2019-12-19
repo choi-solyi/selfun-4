@@ -8,6 +8,7 @@
     ul.mainnav li{
         position: relative;
         top: 4px;
+        padding: 5px 0px;
     }
 }
 
