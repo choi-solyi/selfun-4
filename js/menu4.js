@@ -1,3 +1,7 @@
 $(document).ready(function(){
-    $().click()
+    $('#jumoon').on('click',function(){
+        $('.popupfull').css('visibility','visible');
+
+    });
 });
+//visibility('visible')

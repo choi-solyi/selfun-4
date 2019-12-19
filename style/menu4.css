@@ -26,6 +26,34 @@
             width: 100%;
             margin: 0 auto;
         }
+/*상품 전체 틀*/
+        .sbody>div{
+            display: inline-block;
+        }
+/*상품 좌측*/
+        .item1{
+            width: 42%;
+            padding-left: 5%;
+        }
+/*상품 우측*/
+        .item2{
+            width: 42%;
+            padding-left: 5%;
+            padding-right: 5%;
+        }
+/*상품 좌측상단 글자+제품 이미지*/
+        .imgset img{
+            display: block;
+        }
+        .imgset{
+            transition: 0.5s;
+            height: 37%;
+            display: block;
+        }
+        .imgset:hover{
+            transform: scale(1.1);
+        }
+/*상품사진 좌측상단 글자*/
         .sbody a{
             text-decoration: none;
             color: black;
@@ -33,27 +61,26 @@
         .sbody a:hover{
             font-weight: bold;
         }
-        .sbody div{
-            display: inline-block;
+        .imgName a{
+            position: absolute;
+            margin: 7px;
+            font-size: 12px;
+            color: white;
         }
-        .item1{
-            width: 42%;
-            padding-left: 5%;
+/*상품 제목 내용 제품담당*/
+        .imgex{
+            height: 260px;
+            display: block;
         }
-        .item2{
-            width: 42%;
-            padding-left: 5%;
-            padding-right: 5%;
+        .respon{
+            opacity: 0.4;
+            font-size: 12px;
+            position: relative;
+            top: -15px;
         }
-        .sbody img{width: 100%;}
-        .imgset{
-            transition: 0.5s;
-        }
-        .imgset:hover{
-            transform: scale(1.1);
-        }
+/*상품 주문버튼*/
         .sbody #jumoon{
-            transition: 0.5s;
+            transition: 0.3s;
         }
         .sbody #jumoon:hover{
             transform: scale(1.02);
@@ -84,18 +111,6 @@
             width: 500px;
             margin: 20px auto;
         }
-        .imgName a{
-            position: absolute;
-            margin: 7px;
-            font-size: 12px;
-            color: white;
-        }
-        .respon{
-            opacity: 0.4;
-            font-size: 12px;
-            position: relative;
-            top: -15px;
-        }
         #jumoon,#rejumoon{
             font-weight: bold;
             color: aliceblue;
@@ -116,7 +131,7 @@
             margin-bottom: 8px;
         }
         .hugi p{
-            margin: 0
+            margin: 0;
         }
         .hugiimg{
             width: 37%;
@@ -144,7 +159,7 @@
             position: fixed;
             top: 0;left: 0;
             z-index: 100;
-/*            display: none;*/
+            visibility: hidden;
         }
         .popupset{
             background-color: white;
@@ -152,10 +167,6 @@
             position: absolute;
             top: 50%; left: 50%;
             transform: translate(-50%,-50%);
-        }
-        .popupset p{
-            position: absolute;
-            left: 10%;
         }
         .popupin1{
             color: black;
@@ -165,16 +176,18 @@
             left: 30%; top: 25%;
             font-style: italic;
         }
-        .popupin1 p{
-            margin: 0;
-            font-size: 12px;
-        }
         .popupin1 input{
             border-style: none;
+            border-bottom-style:groove;
+        }
+        .popupin1 input:focus{
             border-bottom-style: double;
         }
         .popupin2 input{
             border-style: none;
+            border-bottom-style:groove;
+        }
+        .popupin2 input:focus{
             border-bottom-style: double;
         }
         .popupin2{
