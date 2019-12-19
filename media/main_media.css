@@ -344,6 +344,10 @@
     .mainthr{
         padding: 2% 5%
     }
+    #items2{
+        position: relative;
+        right: 75px;
+    }
 }
 
 /*  pc  */
