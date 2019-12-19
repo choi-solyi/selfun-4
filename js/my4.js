@@ -4,6 +4,6 @@ $('i').on('click',function(){
    /*$(this).next().children().css('display','none');
    $(this).next().next().css('display','none'); */
 });
-$('#likeorder').on('click',function(){
+/*$('#likeorder').on('click',function(){
    $(this).children().children().css('color'.'red')
-});
+});*/
