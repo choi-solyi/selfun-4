@@ -1,0 +1,123 @@
+/*  모바일  */
+@media screen and (max-width:767px) {
+    body {
+        /*background-color:ivory;*/
+        width: 90%;
+        font-size: 0.79em;
+    }
+
+    /*
+    1. 전체 프레임
+    2. 셀펀 로고 및 소개
+    3. 펀딩 단계
+    4. 서로 다른 관점에서의 셀펀
+    5. 셀펀의 장점 3
+    6. 펀딩 신청 규약
+    7. 펀딩 시작하기 버튼
+*/
+
+    /*  1. 전체 프레임   */
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    /*  2. 셀펀 로고 및 소개   */
+
+    #logoex {}
+
+    #logoex h4 {}
+
+    #logoex img {}
+
+    #logoex p {}
+
+    /*  3. 펀딩 단계    */
+    #maru {}
+
+    #maru img {}
+
+    #maru1 p {
+        width: 90%;
+        padding: 3%;
+        margin: 10px auto;
+    }
+
+    #maru1 {
+        padding: 1% 3%;;
+    }
+
+    #startProject {}
+
+    /*  4. 서로 다른 관점에서의 셀펀   */
+    #for {
+        padding: 2%;
+    }
+
+    #fors {
+        width: 280px;
+        padding: 5%;
+    }
+
+    #forwho {}
+
+    #makeline {}
+
+    #brandline {}
+
+    #campline {}
+
+    #tit {}
+
+    #exp {}
+
+    #makebtn {}
+
+    #brandbtn {}
+
+    #campbtn {}
+
+    /*  5. 셀펀의 장점   */
+
+
+    /*  6. 펀딩 신청 규약 */
+    #strtproj {}
+
+    #strtproj #fors {}
+
+    #strtproj #tit {}
+
+    #strtproj #exp {}
+
+
+    /*  7. 펀딩 시작하기 버튼 */
+    #start {}
+
+    #last1 {}
+
+
+
+}
+
+/*  태블릿  */
+@media screen and (min-width:768px) and (max-width:1023px) {
+    body {
+        width: 75%;
+        /*background-color:lightblue;*/
+    }
+}
+
+/*  pc  */
+@media screen and (min-width:1024px) {
+    body {
+        width: 804px;
+        /*background-color: lightcyan;*/
+    }
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
+    /* ie8 */
+}
