@@ -24,6 +24,9 @@ h3 {
     color: #7b94ff;
     font-weight: 800;
 }
+a:link{
+    text-decoration: none;
+}
 
 /*  2. 메인big          */
 #mainbig {
