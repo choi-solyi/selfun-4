@@ -134,6 +134,10 @@
     thr{
         height: 200px !important;
     }
+    #start, #last1{
+        position: relative;
+        bottom: 40px;
+    }
 }
 
 /*  pc  */
