@@ -27,7 +27,7 @@
     }
     .mainfirst {
         margin: 2px auto;
-        padding: 27px 2px 5px 2px !important;
+        padding: 10px 5px 5px 15px !important;
         float: left;
     }
 
@@ -104,7 +104,9 @@
         position: relative;
         right: 40px;
     }
-
+    #ranktit{
+        font-size: 1.2em;
+    }
     #tab ul li {
         list-style: none;
         display: inline-block;
@@ -177,7 +179,7 @@
 
     #items2{
         position: relative;
-        right: 102px;
+        right: 85px;
     }
     #lis1{
         width: 500px !important;
@@ -243,84 +245,78 @@
     }
 
     /*  5. 메인 sec        */
-
-
     .mainsec {
         clear: both;
+        width: 120% !important;
         background-color: #dfdfdf;
-        padding: 18px 4px 30px 0px;
-        margin: 20px 0px 15px 0px;
-        ;
-
+        padding: 10px;
+        position: relative;
+        right: 20px;
     }
-
     .mainsec ul {
         list-style: none;
         padding: 0px 25px;
     }
-
     .mainsec ul li {
         display: inline-block;
         width: 330px;
-        padding: 0px 10px;
+        padding: 0px 0px;
         border: 1px solid silver;
         margin: 10px;
         background-color: white;
+        position: relative;
+        right: 20px;
     }
-
-    .mainsec ul li a:link,
-    :visited {
+    .mainsec ul li a:link, :visited {
         color: #181818;
         text-decoration: none;
     }
-
     .mainsec img {
         float: right;
         position: relative;
-        left: 10px;
-        width: 40%;
+        left: -0px;
+        width: 50%;
         padding: 0;
     }
-
     .mainsec #title {
-        padding: 7px 0px;
-        font-size: 17px;
+        padding: 7px 3px;
+        font-size: 16px !important;
     }
-
     #nums {
         font-size: 0.9em;
         font-style: italic;
         padding: 3px
     }
-
     /*  6. 메인 thrd       */
     .mainthr {
-        margin: 20px;
-        padding: 10px;
+        margin: 10px;
+        padding: 1px;
     }
-
     /*  7. 펀딩 시작하기     */
     #barogagi {
         width: 50%;
         height: 45px;
         margin: 3px auto;
         padding: 4px 0px;
-
         background-color: #7b94ff;
     }
-
     #barogagi a:link,
     a:visited {
         text-decoration: none;
     }
-
     #barogagi p {
         color: white;
         text-align: center;
-        font-size: 2em;
+        font-size: 1.2em;
+        padding: 13px 0px;
+        font-weight: 700;
     }
-
-
+    #blog{
+        margin: 4px;
+    }
+    #blog a:visited, #blog a:link{
+        font-size: 0.6em;
+    }
 }
 
 /*  태블릿  */
