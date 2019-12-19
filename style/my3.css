@@ -3,9 +3,9 @@
     text-align: center;
 }
 .sheader>section{
-    width: 40%;
-    margin: 0 auto;padding: 10px;
-    background-color:  #E7E7E7;
+    width: 100%;
+    margin: 0 auto;padding: 10px 0;
+    background-color:  #EAEAEA;
 }
 .sheader h3{
     margin: 0;
@@ -14,7 +14,6 @@
     width: 100%;
 }
 .sbody div{
-
     width: 90%;
     display: inline-block;
 }
@@ -24,10 +23,14 @@ p button{
     float: right;
     border-radius: 50%;
     border-style: none;
+
 }
 .sbodyH{
     padding-left: 5%;
     padding-right: 5%;
+}
+.sbodyD p{
+    padding: 4% 7%;
 }
 .sbody>.sbodyD{
     padding-left: 5%;
@@ -35,6 +38,7 @@ p button{
     text-align: justify;
     display: none;
 }
+
 
 
 
