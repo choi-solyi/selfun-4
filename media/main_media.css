@@ -32,7 +32,7 @@
     }
 
     .mainFir {
-        margin: 0px;
+        margin: 6px;
         padding: 8px;
         width: 90% !important;
         height: 20% !important;
@@ -327,9 +327,13 @@
     }
 
     .mainfirst{
-        padding: 2% 8%;
+        padding: 2% 7%;
         align-content: center;
         align-items: center;
+    }
+    .mainFir{
+        padding: 8px;
+        margin: 14px;
     }
 
     /*실시간 랭킹*/
@@ -372,11 +376,16 @@
 
      /*실시간 랭킹 요기까지*/
     .mainsec{
-        padding: 5px 0px 30px 0px;
+        padding: 15px 0px 30px 0px;
     }
     .mainsec ul li{
-        margin: 3% 20%;
+        margin: 3% 7%;
     }
+    .mainsec ul li{
+        width: 82%;
+    }
+
+    /*thr ~~*/
     .mainthr{
         padding: 2% 5%
     }
