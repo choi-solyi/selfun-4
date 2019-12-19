@@ -44,7 +44,7 @@
     }
 
     #maru1 {
-        padding: 1% 3%;;
+        padding: 1% 3%;
     }
 
     #startProject {
@@ -84,6 +84,7 @@
     /*  5. 셀펀의 장점   */
     #hs{
         font-size: 20px;
+        padding: 5px;
     }
     /*  6. 펀딩 신청 규약 */
     #strtproj {}
@@ -114,6 +115,24 @@
     body {
         width: 75%;
         /*background-color:lightblue;*/
+    }
+    #maru1{
+        padding: 2%;
+    }
+    #fors{
+        padding: 1%;
+        margin: 1%;
+        width: 161px;
+        height: auto;
+    }
+    #tit{
+        font-size: 1.2em;
+    }
+    #exp{
+        height: 210px;
+    }
+    thr{
+        height: 200px !important;
     }
 }
 
