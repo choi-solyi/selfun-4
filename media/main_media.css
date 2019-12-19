@@ -19,7 +19,7 @@
     h3 {
         font-size: 1.8em;
     }
-    #mainbig img{
+    .mainbig img{
         margin: 0px auto;
     }
     .slick-prev:before, .slick-next:before{
@@ -39,7 +39,7 @@
         border: 1px solid silver;
     }
 
-    #foot {
+    .foot {
         display: none;
         clear: both;
         border: 1px solid silver;
@@ -53,31 +53,31 @@
         background-color: antiquewhite;
     }
 
-    #title {
+    .title {
         margin: 10px 5px;
         font-weight: 800;
         font-size: 1.5em !important;
     }
 
-    #name {
+    .name {
         margin: 10px 5px;
         font-size: 1.2em !important;
     }
 
-    #days {
+    .days {
         float: left;
         margin: 10px 5px;
         font-size: 1.3em;
     }
 
-    #won {
+    .won {
         float: right;
         font-size: 1.4em !important;
         font-weight: bold;
         margin: 10px 5px;
     }
 
-    #per {
+    .per {
         float: right;
         font-size: 1.4em !important;
         font-weight: bold;
@@ -94,7 +94,7 @@
 
 
     /* 랭킹 */
-    #tab {
+    .tab {
         clear: both;
         width: 90% !important;
         height: 510px !important;
@@ -104,10 +104,8 @@
         position: relative;
         right: 40px;
     }
-    #ranktit{
-        font-size: 1.2em;
-    }
-    #tab ul li {
+
+    .tab ul li {
         list-style: none;
         display: inline-block;
         margin: 0px;
@@ -116,7 +114,7 @@
         position: relative;
     }
 
-    #tab ul li h3 a {
+    .tab ul li h3 a {
         margin: 5px 0px;
         display: inline-block;
         padding: 2px 10px;
@@ -124,7 +122,7 @@
         border-bottom: 1px solid silver;
     }
 
-    #tab a {
+    .tab a {
         text-decoration: none;
         color: black;
         font-size: 1.2em !important;
@@ -132,7 +130,7 @@
 
 
 
-    #tab h3 + div a {
+    .tab h3 + div a {
         margin-left: 15px;
         display: block;
         width: 104% !important;
@@ -141,21 +139,21 @@
 
     }
 
-    #title2 {
+    .title2 {
         font-weight: 800;
         width: 240px;
         padding: 0px 10px !important;
     }
-    #tab li p {
+    .tab li p {
         padding: 0px;
         margin: 0px;
     }
-    #lis2 {
+    .lis2 {
         position: fixed;
         right: 20px;
     }
 
-    #tab #per {
+    .tab .per {
         padding: 0px 5px;
         margin: 0px 4px;
         position: absolute;
@@ -164,7 +162,7 @@
         font-size: 1.42em !important;
     }
 
-    #cate {
+    .cate {
         position: relative;
         top: 2px !important;
         float: right;
@@ -172,36 +170,36 @@
         padding: 0px 5px;
         margin: 0px 4px;
     }
-    #items, #items2{
+    .items, .items2{
         width: 80%!;
         height: 100px;
     }
 
-    #items2{
+    .items2{
         position: relative;
         right: 85px;
     }
-    #lis1, #lis2{
+    .lis1, .lis2{
         width: 500px !important;
     }
-    #lis1 a {
+    .lis1 a {
         width: 300px !important;
         position: relative;
     }
 
-    #lis2 a {
+    .lis2 a {
         width: 300px !important;
         position: relative;
     }
 
-    #item1 {
+    .item1 {
         float: left;
         position: relative;
         width: 70% !important;
         padding: 7px 0px;
     }
 
-    #item1img {
+    .item1img {
         float: right !important;
         position: relative;
         padding: 5px 3px !important;
@@ -209,13 +207,13 @@
         bottom: 5px;
 
     }
-    #item1img img{
+    .item1img img{
         width: 100px;
         padding: 5px 10px;
         height: 70px;
     }
 
-    #item2 {
+    .item2 {
         float: left;
         position: relative;
         width: 70% !important;
@@ -223,7 +221,7 @@
         right: 118px !important;
     }
 
-    #lis2 img{
+    .lis2 img{
         position: relative;
         right: 5px;
     }
@@ -268,11 +266,11 @@
         width: 50%;
         padding: 0;
     }
-    .mainsec #title {
+    .mainsec .title {
         padding: 7px 3px;
         font-size: 16px !important;
     }
-    #nums {
+    .nums {
         font-size: 0.9em;
         font-style: italic;
         padding: 3px
@@ -327,46 +325,46 @@
     }
 
     /*실시간 랭킹*/
-    #item1{
+    .item1{
         width: 280px;
         padding: 15px 0px;
         margin: 5px;
 
     }
-    #title2{
+    .title2{
         width: 200px;
     }
 
-    #tab{
+    .tab{
         padding: 5% 10%;
         width: 85%;
         height: 570px;
     }
-    #lis1 a, #lis2 a {
+    .lis1 a, .lis2 a {
         width: 340px!important;
     }
-    #item1img{
+    .item1img{
         width: 530px;
     }
-    #item1 #title2{
+    .item1 .title2{
         font-size: 1.3em;
         width: 320px;
     }
-    #item1 #per{
+.item1 .per{
         font-size: 1.5em;
     }
 
-    #item1img img{
+    .item1img img{
         width: 160px;
         float: right;
         padding: 0px;
         margin: 10px;
     }
-    #lis2 a{
+    .lis2 a{
         position: relative;
         right: 30px;
     }
-    #lis2 img{
+    .lis2 img{
         position: relative;
         left: 20px;
     }
@@ -386,7 +384,7 @@
     .mainthr{
         padding: 2% 5%
     }
-    #items2{
+    .items2{
         position: relative;
         right: 75px;
     }
