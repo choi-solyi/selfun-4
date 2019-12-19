@@ -144,7 +144,7 @@ footer div{
 }
 
 #explain{
-    font-size: 0.4em;
+    font-size: 0.8em;
 }
 #cs{
     font-weight: 900;
@@ -155,6 +155,7 @@ footer div{
     float:right;
     margin:30px;
     background-color: #cccccc;
+    display: none;
 }
 #blog a:visited, #blog a:link{
     color: black;
@@ -165,8 +166,7 @@ footer div{
 }
 #addr p{
     clear: both;
-
-    font-size: 0.2em;
+    font-size: 0.8em;
 }
 
 /*    js적용 클래스    */
