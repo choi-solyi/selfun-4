@@ -18,12 +18,18 @@
     display: inline-block;
 }
 p button{
-    width: 5%;
+    font-size: 120%;
     display: inline-block;
     float: right;
     border-radius: 50%;
     border-style: none;
-
+    background-color: white;
+}
+p button:hover{
+    background-color: #7b94ff;
+}
+p i:hover{
+/*    color: #7b94ff;*/
 }
 .sbodyH{
     padding-left: 5%;
