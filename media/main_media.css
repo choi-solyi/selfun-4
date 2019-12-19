@@ -32,7 +32,7 @@
     }
 
     .mainFir {
-        margin: 0px;
+        margin: 6px;
         padding: 8px;
         width: 90% !important;
         height: 20% !important;
@@ -327,20 +327,65 @@
     }
 
     .mainfirst{
-        padding: 2% 8%;
+        padding: 2% 7%;
         align-content: center;
         align-items: center;
     }
-    #tab{
-        padding: 5% 30%;
-        width: 10
+    .mainFir{
+        padding: 8px;
+        margin: 14px;
     }
+
+    /*실시간 랭킹*/
+    #item1{
+        width: 280px;
+
+        padding: 15px 0px;
+        margin: 5px;
+
+    }
+    #title2{
+        width: 200px;
+    }
+
+    #tab{
+        padding: 5% 10%;
+        width: 85%;
+        height: 570px;
+    }
+    #lis1 a {
+        width: 340px!important;
+    }
+    #item1img{
+        width: 530px;
+    }
+    #item1 #title2{
+        font-size: 1.3em;
+        width: 320px;
+    }
+    #item1 #per{
+        font-size: 1.5em;
+    }
+
+    #item1img img{
+        width: 160px;
+        float: right;
+        padding: 0px;
+        margin: 10px;
+    }
+
+     /*실시간 랭킹 요기까지*/
     .mainsec{
         padding: 15px 0px 30px 0px;
     }
     .mainsec ul li{
-        margin: 3% 20%;
+        margin: 3% 7%;
     }
+    .mainsec ul li{
+        width: 82%;
+    }
+
+    /*thr ~~*/
     .mainthr{
         padding: 2% 5%
     }

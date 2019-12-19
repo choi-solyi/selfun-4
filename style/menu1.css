@@ -103,6 +103,7 @@
 }
 #exp{
     font-size: 13px;
+    height: 160px
 }
 
 #makebtn{
@@ -146,7 +147,12 @@
 
 #strtproj #exp{
     padding: 5px;
+}
 
+#hs{
+    font-size: 20px;
+    text-align: center;
+    font-weight:
 }
 
 

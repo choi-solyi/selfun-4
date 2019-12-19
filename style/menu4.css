@@ -146,35 +146,49 @@
             z-index: 100;
 /*            display: none;*/
         }
-.popupset{
-    background-color: white;
-    width: 60%;height: 30%;
-    position: absolute;
-    top: 50%; left: 50%;
-    transform: translate(-50%,-50%);
-}
-
-.popupin1{
-    color: antiquewhite;
-    display: block;
-    width: 40%;
-    position: absolute;
-    left: 25%; top: 25%;
-}
-.popupin1 inpput{
-    border-
-}
-.popupin2{
-    color: antiquewhite;
-    display: block;
-    width: 40%;
-    position: absolute;
-    left: 25%; top: 40%;
-}
-.popupbtn{
-    position: absolute;
-    left: 45%; top: 60%;
-}
+        .popupset{
+            background-color: white;
+            width: 50%;height: 30%;
+            position: absolute;
+            top: 50%; left: 50%;
+            transform: translate(-50%,-50%);
+        }
+        .popupset p{
+            position: absolute;
+            left: 10%;
+        }
+        .popupin1{
+            color: black;
+            display: block;
+            width: 40%;
+            position: absolute;
+            left: 30%; top: 25%;
+            font-style: italic;
+        }
+        .popupin1 p{
+            margin: 0;
+            font-size: 12px;
+        }
+        .popupin1 input{
+            border-style: none;
+            border-bottom-style: double;
+        }
+        .popupin2 input{
+            border-style: none;
+            border-bottom-style: double;
+        }
+        .popupin2{
+            color: black;
+            display: block;
+            width: 40%;
+            position: absolute;
+            left: 30%; top: 45%;
+            font-style: italic;
+        }
+        .popupbtn{
+            position: absolute;
+            left: 45%; top: 70%;
+        }
 
 
 
