@@ -7,6 +7,37 @@
             margin: 0px;
             width: 55%;height: 30px;
     }
+
+    .popupin1{
+            color: black;
+            display: block;
+            width: 40%;
+            position: absolute;
+            left: 15%; top: 25%;
+            font-style: italic;
+        }
+        .popupin1 input:focus{
+            border-bottom-style: double;
+        }
+        .popupin2 input:focus{
+            border-bottom-style: double;
+        }
+        .popupin2{
+            color: black;
+            display: block;
+            width: 40%;
+            position: absolute;
+            left: 15%; top: 45%;
+            font-style: italic;
+        }
+        .popupbtn{
+            position: absolute;
+            left: 40%; top: 70%;
+        }
+    .imgex{
+            height: 100%;
+            display: block;
+        }
 }
 
 /*  태블릿  */
@@ -16,7 +47,10 @@
 
 /*  pc  */
 @media screen and (min-width:1024px){
-
+.imgex{
+            height: 200px;
+            display: block;
+        }
 
 
 }
