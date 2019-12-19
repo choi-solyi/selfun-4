@@ -1,5 +1,5 @@
 /*  모바일  */
-@media screen and (max-width:767px){
+@media screen and (min-width:500px) and (max-width:767px){
     /*body{
         background-color:ivory;
         width: 90%;
