@@ -10,11 +10,13 @@
     <link rel="stylesheet" href="style/index.css">
     <link rel="stylesheet" href="style/main.css">
     <link rel="stylesheet" href="style/mainbigimg.css">
+    <link rel="stylesheet" href="style/index_sideMenu.css">
 
 
     <!-------------뷰포트------------->
     <meta name="viewport" content="width=device-width initial-scale=1.0 minimum-scale=1.0">
     <link rel="stylesheet" href="style/media-size.css">
+
     <!-------------스타일 시트 수정 금지 여기까지----------------->
 
     <!-----------------이 페이지 전용 스타일 시트----------------->
@@ -22,35 +24,58 @@
     <link rel="stylesheet" type="text/css" href="./slick/slick.css">
     <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
 
+    <style>
+        .tab{
+            width: 200px;
+
+        }
+    </style>
     <!-----------------이 페이지 전용 스타일 시트----------------->
 
     <!-----------------js파일 수정 금지----------------->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="js/index.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/headerfooter.js"></script>
+
+    <script src="js/index_sideMenu.js"></script>  <!--sidemenu-->
     <!-----------------js파일 수정 금지 여기까지----------------->
+        <!--test-->
+     <script>
+       $(document).ready(function() {
+            $.ajax({
+                url: 'asidetest.html',
+
+                success: function(data) {
+                    $('.tab').html(data);
+                    console.log(data);
+                }
+            });
+        });
+    </script>
+    <!--test-->
 </head>
 
 <body>
     <!----------------- 이벤트 / 마이페이지 버튼 / 로고 / 회원가입. 로그인 --------------------->
-    <header>
-        <div class="event"><a href="my5.html"> 셀펀 팝업 스토어 오픈</a></div>
+    <header id="header">
+       <!-- <div class="event"><a href="my5.html"> 셀펀 팝업 스토어 오픈</a></div>
         <div class="mypage"><a href="#"><img src="img/mymenu.png" alt="메뉴"></a></div>
         <div class="logo"><a href="main.html"><img src="img/logo.jpg" alt="셀펀로고"></a></div>
         <div class="login">
             <p><a href="#">회원가입</a><a href="#">로그인</a>
-        </div>
+        </div>-->
         <!--  <img src="img/logo.jpg" alt="logo" id="logo"> -->
     </header>
     <!----------------------------- 내비게이션 ----메뉴  ----------------------------------->
-    <nav>
-        <ul class="mainnav">
+    <nav id="nav">
+      <!--  <ul class="mainnav">
             <li><a href="menu1.html">셀펀</a></li>
             <li><a href="menu2.html">아티스트</a></li>
             <li><a href="menu3.html">신규</a></li>
             <li><a href="menu4.html">오픈 예정</a></li>
             <li><a href="menu5.html">성공 사례</a></li>
-        </ul>
+        </ul>-->
     </nav>
 
     <!---------------------------------------------------------------------------------
@@ -170,8 +195,9 @@
 
         <!------------------메인 화면 aside 실시간 랭킹------------------>
         <aside class="tab">
-            <h3>실시간 랭킹</h3>
-            <ul>
+          <h3>실시간 랭킹</h3>
+              <div class="ranktest"></div>
+               <!--  <ul>
                 <li class="m1">
                     <h3><a href="#">투자</a></h3>
                     <div class="lis1">
@@ -225,7 +251,7 @@
                             </div>
                         </div>
                         <div class="items">
-                            <!-- <div id="item1">
+                             <div id="item1">
                             <a href="#">
                                 <p id="title2">교육혁신기업 | 교육분야 최대 펀딩액 기록 | 자녀미래투자</p>
                                 <p id="per">87%</p>
@@ -233,7 +259,7 @@
                             </a></div>
                         <div id="item1img">
                             <img src="img/main/rank1-4">
-                        </div>-->
+                        </div>
                         </div>
                     </div>
                 </li>
@@ -290,7 +316,7 @@
                         </div>
                     </div>
                 </li>
-            </ul>
+            </ul>-->
         </aside>
         <!------------------메인 화면 aside 실시간 랭킹 요기까지 ------------------>
 
@@ -380,7 +406,27 @@
         <!------------------메인 화면 하단 버튼------------------>
     </article>
     <!--------------------------------------- 푸터 --------------------------------------->
-    <footer id="footer"></footer>
+    <footer id="footer">
+        <!--<div>
+            <div id="explain">셀펀은 플랫폼 제공자로서 프로젝트의 당사자가 아니며, 직접적인 통신판매를 진행하지 않습니다. 프로젝트의 완수 및 선물제공의 책임은 해당 프로젝트의 창작자에게 있으며, 프로젝트와 관련하여 후원자와 발생하는 법적 분쟁에 대한 책임은 해당 창작자가 부담합니다.</div>
+            <div id="cs">
+                <p>셀펀 대표 고객 센터 <br>1577-4444<br>info@selfun.com
+            </div>
+            <div id="blog">
+                개발자
+                <a href="#">최솔이</a>
+                <a href="#">하화수</a>
+                <a href="#">이병운</a>
+                <a href="#">박승태</a>
+                <a href="#">임동진</a>
+            </div>
+            <div id="addr">
+                <p>대표이사 최솔이 | 사업자 등록번호 123-22-444555 |
+                    서울시 서초구 강남대로 459 (서초동, 백암빌딩) |
+                    © selfun Co., Ltd.</p>
+            </div>
+        </div>-->
+    </footer>
 </body>
 
 </html>

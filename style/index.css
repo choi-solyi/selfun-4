@@ -34,7 +34,7 @@ article{
 }
 footer{
     clear: both;
-    margin: auto !important;
+    margin: 30px auto !important;
     width: 100% !important; height: 210px;
     background-color: #cccccc;
 }
@@ -138,8 +138,6 @@ ul.mainnav li a:hover{
 }
 
 /*    5. 푸터    */
-footer{
-}
 
 .footerlist, .explain, .cs, .addr{
     color: #181818;
