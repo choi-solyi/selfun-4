@@ -97,125 +97,62 @@ a:link{
     float: right;
     width: 300px;
     height: 400px;
-
-    padding: 27px 2px;
+    padding: 5px;
+    margin: 30px 5px;
     position: relative;
 }
 
-.tab ul li {
-    list-style: none;
-    display: inline-block;
-    margin: 0px;
-    padding: 0px;
-    float: left;
-    position: relative;
+html, body {height:100%}
+        .ranking {
 
-}
+        }
 
-.tab ul li h3 a {
-    margin: 5px 0px;
-    display: inline-block;
-    padding: 2px 10px;
-    border-top: 1px solid silver;
-    border-bottom: 1px solid silver;
-}
+        .ranking ul {
+            list-style: none;
+            padding: 0px 25px;
+        }
 
-.tab a {
-    text-decoration: none;
-    color: black;
-    font-size: 0.8em;
-}
+        .ranking ul li {
+            width: 300px;
+            height: 80px !important;
+            padding: 0px 10px;
+            margin: 10px 20px 0px 0px;
+            background-color: white;
+            position: relative;
+            right: 30px;
+        }
 
-.tab h3 + div {
-    position: absolute;
-    left: 50px;
-    width: 350px;
-    display: none;
-}
+        .ranking ul li a:link,
+        :visited {
+            color: #181818;
+            text-decoration: none;
+        }
 
-.tab h3 + div a {
-    margin-left: 15px;
-    display: block;
+        .ranking img {
+            float: right;
+            position: relative;
+            right: -1%;
+            height: 80px;
+            padding: 0;
+        }
 
-}
+        .ranking .title {
+            font-size: 13px;
+            margin: 0px;
+            height: 45px;
+            overflow: hidden;
+            line-height: 21px;
+            width: 180px
+        }
+        .nums, .pers{
+            padding: 8px;
+            margin: 4px 0px 0px;
 
-.title2 {
-    font-weight: 800;
-
-}
-
-.tab li p {
-    padding: 0px;
-    margin: 0px;
-}
-
-
-.tab > .per {
-    float: left;
-    padding: 0px 5px;
-    margin: 0px 4px;
-}
-
-.cate {
-    position: relative;
-    bottom: 16px;
-    float: right;
-    padding: 0px 5px;
-    margin: 0px 4px;
-}
-
-.lis1 a, .lis2 a{
-    width: 200px;
-    position: relative;
-    right: 50px;
-}
-
-.lis2 a {
-    position: relative;
-    right: 125px;
-}
-.lis2 img{
-    position: relative;
-    right: 75px;
-}
-
-
-.item1 {
-    float: left;
-    position: relative;
-    right: 14px;
-    padding: 7px 0px;
-
-}
-
-.item1img {
-    position: relative;
-    padding: 10px 0px;
-    right: 57px;
-    bottom: 5px;
-
-}
-
-.item2 {
-    float: left;
-    position: relative;
-    right: 10px;
-    padding: 7px 0px;
-}
-
-.item2img {
-    position: relative;
-    padding: 10px 0px;
-    right: 134px;
-    bottom: 5px;
-}
-
-li img {
-    width: 90px;
-    padding: 3px 0px;
-    position: relative;
-}
-
+        }
+        .pers{
+            color: skyblue;
+            font-weight: 800;
+        }
 /*  5. 메인 sec        */
 
 
