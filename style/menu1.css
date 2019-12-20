@@ -23,16 +23,13 @@ a:link, a:visited, a:active a:focus, a:hover{
     text-align: center;
     border-bottom: 1px solid silver;
 }
-#logoex h4{
-    font-weight: bold;
-    padding: 20px;
-}
+
 #logoex img{
     padding: 15px;
 }
 #logoex p{
-    padding: 2% 2%;
-    font-size: 1.4em;
+    padding: 2% 4%;
+    font-size: 1.2em;
 
 }
 /*  3. 펀딩 단계    */
@@ -43,38 +40,42 @@ a:link, a:visited, a:active a:focus, a:hover{
 }
 
 #maru img{
-    width: 150px;
+    width: 180px;
 }
 
 #maru1 p{
-    width: 140px;
+    width: 180px;
 }
 #maru1{
     display: inline-block;
     vertical-align: text-top;
-    padding: 15px 50px;
+    padding: 15px 30px;
 }
 #startProject{
     text-align: center;
-    width: 300px; height: 50px;
+    width: 300px; height: 30px;
     background-color: cornflowerblue;
     color: white;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 700;
-    padding: 8px;
-    margin: 0 auto;
+    padding: 10px;
+    margin: auto;
+
+    margin-top: 20px !important;
+    margin-bottom: 50px !important;
+    border-radius: 5px;
 
 }
 /*  4. 서로 다른 관점에서의 셀펀   */
 #for{
     text-align: center;
-    padding: 20px;
+    padding: 20px 20px 0px 20px;
     border-bottom: 1px solid silver;
 }
 #fors{
     display: inline-block;
     vertical-align: text-top;
-    padding: 15px 20px;
+    padding: 15px 5px;
     width: 240px;
 }
 #forwho{
@@ -83,52 +84,58 @@ a:link, a:visited, a:active a:focus, a:hover{
 
 #makeline{
     border: 2px solid pink;
-    width: 180px;
+    width: 130px;
     padding: 0px 40px;
     margin: 10px auto;
 }
 #brandline{
     border: 2px solid skyblue;
-    width: 180px;
+    width: 130px;
     padding: 0px 40px;
     margin: 10px auto;
 }
 #campline{
     border: 2px solid lightgreen;
-    width: 180px;
+    width: 130px;
     padding: 0px 40px;
     margin: 10px auto;
 }
 
 #tit{
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 600;
 }
 #exp{
-    font-size: 13px;
+    font-size: 14px;
     height: 160px
 }
 
 #makebtn{
     background-color: pink;
-    width: 150px;
-    margin: 0 auto;
-    padding: 7px;
+    width: 180px;
+    margin: 0px auto;
+    margin-bottom: 50px !important;
+    padding: 7px ;
     font-weight: 700;
+    border-radius: 5px;
 }
 #brandbtn{
     background-color: skyblue;
-    width: 150px;
+    width: 180px;
     margin: 0 auto;
+    margin-bottom: 50px !important;
     padding: 7px;
     font-weight: 700;
+    border-radius: 5px;
 }
 #campbtn{
     background-color: lightgreen;
-    width: 150px;
+    width: 180px;
     margin: 0 auto;
+    margin-bottom: 50px !important;
     padding: 7px;
     font-weight: 700;
+    border-radius: 5px;
 }
 /*  5. 셀펀의 장점   */
 
@@ -153,9 +160,9 @@ a:link, a:visited, a:active a:focus, a:hover{
 }
 
 #hs{
-    font-size: 20px;
+    font-size: 22px !important;
     text-align: center;
-    font-weight:
+    font-weight:700;
 }
 
 
@@ -176,7 +183,7 @@ a:link, a:visited, a:active a:focus, a:hover{
 #last1{
     margin: 20px auto;
     width:  160px;
-    height: 50px;
+    height: 20px;
     text-align: center;
     padding: 15px;
     color: white;

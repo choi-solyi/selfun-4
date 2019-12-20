@@ -160,6 +160,8 @@ ul.footerlist{
     padding: 0.6% 1.1%;
     margin: 0% 1.3%;
     background: #a8a8a8;
+
+    border-radius: 5px;
 }
 .footerlist a:link, .footerlist a:visited, .footerlist a:hover{
     color: white;
