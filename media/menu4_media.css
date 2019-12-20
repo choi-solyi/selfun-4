@@ -1,7 +1,7 @@
 /*  모바일  */
 @media screen and (max-width:767px){
     .item1,.item2{
-        width: 50%;
+        width: 90%;
     }
     .hugiex input{
             margin: 0px;
