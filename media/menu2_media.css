@@ -1,3 +1,14 @@
+@media screen and (max-width:500px){
+      /*제목없애기*/
+    #block1 b{
+        display: none;
+    }
+    #searchbox{
+        /*검색박스*/
+        position: relative;
+        width: 470px;
+    }
+}
 /*  모바일  */
 @media screen and (min-width:500px) and (max-width:767px){
     /*body{
@@ -26,6 +37,23 @@
     .thumbnail .line{
         min-width: 430px;
     }
+   /*제목없애기*/
+    #block1 b{
+        display: none;
+    }
+    #searchbox{
+        /*검색박스*/
+        position: relative;
+        width: 470px;
+    }
+    #search {
+        /*검색안에칸*/
+        width: 180px;
+    }
+    select{
+        /*기준*/
+        width: 100px;
+    }
 }
 
 /*  태블릿  */
@@ -38,12 +66,12 @@
         width: 75%;
     }*/
     .thumbnail{
-        min-width: 290px;
+        min-width: 265px;
         min-height: 190px;
         margin: 5px 10px 10px ;
     }
     .thumbnail img{
-        min-width: 290px;
+        min-width: 265px;
         min-height: 190px;
     }
     .thumbnail b{
@@ -53,7 +81,7 @@
         font-size: 12px;
     }
     .thumbnail .line{
-        min-width: 290px;
+        min-width: 265px;
     }
 }
 
