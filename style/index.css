@@ -23,16 +23,14 @@ nav{
     clear: both;
     /*width: 55%;*/
     position: relative;
-    margin: 0% 3% auto;
+    margin: 0% auto;
     margin-top: 10px;
     background-color: #f8f8f8;
 }
 article{
     /*width: 55%;*/
     position: relative;
-    top: -30px;
     margin:  auto;
-    margin-top: 10px;
 }
 footer{
     clear: both;
