@@ -12,6 +12,9 @@
 */
 
 /*   1. 전체 레이아웃 (헤더 내비 아티클 푸터)    */
+a:link{
+    text-decoration: none;
+}
 body{
     margin: 0px auto !important;
     padding: 0px;
