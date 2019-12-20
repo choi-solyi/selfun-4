@@ -1,16 +1,5 @@
-@media screen and (max-width:500px){
-      /*제목없애기*/
-    #block1 b{
-        display: none;
-    }
-    #searchbox{
-        /*검색박스*/
-        position: relative;
-        width: 470px;
-    }
-}
 /*  모바일  */
-@media screen and (min-width:500px) and (max-width:767px){
+@media screen and (max-width:767px){
     /*body{
         background-color:ivory;
         width: 90%;
@@ -29,7 +18,7 @@
         min-height: 300px;
     }
     .thumbnail b{
-        font-size: 16px;
+        font-size: 18px;
     }
     .thumbnail p{
         font-size: 13px;
@@ -52,7 +41,7 @@
     }
     select{
         /*기준*/
-        width: 100px;
+        width: 98px;
     }
 }
 
@@ -66,22 +55,22 @@
         width: 75%;
     }*/
     .thumbnail{
-        min-width: 265px;
-        min-height: 190px;
+        min-width: 360px;
+        min-height: 300px;
         margin: 5px 10px 10px ;
     }
     .thumbnail img{
-        min-width: 265px;
-        min-height: 190px;
+        min-width: 360px;
+        min-height: 240px;
     }
     .thumbnail b{
-        font-size: 14px;
+        font-size: 20px;
     }
     .thumbnail p{
-        font-size: 12px;
+        font-size: 11px;
     }
     .thumbnail .line{
-        min-width: 265px;
+        min-width: 360px;
     }
 }
 

@@ -3,24 +3,28 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Selfun</title>
+    <title>셀 펀</title>
 
     <link rel="stylesheet" href="style/index.css">
 
     <meta name="viewport" content="width=device-width initial-scale=1.0 minimum-scale=1.0">
     <!--<meta name="viewport" content="width=device-width">-->
     <link rel="stylesheet" href="style/media-size.css">
-
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <!--    부트스트랩 시작
     <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js">
     부트스트랩 끝-->
 
-
     <!--sideMenu css 링크-->
     <link rel="stylesheet" href="style/index_sideMenu.css">
+    <script src="js/index_sideMenu.js"></script>
     <!--sideMenu css 링크 끝-->
+
+    <script src="js/headerfooter.js"></script>
 
     <!--menu2 css-->
     <link rel="stylesheet" href="style/menu2.css">
@@ -34,102 +38,8 @@
 </head>
 
 <body>
-    <header>
-        <div class="event"><a href="#"> Event 바로가기 >></a></div>
-        <!-- SideMenu 시작 -->
-        <div id="wrapper">
-            <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
-                <ul class="nav sidebar-nav">
-                    <li class="sidebar-brand">
-                        <a href="#"> selfun </a>
-                    </li>
-
-                    <li>
-                        <a href="index.html">
-                            <i class="fa fa-fw fa-home"></i>
-                            홈</a>
-                    </li>
-
-                    <!--      <li>
-          <a href="#">
-          <i class="fa fa-fw fa-folder">
-          </i> Page one</a>
-      </li>-->
-
-                    <li>
-                        <a href="my1.html">
-                            <i class="fa fa-fw fa-file-o"></i>
-                            공지사항</a>
-                    </li>
-
-                    <li>
-                        <a href="#">
-                            <i class="fa fa-fw fa-cog"></i>
-                            selfun</a>
-                    </li>
-                    <!--    드롭다운 시작 -->
-                    <!--
-      <li class="dropdown">
-       <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-       <i class="fa fa-fw fa-plus"></i> Dropdown <span class="caret">
-       </span></a>
-        <ul class="dropdown-menu" role="menu">
-          <li class="dropdown-header">Dropdown heading</li>
-          <li><a href="#">Action</a></li>
-          <li><a href="#">Another action</a></li>
-          <li><a href="#">Something else here</a></li>
-          <li><a href="#">Separated link</a></li>
-          <li><a href="#">One more separated link</a></li>
-        </ul>
-      </li>
--->
-                    <!--드롭다운 끝-->
-
-                    <li>
-                        <a href="my3.html">
-                            <i class="fa fa-fw fa-bank"></i>
-                            FAQ</a>
-                    </li>
-                    <li>
-                        <a href="my4.html">
-                            <i class="fa fa-fw fa-dropbox">
-                            </i> 주문 / 상품</a>
-                    </li>
-                    <li>
-                        <a href="my5.html">
-                            <i class="fa fa-fw fa-twitter"></i>
-                            이벤트</a>
-                    </li>
-                </ul>
-            </nav>
-            <!-- /#sidebar-wrapper -->
-
-            <!-- Page Content -->
-            <div id="page-content-wrapper mypage">
-                <button type="button" class="hamburger is-closed animated fadeInLeft" data-toggle="offcanvas">
-                    <span class="hamb-top"></span>
-                    <span class="hamb-middle"></span>
-                    <span class="hamb-bottom"></span>
-                </button>
-            </div>
-        </div>
-        <!-- SideMenu 끝 -->
-        <div class="logo"><a href="#"><img src="img/logo.jpg" alt="셀펀로고"></a></div>
-        <div class="login">
-            <p><a href="#">회원가입</a><a href="#">로그인</a>
-        </div>
-        <!--  <img src="img/logo.jpg" alt="logo" id="logo"> -->
-    </header>
-    <nav>
-        <ul class="mainnav">
-            <li><a href="menu1.html">셀펀</a></li>
-            <li><a href="manu2.html">아티스트</a></li>
-            <li><a href="menu3.html">신규</a></li>
-            <li><a href="menu4.html">오픈 예정</a></li>
-            <li><a href="menu5.html">성공 사례</a></li>
-
-        </ul>
-    </nav>
+    <header id="header"></header>
+    <nav id="nav"></nav>
 
     <article>
     <div>
@@ -324,7 +234,7 @@
                 <!-- thumbnail 12 -->
                 <div class="thumbnail">
                     <a href="goods.html"><img src="https://cdn.wadiz.kr/wwwwadiz/green001/2018/0307/20180307134802676_17710.jpg/wadiz/format/jpg" alt="유니유노"></a>
-                    <a href="goods.html"><b>사진으로 담을 수 없는 순간의 기록</b></a>
+                    <a href="goods.html"><b>[기록을 담다]사진으로 담을 수 없는 순간의 기록</b></a>
                     <p>디자인소품<span> | </span>유니유노</p>
                     <div class="line"></div>
                     <div><span class="left"><b class="num">0%</b>ㆍ0원</span><span class="right">9일 남음</span></div>
@@ -380,7 +290,7 @@
                 <!-- thumbnail 19 -->
                 <div class="thumbnail">
                     <a href="goods.html"><img src="https://cdn.wadiz.kr/wwwwadiz/green001/2019/1111/20191111041900042_51800.jpg" alt="토들윙"></a>
-                    <a href="goods.html"><b>반려동물 건강지킴이! 펫라이트 테라피</b></a>
+                    <a href="goods.html"><b>[토들윙]반려동물 건강지킴이! 펫라이트 테라피</b></a>
                     <p>반려동물<span> | </span>토들윙</p>
                     <div class="line"></div>
                     <div><span class="left"><b class="num">80%</b>ㆍ1,790,000원</span><span class="right">19일 남음</span></div>
@@ -622,7 +532,7 @@
                 <!-- thumbnail 49 -->
                 <div class="thumbnail">
                     <a href="goods.html"><img src="https://cdn.wadiz.kr/wwwwadiz/green002/2019/0520/20190520142428340_35724.jpg" alt="스튜디오 록"></a>
-                    <a href="goods.html"><b>한 장 한장, 다 탐나는 예쁜 사진엽서북</b></a>
+                    <a href="goods.html"><b>[스튜디오 록]한 장 한장, 다 탐나는 예쁜 사진엽서북</b></a>
                     <p>디자인소품<span> | </span>스튜디오 록</p>
                     <div class="line"></div>
                     <div><span class="left"><b class="num">1%</b>ㆍ23,000원</span><span class="right">9일 남음</span></div>
@@ -719,46 +629,12 @@
             <!-- thumbnail end -->
         </div>
     </article>
-    <footer>
-        <div>
-            <div id="explain">셀펀은 플랫폼 제공자로서 프로젝트의 당사자가 아니며, 직접적인 통신판매를 진행하지 않습니다. 프로젝트의 완수 및 선물제공의 책임은 해당 프로젝트의 창작자에게 있으며, 프로젝트와 관련하여 후원자와 발생하는 법적 분쟁에 대한 책임은 해당 창작자가 부담합니다.</div>
-            <div id="cs">
-                <p>셀펀 대표 고객 센터 <br>1577-4444<br>info@selfun.com
-            </div>
-            <div id="blog">
-                개발자
-                <a href="#">최솔이</a>
-                <a href="#">하화수</a>
-                <a href="#">이병운</a>
-                <a href="#">박승태</a>
-                <a href="#">임동진</a>
-            </div>
-            <div id="addr">
-                <p>대표이사 최솔이 | 사업자 등록번호 123-22-444555 |
-                    서울시 서초구 강남대로 459 (서초동, 백암빌딩) |
-                    © selfun Co., Ltd.</p>
-            </div>
-
-
-
-        </div>
-
-    </footer>
+    <footer id="footer"></footer>
 
 
     <!--index js 시작-->
     <script src="js/index.js"></script>
     <!--index js 끝-->
-
-    <!--    jquery 스크립트 시작-->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
-    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <!--    jquery 스크립트 끝-->
-
-    <!--sidemenu 스크립트 시작-->
-    <script src="js/index_sideMenu.js"></script>
-    <!--sidemenu 스크립트 끝-->
 
     <!--menu2 스크립트-->
     <script src="js/menu2.js"></script>
