@@ -3,7 +3,7 @@
 
     body{
         /*background-color:ivory;*/
-        width: 90%;
+        width: 100%;
         font-size: 0.79em;
     }
     ul.mainnav li{
@@ -16,7 +16,7 @@
 /*  태블릿  */
 @media screen and (min-width:768px) and (max-width:1023px){
     body{
-        width: 75%;
+        width: 100%;
         /*background-color:lightblue;*/
     }
 }
