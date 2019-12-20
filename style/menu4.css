@@ -54,18 +54,17 @@
             transform: scale(1.1);
         }
 /*상품사진 좌측상단 글자*/
-        .sbody a{
-            text-decoration: none;
-            color: black;
-        }
         .sbody a:hover{
             font-weight: bold;
         }
-        .imgName a{
+        .imgName{
             position: absolute;
             margin: 7px;
             font-size: 12px;
             color: white;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
         }
 /*상품 제목 내용 제품담당*/
         .imgex{
@@ -77,6 +76,11 @@
             font-size: 12px;
             position: relative;
             top: -15px;
+            text-decoration: none;
+            color: black;
+        }
+        .sbody a:hover{
+            font-weight: bold;
         }
 /*상품 주문버튼*/
         .sbody #jumoon{
@@ -111,12 +115,19 @@
             width: 500px;
             margin: 20px auto;
         }
-        #jumoon,#rejumoon{
+        #jumoon{
             font-weight: bold;
             color: aliceblue;
         }
         #jumoon{
             font-size: 20px;
+        }
+        .rejumoon:hover{
+            transform: scale(1.03);
+        }
+        .rejumoon{
+            font-weight: bold;
+            color: aliceblue;
         }
 
 /*후기로 검증된 베스트 제품란*/

@@ -4,20 +4,22 @@
     border-top: 1px solid rgb(224, 224, 224);
 }
 #likeorder b{
-    width: 50%;
+    /*width: 50%;*/
     margin-bottom: 13px;
     border-bottom: 1px solid rgb(224, 224, 224);
     background-color: rgb(224, 224, 224,0.5);
 }
 #left{
+    width: 48%;
     float: left;
-    padding: 12px;
+    padding: 10px 7.5px;
     text-align: center;
     border-right: 1px solid rgb(224, 224, 224);
 }
 #right{
-    float: left;
-    padding: 12px;
+    width:48%;
+    float: right;
+    padding: 10px 8px;
     text-align: center;
 }
 #likeorder b a{
@@ -25,9 +27,9 @@
     color: rgb(158, 158, 158);
 }
 .like{
-    width: 29.7%;
+    width: 30%;
     display: inline-block;
-    margin: 5px 13px;
+    margin: 0px 11.5px 5px ;
 }
 .like img{
     min-width: 160px;
@@ -56,21 +58,6 @@
     top: 248px;
     color: red;
 }
-/*.like #heart1{
-    font-size: 24px;
-    position: relative;
-    bottom: 37px;
-    left: 165px;
-    color: black;
-    display: none;
-}*/
-/*.like #heart2{
-    font-size: 24px;
-    position: relative;
-    bottom: 37px;
-    left: 138px;
-    color: black;
-}*/
 .like b{
     text-decoration: none;
     font-size: 12px;

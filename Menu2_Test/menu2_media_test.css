@@ -1,17 +1,3 @@
-@media screen and (max-width:500px) {
-
-    /*제목없애기*/
-    #block1 b {
-        display: none;
-    }
-
-    #searchbox {
-        /*검색박스*/
-        position: relative;
-        width: 470px;
-    }
-}
-
 /*  모바일  */
 @media screen and (min-width:500px) and (max-width:767px) {
 
@@ -48,23 +34,37 @@
     /*카테고리 시작*/
     #navcg{
         display: none;
-    }
-    #navmoblie{
 
     }
-    .mobliebox{
-
+    #navmobile{
+        height: 100%;
+        background-color: white;
     }
-    .mobliebox ul{
-
+    .mobilebox{
+        width: 100%;
     }
-    .mobliebox ul li{
+    .mobilebox ul{
+        margin : 0px; padding: 0px;
+        width: 95%;
+    }
+    .mobilebox ul li{
+        display: inline-block;
         list-style: none;
+        width: 100px;
+        border: 1px solid rgb(224, 224, 224);
     }
-    .mobliebox ul li a{
-
+    .mobilebox ul li a{
+        text-decoration: none;
     }
-    .mobliebox ul li a p{
+    .mobilebox ul li a p{
+        color: black;
+        text-align: center;
+    }
+    .mobilebox button{
+        float: right;
+    }
+    .mobilebox i{
+        border: 1px solid transparent;
 
     }
     /*카테고리 끝*/

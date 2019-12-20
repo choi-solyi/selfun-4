@@ -1,40 +1,103 @@
 /*  모바일  */
-@media screen and (max-width:767px){
-   /* body{
-        background-color:ivory;
-        width: 90%;
-        font-size: 0.79em;
+@media screen and (max-width:767px) {
+    /*좋아요*/
+    #left {
+        width: 46.5%;
+        float: left;
+        padding: 10px 7.5px;
     }
-    ul.mainnav li{
+
+    #right {
+        width: 46.5%;
+        float: right;
+        padding: 10px 7.7px;
+    }
+
+    .like {
+        width: 95%;
+        display: inline-block;
+        margin: 0px 9.5px 5px;
+    }
+
+    .like img {
+        height: 300px;
+    }
+
+    .like b{
+        font-size: 15px;
+    }
+
+    #heart1 {
         position: relative;
-        top: 4px;
-    }*/
+        left: 400px;
+        top: 296px;
+    }
+
+    #heart2 {
+        position: relative;
+        left: 400px;
+        top: 296px;
+    }
+
+    #heart3 {
+        position: relative;
+        left: 400px;
+        top: 296px;
+    }
+    /*좋아요*/
 }
 
 /*  태블릿  */
-@media screen and (min-width:768px) and (max-width:1023px){
-    /*body{
-        width: 75%;
-        background-color:lightblue;
+@media screen and (min-width:768px) and (max-width:1023px) {
+    /*좋아요*/
+    #left {
+        width: 48%;
+        float: left;
+        padding: 10px 7.5px;
     }
-    #last_menu{
-        width: 75%;
-    }*/
+
+    #right {
+        width: 48%;
+        float: right;
+        padding: 10px 7px;
+    }
+
+    .like {
+        margin: 0px 9.5px 5px;
+    }
+
+    #heart1 {
+        font-size: 23px;
+        position: relative;
+        left: 205px;
+        top: 248px;
+    }
+
+    #heart2 {
+        font-size: 23px;
+        position: relative;
+        left: 205px;
+        top: 248px;
+    }
+
+    #heart3 {
+        font-size: 23px;
+        position: relative;
+        left: 205px;
+        top: 248px;
+    }
+    /*좋아요*/
+    /*주문배송*/
+    .text{
+        font-size: 14px;
+        margin: 20px 0px 0px;
 }
 
 /*  pc  */
-@media screen and (min-width:1024px){
-   /* body{
-        width: 804px;
-       background-color: lightcyan;
-    }
-    #last_menu{
-      width:804px;
-    }*/
+@media screen and (min-width:1024px) {
+
 }
 
 img {
-	/*max-width: 100%;
-	height: auto;
-	width: auto\9;  ie8 */
+
 }
