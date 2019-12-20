@@ -24,7 +24,9 @@
 
     /*  2. 셀펀 로고 및 소개   */
 
-    #logoex {}
+    #logoex {
+        padding: 5%;
+    }
 
     #logoex h4 {}
 
@@ -33,8 +35,15 @@
     #logoex p {}
 
     /*  3. 펀딩 단계    */
-    #maru {}
 
+    #maru{
+        padding: 5%
+    }
+
+    #fnd{
+        font-size:1.2em;
+        padding: 3%;
+    }
     #maru img {}
 
     #maru1 p {
@@ -49,13 +58,13 @@
 
     #startProject {
         font-size: 18px;
-        width: 200px; height: 45px;
+        width: 200px; height: 25px;
         padding: 12px
     }
 
     /*  4. 서로 다른 관점에서의 셀펀   */
     #for {
-        padding: 2%;
+        padding: 5%;
     }
 
     #fors {
@@ -71,9 +80,18 @@
 
     #campline {}
 
-    #tit {}
+    #tit {
+        font-size: 1.4em;
+        padding: 4% !important;
+    }
+    #exps{
+        font-size: 1.2em;
+    }
+    #exp {
+        font-size: 1.2em;
 
-    #exp {}
+
+    }
 
     #makebtn {}
 
@@ -83,8 +101,11 @@
 
     /*  5. 셀펀의 장점   */
     #hs{
-        font-size: 20px;
+        font-size: 25px !important;
         padding: 5px;
+    }
+    #for #hs{
+        padding: 0px 40px;
     }
     /*  6. 펀딩 신청 규약 */
     #strtproj {}
@@ -111,25 +132,37 @@
 }
 
 /*  태블릿  */
+
+
 @media screen and (min-width:768px) and (max-width:1023px) {
     body {
-        width: 75%;
         /*background-color:lightblue;*/
     }
+    #logoex{
+        padding: 2% 5%;
+    }
+    #maru{
+        padding: 5%;
+    }
     #maru1{
-        padding: 1.4%;
+        padding: 3%;
+    }
+    #maru>p{
+        font-size: 1.3em;
+    }
+    #for{
+        padding: 2% 5%;
     }
     #fors{
         padding: 1%;
-        margin: 1%;
-        width: 40%;
+        width: 28%;
         height: auto;
     }
     #tit{
-        font-size: 1.2em;
+        font-size: 1.05em;
     }
     #exp{
-        height: 210px;
+        height: 170px;
     }
     thr{
         height: 200px !important;
@@ -138,6 +171,11 @@
         position: relative;
         bottom: 40px;
     }
+    #makeline, #brandline, #campline{
+        width: 40%;
+    }
+
+
 }
 
 /*  pc  */
