@@ -23,9 +23,8 @@ nav{
     clear: both;
     /*width: 55%;*/
     position: relative;
-    top: -20px;
-    margin: 2% auto;
-    margin-top: 0px;
+    margin: 0% 3% auto;
+    margin-top: 10px;
     background-color: #f8f8f8;
 }
 article{
@@ -38,7 +37,7 @@ article{
 footer{
     clear: both;
     margin: auto !important;
-    width: 100% !important; height: 180px;
+    width: 100% !important; height: 210px;
     background-color: #cccccc;
 }
 
@@ -141,37 +140,50 @@ ul.mainnav li a:hover{
 }
 
 /*    5. 푸터    */
-footer div{
-    padding: 5px;
+footer{
+}
+
+.footerlist, .explain, .cs, .addr{
     color: #181818;
+    margin: 0.5% auto !important;
+    padding: 1.2% 4% 1% ;
 
 }
-
-#explain{
-    font-size: 0.8em;
-}
-#cs{
-    font-weight: 900;
-    font-size: 15px;
-    float: left;
-}
-#blog{
-    float:right;
-    margin:30px;
-    background-color: #cccccc;
-    display: none;
-}
-#blog a:visited, #blog a:link{
-    color: black;
+ul.footerlist{
+    list-style: none;
     text-decoration: none;
-    font-weight: 600;
-    font-size: 20px;
-    font-style: italic;
+    padding: 3% 4% 1%;
+
 }
-#addr p{
+.footerlist li{
+    display: inline-block;
+    font-weight: 200;
+    padding: 0.6% 1.1%;
+    margin: 0% 1.3%;
+    background: #181818;
+}
+.footerlist a:link, .footerlist a:visited, .footerlist a:hover{
+    color: white;
+    font-size: 0.9em;
+}
+
+
+.cs{
+    font-weight: 900;
+    font-size: 1em;
+
+}
+.addr p{
     clear: both;
     font-size: 0.8em;
 }
+.explain{
+
+    font-size: 0.6em;
+    margin: auto;
+
+}
+
 
 /*    js적용 클래스    */
 .menuclick{
