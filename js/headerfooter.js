@@ -7,7 +7,13 @@ $(document).ready(function () {
             console.log(data);
         }
     });
+    $.ajax({
+        url: 'nav.html',
 
+        success: function (data) {
+            $('#nav').html(data);
+        }
+    });
     $.ajax({
         url: 'footer.html',
 
