@@ -143,14 +143,14 @@ footer{
 
 .footerlist, .explain, .cs, .addr{
     color: #181818;
-    margin: 0.5% auto !important;
-    padding: 1.2% 4% 1% ;
+    margin: auto !important;
+    padding: 13px 20px 4px 20px;
 
 }
 ul.footerlist{
     list-style: none;
     text-decoration: none;
-    padding: 3% 4% 1%;
+    padding: 25px 12px 10px;
 
 }
 .footerlist li{
@@ -158,7 +158,7 @@ ul.footerlist{
     font-weight: 200;
     padding: 0.6% 1.1%;
     margin: 0% 1.3%;
-    background: #181818;
+    background: #a8a8a8;
 }
 .footerlist a:link, .footerlist a:visited, .footerlist a:hover{
     color: white;
