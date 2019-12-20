@@ -25,7 +25,7 @@ h3 {
     font-weight: 800;
 }
 a:link{
-    text-decoration: none;
+    text-decoration: none !important;
 }
 
 /*  2. 메인big          */
