@@ -4,202 +4,144 @@
 <head>
     <meta charset="UTF-8">
     <title>Selfun</title>
-
-    <link rel="stylesheet" href="style/index.css">
-
+    <link rel="stylesheet" href="../style/index.css">
+    <link rel="stylesheet" href="menu2_css_test.css">
     <meta name="viewport" content="width=device-width initial-scale=1.0 minimum-scale=1.0">
     <!--<meta name="viewport" content="width=device-width">-->
-    <link rel="stylesheet" href="style/media-size.css">
-
-    <!--    부트스트랩 시작
-    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js">
-    부트스트랩 끝-->
-
+    <link rel="stylesheet" href="../style/media-size.css">
+    <link rel="stylesheet" href="menu2_media_test.css">
+     <!--    jquery 스크립트 시작-->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <!--    jquery 스크립트 끝-->
+    <!--icon-->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <!--icon-->
+    <script src="../js/index.js"></script>
+    <script src="../js/headerfooter.js"></script>
 
     <!--sideMenu css 링크-->
-    <link rel="stylesheet" href="style/index_sideMenu.css">
+    <link rel="stylesheet" href="../style/index_sideMenu.css">
     <!--sideMenu css 링크 끝-->
-
-    <!--menu2 css-->
-    <link rel="stylesheet" href="style/menu2.css">
-    <link rel="stylesheet" href="media/menu2_media.css">
-    <!--menu2 css-->
-
-    <!--icon-->
-    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
-    <!--icon-->
 
 </head>
 
 <body>
-    <header>
-        <div class="event"><a href="#"> Event 바로가기 >></a></div>
-        <!-- SideMenu 시작 -->
-        <div id="wrapper">
-            <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
-                <ul class="nav sidebar-nav">
-                    <li class="sidebar-brand">
-                        <a href="#"> selfun </a>
-                    </li>
-
-                    <li>
-                        <a href="index.html">
-                            <i class="fa fa-fw fa-home"></i>
-                            홈</a>
-                    </li>
-
-                    <!--      <li>
-          <a href="#">
-          <i class="fa fa-fw fa-folder">
-          </i> Page one</a>
-      </li>-->
-
-                    <li>
-                        <a href="my1.html">
-                            <i class="fa fa-fw fa-file-o"></i>
-                            공지사항</a>
-                    </li>
-
-                    <li>
-                        <a href="#">
-                            <i class="fa fa-fw fa-cog"></i>
-                            selfun</a>
-                    </li>
-                    <!--    드롭다운 시작 -->
-                    <!--
-      <li class="dropdown">
-       <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-       <i class="fa fa-fw fa-plus"></i> Dropdown <span class="caret">
-       </span></a>
-        <ul class="dropdown-menu" role="menu">
-          <li class="dropdown-header">Dropdown heading</li>
-          <li><a href="#">Action</a></li>
-          <li><a href="#">Another action</a></li>
-          <li><a href="#">Something else here</a></li>
-          <li><a href="#">Separated link</a></li>
-          <li><a href="#">One more separated link</a></li>
-        </ul>
-      </li>
--->
-                    <!--드롭다운 끝-->
-
-                    <li>
-                        <a href="my3.html">
-                            <i class="fa fa-fw fa-bank"></i>
-                            FAQ</a>
-                    </li>
-                    <li>
-                        <a href="my4.html">
-                            <i class="fa fa-fw fa-dropbox">
-                            </i> 주문 / 상품</a>
-                    </li>
-                    <li>
-                        <a href="my5.html">
-                            <i class="fa fa-fw fa-twitter"></i>
-                            이벤트</a>
-                    </li>
-                </ul>
-            </nav>
-            <!-- /#sidebar-wrapper -->
-
-            <!-- Page Content -->
-            <div id="page-content-wrapper mypage">
-                <button type="button" class="hamburger is-closed animated fadeInLeft" data-toggle="offcanvas">
-                    <span class="hamb-top"></span>
-                    <span class="hamb-middle"></span>
-                    <span class="hamb-bottom"></span>
-                </button>
-            </div>
-        </div>
-        <!-- SideMenu 끝 -->
-        <div class="logo"><a href="#"><img src="img/logo.jpg" alt="셀펀로고"></a></div>
-        <div class="login">
-            <p><a href="#">회원가입</a><a href="#">로그인</a>
-        </div>
-        <!--  <img src="img/logo.jpg" alt="logo" id="logo"> -->
-    </header>
-    <nav>
-        <ul class="mainnav">
-            <li><a href="menu1.html">셀펀</a></li>
-            <li><a href="manu2.html">아티스트</a></li>
-            <li><a href="menu3.html">신규</a></li>
-            <li><a href="menu4.html">오픈 예정</a></li>
-            <li><a href="menu5.html">성공 사례</a></li>
-
-        </ul>
-    </nav>
-
+    <header id="header"></header>
+    <nav id="nav"></nav>
     <article>
-    <div>
-            <!--category start-->
+        <div>
+           <nav id="navmobile">
+              <div class="mobilebox">
+                 <ul>
+                     <li>
+                         <a href="#"><p>전체보기</p></a>
+                     </li>
+                     <li>
+                         <a href="#"><p>테크ㆍ가전</p></a>
+                     </li>
+                     <li>
+                         <a href="#"><p>패션ㆍ잡화</p></a>
+                     </li>
+                     <li>
+                         <a href="#"><p>뷰티</p></a>
+                     </li>
+                     <li>
+                         <a href="#"><p>홈리빙</p></a>
+                     </li>
+                     <li>
+                         <a href="#"><p>푸드</p></a>
+                     </li>
+                     <li>
+                         <a href="#"><p>디자인소품</p></a>
+                     </li>
+                     <li>
+                         <a href="#"><p>반려동물</p></a>
+                     </li>
+                     <li>
+                         <a href="#"><p>공연ㆍ컬쳐</p></a>
+                     </li>
+                     <li>
+                         <a href="#"><p>교육ㆍ키즈</p></a>
+                     </li>
+                     <li>
+                         <a href="#"><p>캠페인</p></a>
+                     </li>
+                 </ul>
+                 <button><i class="fas fa-chevron-down"></i></button>
+
+              </div>
+
+           </nav>
+
+            <!--category start  pc, 태블릿기준-->
             <!--<div>-->
             <nav id="navcg">
                 <div class="container">
                     <div class="g-scrolling-carousel">
                         <div class="items">
-                            <a href="menu2.html"><img src="img/menu2/category.png" alt="전체보기">
+                            <a href="menu2.html"><img src="../img/menu2/category.png" alt="전체보기">
                                 <br>
                                 <p>전체보기</p>
                             </a>
 
 
-                            <a href="menu2_category/category_1.html"><img src="img/menu2/category_tech.jpg" alt="테크ㆍ가전">
+                            <a href="menu2_category/category_1.html"><img src="../img/menu2/category_tech.jpg" alt="테크ㆍ가전">
                                 <br>
                                 <p>테크ㆍ가전</p>
                             </a>
 
 
-                            <a href="menu2_category/category_2.html"><img src="img/menu2/category_fashion1.jpg" alt="패션ㆍ잡화">
+                            <a href="menu2_category/category_2.html"><img src="../img/menu2/category_fashion1.jpg" alt="패션ㆍ잡화">
                                 <br>
                                 <p>패션ㆍ잡화</p>
                             </a>
 
 
-                            <a href="menu2_category/category_3.html"><img src="img/menu2/category_beauty.jpg" alt="뷰티">
+                            <a href="menu2_category/category_3.html"><img src="../img/menu2/category_beauty.jpg" alt="뷰티">
                                 <br>
                                 <p>뷰티</p>
                             </a>
 
 
-                            <a href="menu2_category/category_4.html"><img src="img/menu2/category_homeliving.jpg" alt="홈리빙">
+                            <a href="menu2_category/category_4.html"><img src="../img/menu2/category_homeliving.jpg" alt="홈리빙">
                                 <br>
                                 <p>홈리빙</p>
                             </a>
 
 
-                            <a href="menu2_category/category_5.html"><img src="img/menu2/category_food2.jpg" alt="푸드">
+                            <a href="menu2_category/category_5.html"><img src="../img/menu2/category_food2.jpg" alt="푸드">
                                 <br>
                                 <p>푸드</p>
                             </a>
 
 
-                            <a href="menu2_category/category_6.html"><img src="img/menu2/category_design.png" alt="디자인소품">
+                            <a href="menu2_category/category_6.html"><img src="../img/menu2/category_design.png" alt="디자인소품">
                                 <br>
                                 <p>디자인소품</p>
                             </a>
 
 
-                            <a href="menu2_category/category_7.html"><img src="img/menu2/category_animal.jpg" alt="반려동물">
+                            <a href="menu2_category/category_7.html"><img src="../img/menu2/category_animal.jpg" alt="반려동물">
                                 <br>
                                 <p>반려동물</p>
                             </a>
 
 
-                            <a href="menu2_category/category_8.html"><img src="img/menu2/category_performance.jpg" alt="공연ㆍ컬쳐">
+                            <a href="menu2_category/category_8.html"><img src="../img/menu2/category_performance.jpg" alt="공연ㆍ컬쳐">
                                 <br>
                                 <p>공연ㆍ컬쳐</p>
                             </a>
 
 
-                            <a href="menu2_category/category_9.html"><img src="img/menu2/category_kids.jpg" alt="교육ㆍ키즈">
+                            <a href="menu2_category/category_9.html"><img src="../img/menu2/category_kids.jpg" alt="교육ㆍ키즈">
                                 <br>
                                 <p>교육ㆍ키즈</p>
                             </a>
 
 
-                            <a href="menu2_category/category_10.html"><img src="img/menu2/category_campaign.jpg" alt="캠페인">
+                            <a href="menu2_category/category_10.html"><img src="../img/menu2/category_campaign.jpg" alt="캠페인">
                                 <br>
                                 <p>캠페인</p>
                             </a>
@@ -229,7 +171,7 @@
                 </div>
             </form>
             <!--</div>-->
-            <!--category end-->
+            <!--category end pc, 태블릿기준-->
             <div id="block1line"></div>
             <!-- thumbnail start -->
             <div id="block2">
@@ -719,49 +661,15 @@
             <!-- thumbnail end -->
         </div>
     </article>
-    <footer>
-        <div>
-            <div id="explain">셀펀은 플랫폼 제공자로서 프로젝트의 당사자가 아니며, 직접적인 통신판매를 진행하지 않습니다. 프로젝트의 완수 및 선물제공의 책임은 해당 프로젝트의 창작자에게 있으며, 프로젝트와 관련하여 후원자와 발생하는 법적 분쟁에 대한 책임은 해당 창작자가 부담합니다.</div>
-            <div id="cs">
-                <p>셀펀 대표 고객 센터 <br>1577-4444<br>info@selfun.com
-            </div>
-            <div id="blog">
-                개발자
-                <a href="#">최솔이</a>
-                <a href="#">하화수</a>
-                <a href="#">이병운</a>
-                <a href="#">박승태</a>
-                <a href="#">임동진</a>
-            </div>
-            <div id="addr">
-                <p>대표이사 최솔이 | 사업자 등록번호 123-22-444555 |
-                    서울시 서초구 강남대로 459 (서초동, 백암빌딩) |
-                    © selfun Co., Ltd.</p>
-            </div>
+    <footer id="footer"></footer>
 
-
-
-        </div>
-
-    </footer>
-
-
-    <!--index js 시작-->
-    <script src="js/index.js"></script>
-    <!--index js 끝-->
-
-    <!--    jquery 스크립트 시작-->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
-    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <!--    jquery 스크립트 끝-->
 
     <!--sidemenu 스크립트 시작-->
     <script src="js/index_sideMenu.js"></script>
     <!--sidemenu 스크립트 끝-->
 
     <!--menu2 스크립트-->
-    <script src="js/menu2.js"></script>
+    <script src="menu2_js_test.js"></script>
     <script>
         $(document).ready(function() {
             $(".g-scrolling-carousel .items").gScrollingCarousel();
@@ -782,7 +690,6 @@
             s.parentNode.insertBefore(ga, s);
         })();
     </script>
-    <!--menu2 스크립트-->
-</body>
 
-</html>
+</body></html>
+
