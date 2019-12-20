@@ -13,7 +13,9 @@ h3 {
     margin: 2px 10px;
     padding: 3px;
 }
-
+img{
+    border-radius: 3px;
+}
 .per {
     color: #7b94ff;
     font-weight: 800;
@@ -39,6 +41,7 @@ a:link{
     width: 190px;
     height: 260px;
     border: 1px solid silver;
+    border-radius: 10px;
 }
 
 .title {
@@ -90,6 +93,7 @@ a:link{
     bottom: 20px;
     right: 10px;
     background-color: antiquewhite;
+    border-radius: 5px;
 }
 
 /*  4. 메인 랭킹        */
@@ -177,6 +181,7 @@ html, body {height:100%}
     border: 1px solid silver;
     margin: 10px;
     background-color: white;
+    border-radius: 5px;
 }
 
 .mainsec ul li a:link,
@@ -218,6 +223,7 @@ html, body {height:100%}
     padding: 4px 0px;
 
     background-color: #7b94ff;
+    border-radius: 5px;
 }
 
 #barogagi a:link,
@@ -228,5 +234,7 @@ a:visited {
 #barogagi p {
     color: white;
     text-align: center;
-    font-size: 2em;
+    font-size: 1.3em;
+    margin: 0px;
+    padding: 8px;
 }
