@@ -37,7 +37,8 @@ article{
 }
 footer{
     clear: both;
-    width: 100%; height: 180px;
+    margin: auto !important;
+    width: 100% !important; height: 180px;
     background-color: #cccccc;
 }
 
