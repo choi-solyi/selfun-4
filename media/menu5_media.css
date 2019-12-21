@@ -3,7 +3,8 @@
     #main_img_wrap{min-height: 50%;}
     #intro_text,#intro_button{max-width: 89%;}
     #intro_button .btn1, .btn2{width:100%;margin-bottom: 10px;}
-    #padding{height:475px;}
+    #padding1,#padding2,#padding3{height:455px;}
+    #content1 #inner_list li:nth-child(n+2){margin-left: 20px;}
 /*    menu5 css 끝*/
 }
 @media screen and (min-width:768px) and (max-width:1023px){
@@ -11,7 +12,8 @@
     #main_img_wrap{min-height: 50%;}
     #intro_text,#intro_button{max-width: 75%;}
     #intro_button .btn1, .btn2{width:100%;margin-bottom: 10px;}
-    #padding{height:475px;}
+    #padding1,#padding2,#padding3{height:485px;}
+    #content1 #inner_list li:nth-child(n+2){margin-left: 60px;}
     /*    menu5 css 끝*/
 }
 @media screen and (min-width:1024px){
@@ -21,6 +23,7 @@
     #intro_text,#intro_button{max-width: 768px;}
     #intro_button .btn1, .btn2{width:45%;}
     #intro_button .btn2{margin-left: 40px;}
-    #padding{height:350px;}
+    #padding1,#padding2,#padding3{height:380px;}
+    #content1 #inner_list li:nth-child(n+2){margin-left: 90px;}
 /*    menu5 css 끝*/
 }
