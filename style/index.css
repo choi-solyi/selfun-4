@@ -107,7 +107,6 @@ ul.mainnav{
     position: sticky;
     justify-content: space-between;
     transition: top .25s;
-    z-index: 100;
     border-top: 1px solid #eeeeee;
     border-bottom: 1px solid #eeeeee;
     /*background-color: ;*/

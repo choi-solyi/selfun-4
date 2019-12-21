@@ -1,84 +1,104 @@
-        <div class="event"><a href="#"> Event 바로가기 >></a></div>
-        <!-- SideMenu 시작 -->
-        <div id="wrapper">
-            <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
-                <ul class="nav sidebar-nav">
-                    <li class="sidebar-brand">
-                        <a href="index.html"> selfun </a>
-                    </li>
+      <style>
 
-                    <li>
-                        <a href="index.html">
-                            <i class="fa fa-fw fa-home"></i>
-                            홈</a>
-                    </li>
+          body {
+              font-family: "Lato", sans-serif;
+              transition: background-color .5s;
+              color: #7b94ff;
+          }
 
-                    <!--      <li>
-          <a href="#">
-          <i class="fa fa-fw fa-folder">
-          </i> Page one</a>
-      </li>-->
+          .sidenav {
+              height: 100%;
+              width: 0;
+              position: fixed;
+              z-index: 1;
+              top: 0;
+              left: 0;
+              background-color: #7b94ff;
+              overflow-x: hidden;
+              transition: 0.5s;
+              padding-top: 60px;
+          }
 
-                    <li>
-                        <a href="my1.html">
-                            <i class="fa fa-fw fa-file-o"></i>
-                            공지사항</a>
-                    </li>
+          .sidenav a {
+              padding: 8px 8px 8px 32px;
+              text-decoration: none;
+              font-size: 23px;
+              color: white;
+              display: block;
+              transition: 0.3s;
+          }
 
-                    <li>
-                        <a href="#">
-                            <i class="fa fa-fw fa-cog"></i>
-                            selfun</a>
-                    </li>
-                    <!--    드롭다운 시작 -->
-                    <!--
-      <li class="dropdown">
-       <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-       <i class="fa fa-fw fa-plus"></i> Dropdown <span class="caret">
-       </span></a>
-        <ul class="dropdown-menu" role="menu">
-          <li class="dropdown-header">Dropdown heading</li>
-          <li><a href="#">Action</a></li>
-          <li><a href="#">Another action</a></li>
-          <li><a href="#">Something else here</a></li>
-          <li><a href="#">Separated link</a></li>
-          <li><a href="#">One more separated link</a></li>
-        </ul>
-      </li>
--->
-                    <!--드롭다운 끝-->
+          .sidenav a:hover {
+              color: black;
+              font-weight: 700;
+              background-color: #cdcdcd;
+          }
 
-                    <li>
-                        <a href="my3.html">
-                            <i class="fa fa-fw fa-bank"></i>
-                            FAQ</a>
-                    </li>
-                    <li>
-                        <a href="my4.html">
-                            <i class="fa fa-fw fa-dropbox">
-                            </i> 주문 / 상품</a>
-                    </li>
-                    <li>
-                        <a href="my5.html">
-                            <i class="fa fa-fw fa-twitter"></i>
-                            이벤트</a>
-                    </li>
-                </ul>
-            </nav>
-            <!-- /#sidebar-wrapper -->
+          .sidenav .closebtn {
+              position: absolute;
+              top: 0;
+              right: 25px;
+              font-size: 36px;
+              margin-left: 50px;
+          }
 
-            <!-- Page Content -->
-            <div id="page-content-wrapper mypage">
-                <button type="button" class="hamburger is-closed animated fadeInLeft" data-toggle="offcanvas">
-                    <span class="hamb-top"></span>
-                    <span class="hamb-middle"></span>
-                    <span class="hamb-bottom"></span>
-                </button>
-            </div>
-        </div>
-        <!-- SideMenu 끝 -->
-        <div class="logo"><a href="#"><img src="img/logo.jpg"></a></div>
-        <div class="login">
-            <p><a href="#">회원가입</a><a href="#">로그인</a>
-        </div>
-        <!--  <img src="img/logo.jpg" alt="logo" id="logo"> -->
+          #main {
+              transition: margin-left .5s;
+              padding: 16px;
+          }
+
+          @media screen and (max-height: 450px) {
+              .sidenav {
+                  padding-top: 15px;
+              }
+
+              .sidenav a {
+                  font-size: 18px;
+              }
+          }
+
+          #sam {
+              position: fixed;
+              top: 45px;
+          }
+
+      </style>
+
+      <div class="event"><a href="#"> Event 바로가기 >></a></div>
+      <!-- SideMenu 시작 -->
+      <!-- SideMenu 끝 -->
+      <div class="logo"><a href="#"><img src="img/logo.jpg"></a></div>
+      <div class="login">
+          <p><a href="#">회원가입</a><a href="#">로그인</a>
+      </div>
+      <!--  <img src="img/logo.jpg" alt="logo" id="logo"> -->
+
+
+
+
+      <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <a href="#">셀펀</a>
+          <a href="#">공지사항</a>
+          <a href="#">FAQ</a>
+          <a href="#">주문/배송</a>
+          <a href="#">이벤트</a>
+      </div>
+
+      <div id="main">
+          <span style="font-size:40px;cursor:pointer" onclick="openNav()" id="sam">&#9776;</span>
+      </div>
+
+      <script>
+          function openNav() {
+              document.getElementById("mySidenav").style.width = "250px";
+              document.getElementById("main").style.marginLeft = "250px";
+          }
+
+          function closeNav() {
+              document.getElementById("mySidenav").style.width = "0";
+              document.getElementById("main").style.marginLeft = "0";
+              document.body.style.backgroundColor = "white";
+          }
+
+      </script>
