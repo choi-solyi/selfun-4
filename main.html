@@ -34,7 +34,7 @@
     <script src="js/index_sideMenu.js"></script>
     <!--sidemenu-->
     <script>
-        $(document).ready(function() {
+        /*$(document).ready(function() {
             $.ajax({
                 url: 'ranking.html',
 
@@ -43,7 +43,7 @@
                     console.log(data);
                 }
             });
-        });
+        });*/
     </script>
     <!-----------------js파일 수정 금지 여기까지----------------->
 
@@ -63,10 +63,7 @@
 
     ---------------------------------------------------------------------------------->
 
-   <section class="subin">
 
-
-   </section>
     <article>
         <!------------------메인 화면 상단 큰 이미지------------------>
         <section class="lazy slider" data-sizes="70vw">
@@ -181,7 +178,7 @@
 
         <!------------------메인 화면 aside 실시간 랭킹------------------>
         <aside class="tab">
-            <h3>실시간 랭킹</h3>
+            <h3>실시간 랭킹 <span id="toza">투자</span><span id="reward">리워드</span></h3>
             <aside class="ranking"></aside>
             <!--
             <ul>
