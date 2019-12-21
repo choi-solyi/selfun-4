@@ -277,7 +277,7 @@ a:visited {
 
 /* css 추가 */
 .mainFir img{
-    opacity: 0.5;
+    opacity: 0.8;
 }
 .mainFir img:hover{
     opacity: 1;
