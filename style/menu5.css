@@ -198,7 +198,7 @@ footer div{
   background-position: center center;
   background-size: cover;
   position: absolute;
-  top: 145px;
+  top: 160px;
   left: 0;
   /* Preserve aspet ratio */
   min-width: 100%;
@@ -224,20 +224,20 @@ footer div{
     text-align: left;
 }
 
-
-
 #main_img_wrap #container #intro_button .btn1
 {
     padding: 20px;
     margin-bottom: 10px;
 }
-#main_img_wrap #container #intro_button .btn1 h4
+
+#main_img_wrap #container #intro_button .btn1 h2
 {
     text-align: left;
     font-weight: bold;
     margin: 0px;
 }
-#main_img_wrap #container #intro_button .btn1 h6
+
+#main_img_wrap #container #intro_button .btn1 h4
 {
     text-align: left;
     color:#777777;
@@ -245,21 +245,19 @@ footer div{
     margin: 10px 0px 0px 0px;
 }
 
-
-
 #main_img_wrap #container #intro_button .btn2
 {
     padding: 20px;
     margin-bottom: 10px;
 }
 
-#main_img_wrap #container #intro_button .btn2 h4
+#main_img_wrap #container #intro_button .btn2 h2
 {
     text-align: left;
     font-weight: bold;
     margin: 0px;
 }
-#main_img_wrap #container #intro_button .btn2 h6
+#main_img_wrap #container #intro_button .btn2 h4
 {
     text-align: left;
     color:#777777;
@@ -277,6 +275,7 @@ footer div{
 {
     padding: 0px;
     margin: 0px;
+    width:100%;
 }
 
 #content1 #inner_text
@@ -299,10 +298,14 @@ footer div{
     text-align: center;
 }
 
-#content1 #inner_list li
+#content1 #inner_list li:first-child
 {
     padding: 0px;
-    margin:0px;
+    display: inline-block;
+}
+#content1 #inner_list li:nth-child(n+2)
+{
+    padding: 0px;
     display: inline-block;
 }
 
@@ -310,7 +313,8 @@ footer div{
 
 
 /* content2 css 시작*/
-/* case list */
+
+/* content2 : case list 시작 */
 #content2
 {
     text-align: center;
@@ -321,13 +325,92 @@ footer div{
   background-position: center center;
   background-size: cover;
   position: absolute;
-  top: 900px;
+  top: 1300px;
   left: 0;
   /* Preserve aspet ratio */
   min-width: 100%;
 }
 
-#content5
+/* content2 : case list 끝 */
+
+/* content2 : container 시작 */
+
+/* SOME STYLES JUST TO SEE BUTTONS ;) */
+
+.tabs-menu div { cursor:pointer; display:inline-block; border:0.5px #181818 solid; padding:5px 5px; margin:5px;
+border-radius: 10px;}
+.tabs-menu div:hover { background:#000000; color:#ffffff; }
+.css-switcher div { cursor:pointer; display:inline-block; border:1px #000000 solid; padding:5px 20px; margin:20px; }
+.css-switcher div:hover { background:#000000; color:#ffffff; }
+.css-switcher div.active { background:#000000; color:#ffffff; }
+
+
+/* HERE COMES IMPORTANT STYLES */
+
+/* hiding and showing tabs */
+
+.tabs div {
+	display:none;
+}
+
+.tabs div.current {
+	display:block;
+}
+
+/* highlighting selected tab menu */
+
+.tabs-menu div.active {
+	background:#000000; color:#ffffff;
+}
+
+/* content2 : container 끝 */
+
+/*content2 css 끝*/
+
+
+
+/*contetn3 css 시작 */
+#content3
+{
+    margin:0px;
+    padding:0px;
+}
+
+#content3 #contatiner
+{
+    margin:0px;
+    padding:0px;
+}
+
+#content3 #container #item_list #item1 h4,h6
+{
+    margin:0px;
+    padding:0px;
+}
+
+#content3 #container #item_list #item2 h4,h6
+{
+    margin:0px;
+    padding:0px;
+}
+
+#content3 #container #item_list #item3 h4,h6
+{
+    margin:0px;
+    padding:0px;
+}
+
+#content3 #container #item_list #item4 h4,h6
+{
+    margin:0px;
+    padding:0px;
+}
+/*contetn3 css 끝 */
+
+
+
+/*content5 시작 */
+#content4
 {
 text-align: center;
   color: white;
@@ -337,18 +420,13 @@ text-align: center;
   background-position: center center;
   background-size: cover;
   position: absolute;
-  top: 1500px;
+  top: 1900px;
   left: 0;
   /* Preserve aspet ratio */
   min-width: 100%;
 }
 
-
-
-
-
-
-
+/*content5 끝 */
 
 
 
