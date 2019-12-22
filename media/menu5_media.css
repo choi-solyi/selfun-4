@@ -1,5 +1,6 @@
 :root {
-  --main-img-topsize : 0px;
+  --main-img-topsize : 35px;
+  --main-img-padding : 25px;
 }
 
 @media screen and (max-width:767px){
@@ -11,11 +12,11 @@
     #content1 #content1_list ul li:nth-child(n+2){margin-left: 20px;}
 
     /* 컨테이너 크기조절 시작*/
-    #padding1{height:445px;}
-    #padding2{height:610px;}
-    #padding3{height:895px;}
+    #padding1{height:calc(var( --main-img-padding ) + 445px);}
+    #padding2{height:calc(var( --main-img-padding ) + 570px);}
+    #padding3{height:calc(var( --main-img-padding ) + 895px);}
 
-    #main_img_wrap{top: 165px;}
+    #main_img_wrap{top: 200px;}
     #content2{top: calc(var( --main-img-topsize )+1000px);}
     #content4{top: calc(var( --main-img-topsize ) + 1960px);}
 
@@ -50,12 +51,12 @@
 
 
     /* 컨테이너 크기조절 시작*/
-    #padding1{height:475px;}
-    #padding2{height:595px;}
-    #padding3{height:1005px;}
+    #padding1{height:calc(var( --main-img-padding ) + 500px);}
+    #padding2{height:calc(var( --main-img-padding ) + 575px);}
+    #padding3{height:calc(var( --main-img-padding ) + 875px);}
 
-    #main_img_wrap{top: 165px;}
-    #content2{top: calc(var( --main-img-topsize )+1090px);}
+    #main_img_wrap{top: 200px;}
+    #content2{top: calc(var( --main-img-topsize )+1120px);}
     #content4{top: calc(var( --main-img-topsize ) + 2090px);}
 
     #content2 .container{width:99%;}
@@ -88,13 +89,13 @@
     #content1 #content1_list ul li:nth-child(n+2){margin-left: 70px;}
 
     /* 컨테이너 main,2,4 시작*/
-    #padding1{height:385px;}
-    #padding2{height:435px;}
-    #padding3{height:655px;}
+    #padding1{height:calc(var( --main-img-padding ) + 405px);}
+    #padding2{height:calc(var( --main-img-padding ) + 385px);}
+    #padding3{height:calc(var( --main-img-padding ) + 655px);}
 
-    #main_img_wrap{top: 165px;}
+    #main_img_wrap{top: 200px;}
     #content2{top: calc(var( --main-img-topsize ) + 1010px);}
-    #content4{top: calc(var( --main-img-topsize ) + 1770px);}
+    #content4{top: calc(var( --main-img-topsize ) + 1700px);}
 
     #content2 .container{width:1020px;}
     #content2 .container .tabs .tab .item{width:490px;}
