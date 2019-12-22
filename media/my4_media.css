@@ -1,20 +1,21 @@
 /*  모바일  */
 @media screen and (max-width:767px) {
     /*좋아요*/
+    #likeorder{
+        width: 100%;
+    }
     #left {
-        width: 46.5%;
+        width: 50%;
         float: left;
-        padding: 10px 7.5px;
     }
 
     #right {
-        width: 46.5%;
+        width: 49.78%;
         float: right;
-        padding: 10px 7.7px;
     }
 
     .like {
-        width: 95%;
+        width: 90%;
         display: inline-block;
         margin: 0px 9.5px 5px;
     }
@@ -50,27 +51,25 @@
 /*  태블릿  */
 @media screen and (min-width:768px) and (max-width:1023px) {
     /*좋아요*/
+    #likeorder{
+    width: 100%;
+}
     #left {
-        width: 48%;
+        width: 50%;
         float: left;
-        padding: 10px 7.5px;
     }
 
     #right {
-        width: 48%;
+        width: 49.8%;
         float: right;
-        padding: 10px 7px;
     }
+    .likebox{
+        width: 80%;
 
-    .like {
-        margin: 0px 9.5px 5px;
     }
-
-    #heart1 {
+    /*#heart1 {
         font-size: 23px;
-        position: relative;
-        left: 205px;
-        top: 248px;
+        right:310px;
     }
 
     #heart2 {
@@ -85,7 +84,7 @@
         position: relative;
         left: 205px;
         top: 248px;
-    }
+    }*/
     /*좋아요*/
     /*주문배송*/
     .text{
