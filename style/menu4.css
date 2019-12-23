@@ -65,10 +65,11 @@
             text-decoration: none;
             color: white;
             font-weight: bold;
+            background-color: rgb(2,2,4,0.8);
         }
 /*상품 제목 내용 제품담당*/
         .imgex{
-            height: 260px;
+            height: 200px;
             display: block;
         }
         .respon{
