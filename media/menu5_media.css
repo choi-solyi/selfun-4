@@ -20,13 +20,13 @@
     #content2{top: calc(var( --main-img-topsize )+1000px);}
     #content4{top: calc(var( --main-img-topsize ) + 1960px);}
 
-    #content2 .container{width:93%; padding: 30px 0px 30px 15px;}
+    #content2 .container{width:98%; padding: 30px 0px 30px 0px;}
     #content2 .container .tabs .tab .item{width:99%;}
     #content2 .container .tabs .tab .item img{width:50%;height: 140px;}
     #content2 .container .tabs .tab .item .content2_text{width:45%;}
 
     #content3 #container{margin:0px 15px 0px 15px;}
-    #content3 #container #item_list .item{width:100%;}
+    #content3 #container #item_list .item{width:89%;}
     #content3 #container #item_list .item .content3_image{width:10%;}
 
     #content4 #container{width:100%;}
@@ -59,8 +59,8 @@
     #content2{top: calc(var( --main-img-topsize )+1120px);}
     #content4{top: calc(var( --main-img-topsize ) + 2090px);}
 
-    #content2 .container{width:99%;}
-    #content2 .container .tabs .tab .item{width:100%;}
+    #content2 .container{width:96%;}
+    #content2 .container .tabs .tab .item{width:99%;}
     #content2 .container .tabs .tab .item img{width:30%;height: 160px;}
     #content2 .container .tabs .tab .item .content2_text{width:65%;}
 
@@ -103,8 +103,8 @@
     #content2 .container .tabs .tab .item .content2_text{width:47%;}
 
     #content3 #container{margin:0px;}
-    #content3 #container #item_list .item{width:45%;}
-    #content3 #container #item_list .item .content3_image{width:20%;}
+    #content3 #container #item_list .item{width:48%;}
+    #content3 #container #item_list .item .content3_image{width:90px; height: 50px;}
 
     #content4 #container{width:1000px;}
     #content4 #container .content4_text{margin: 100px 0px 220px 50px;}

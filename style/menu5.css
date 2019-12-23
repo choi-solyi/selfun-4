@@ -46,6 +46,7 @@
 {
     padding: 20px;
     margin-bottom: 10px;
+    cursor: pointer;
 }
 
 #main_img_wrap #container #intro_button .btn1 h2
@@ -67,6 +68,7 @@
 {
     padding: 20px;
     margin-bottom: 10px;
+    cursor: pointer;
 }
 
 #main_img_wrap #container #intro_button .btn2 h2
@@ -203,12 +205,13 @@ border-radius: 10px;}
 .tabs .tab .item
 {
     width: 490px;
-    border: 1px solid black;
+    border: 1px solid white;
 
     padding: 0px;
     margin: 20px 10px 20px 0px;
 
     background-color: white;
+    cursor: pointer;
 }
 .tabs .tab .item img
 {
@@ -264,8 +267,16 @@ border-radius: 10px;}
 #content3 #container #more_list
 {
     text-align: right;
+    margin: 0px;
+    padding: 0px;
 }
 
+#content3 #container #more_list h6
+{
+    margin: 0px;
+    padding: 0px;
+    cursor: pointer;
+}
 
 #content3 #container #item_list
 {
@@ -278,7 +289,8 @@ border-radius: 10px;}
 #content3 #container #item_list .item
 {
     margin:0px;
-    padding:0px;
+    padding:0px 10px 10px 0px;
+    cursor: pointer;
 }
 
 #content3 #container #item_list .item .content3_Text
@@ -391,6 +403,7 @@ border-radius: 10px;}
     padding: 10px 0px;
     font-size:0.1em;
     width:30%;
+    cursor: pointer;
 
 }
 
@@ -420,6 +433,7 @@ border-radius: 10px;}
 {
     width:150px;
     height: 50px;
+    cursor: pointer;
 }
 
 /*content4 끝 */
