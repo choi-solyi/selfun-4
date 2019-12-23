@@ -118,7 +118,7 @@ body{
 
 /*form 전체보기 search select*/
 #block1 {
-    margin: 13px 0px;
+    margin: 13px 10px;
 }
 
 #block1 b {
@@ -172,7 +172,7 @@ select {
 }
 
 .thumbnail img {
-    width: 245px;
+    width: 244px;
     height: 150px;
     border-radius: 3%;
 }
@@ -193,7 +193,7 @@ select {
 }
 
 .thumbnail .line {
-    width: 245px;
+    width: 244px;
     height: 2px;
     background-color: #7b94ff;
 }

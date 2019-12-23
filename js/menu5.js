@@ -12,4 +12,9 @@ jQuery(document).ready(function ($) {
 		tab.addClass('current');
 	});
 
+    $('#contract').click(function(){
+        let $this=$(this);
+        $this.next('#CT_content').slideToggle();
+    });
+
 });

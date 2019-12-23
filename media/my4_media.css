@@ -1,22 +1,23 @@
 /*  모바일  */
 @media screen and (max-width:767px) {
     /*좋아요*/
+    #likeorder{
+        width: 100%;
+    }
     #left {
-        width: 46.5%;
+        width: 50%;
         float: left;
-        padding: 10px 7.5px;
     }
 
     #right {
-        width: 46.5%;
+        width: 49.78%;
         float: right;
-        padding: 10px 7.7px;
     }
 
     .like {
-        width: 95%;
+        width: 90%;
         display: inline-block;
-        margin: 0px 9.5px 5px;
+        margin-left: 25px;
     }
 
     .like img {
@@ -45,32 +46,53 @@
         top: 296px;
     }
     /*좋아요*/
+    /*주문배송*/
+    .date{
+        margin-left: 20px;
+    }
+    .orderimg{
+        width: 12%;
+        margin-left: 20px;
+    }
+    .epil{
+        margin-left: 20px;
+        width: 94%;
+    }
+    .inquire{
+        margin-right: 20px;
+    }
+    .text{
+        width: 80%;
+        font-size: 12px;
+        margin: 20px 0px 0px;
+    }
 }
 
 /*  태블릿  */
 @media screen and (min-width:768px) and (max-width:1023px) {
     /*좋아요*/
+    #likeorder{
+    width: 100%;
+}
     #left {
-        width: 48%;
+        width: 50%;
         float: left;
-        padding: 10px 7.5px;
     }
 
     #right {
-        width: 48%;
+        width: 49.8%;
         float: right;
-        padding: 10px 7px;
     }
+    .likebox{
+        width: 80%;
 
-    .like {
-        margin: 0px 9.5px 5px;
     }
-
+    .like img{
+        width: 100%;
+    }
     #heart1 {
         font-size: 23px;
-        position: relative;
-        left: 205px;
-        top: 248px;
+        right:310px;
     }
 
     #heart2 {
@@ -88,10 +110,23 @@
     }
     /*좋아요*/
     /*주문배송*/
+    .date{
+        margin-left: 20px;
+    }
+    .orderimg{
+        margin-left: 20px;
+    }
+    .epil{
+        margin-left: 20px;
+        width: 96%;
+    }
+    .inquire{
+        margin-right: 20px;
+    }
     .text{
         font-size: 14px;
         margin: 20px 0px 0px;
-}
+    }
 
 /*  pc  */
 @media screen and (min-width:1024px) {

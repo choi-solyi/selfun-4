@@ -1,10 +1,44 @@
+:root {
+  --main-img-topsize : 35px;
+  --main-img-padding : 25px;
+}
+
 @media screen and (max-width:767px){
 /*    menu5 css 시작*/
     #main_img_wrap{min-height: 50%;}
     #intro_text,#intro_button{max-width: 89%;}
     #intro_button .btn1, .btn2{width:100%;margin-bottom: 10px;}
-    #padding1,#padding2,#padding3{height:455px;}
-    #content1 #inner_list li:nth-child(n+2){margin-left: 20px;}
+
+    #content1 #content1_list ul li:nth-child(n+2){margin-left: 20px;}
+
+    /* 컨테이너 크기조절 시작*/
+    #padding1{height:calc(var( --main-img-padding ) + 445px);}
+    #padding2{height:calc(var( --main-img-padding ) + 570px);}
+    #padding3{height:calc(var( --main-img-padding ) + 895px);}
+
+    #main_img_wrap{top: 200px;}
+    #content2{top: calc(var( --main-img-topsize )+1000px);}
+    #content4{top: calc(var( --main-img-topsize ) + 1960px);}
+
+    #content2 .container{width:98%; padding: 30px 0px 30px 0px;}
+    #content2 .container .tabs .tab .item{width:99%;}
+    #content2 .container .tabs .tab .item img{width:50%;height: 140px;}
+    #content2 .container .tabs .tab .item .content2_text{width:45%;}
+
+    #content3 #container{margin:0px 15px 0px 15px;}
+    #content3 #container #item_list .item{width:89%;}
+    #content3 #container #item_list .item .content3_image{width:10%;}
+
+    #content4 #container{width:100%;}
+    #content4 #container .content4_text{margin: 100px 0px 100px 20px;}
+    #content4 #container .item_list
+    {margin: 10px 0px 0px 20px;width:95%;}
+    #content4 #container .item_list #form_list #textbox{width:95%;}
+    #content4 #container .item_list #form_list select{width:95.8%;}
+    /* 컨테이너 크기조절 끝*/
+
+
+
 /*    menu5 css 끝*/
 }
 @media screen and (min-width:768px) and (max-width:1023px){
@@ -12,8 +46,36 @@
     #main_img_wrap{min-height: 50%;}
     #intro_text,#intro_button{max-width: 75%;}
     #intro_button .btn1, .btn2{width:100%;margin-bottom: 10px;}
-    #padding1,#padding2,#padding3{height:485px;}
-    #content1 #inner_list li:nth-child(n+2){margin-left: 60px;}
+
+    #content1 #content1_list ul li:nth-child(n+2){margin-left:70px;}
+
+
+    /* 컨테이너 크기조절 시작*/
+    #padding1{height:calc(var( --main-img-padding ) + 500px);}
+    #padding2{height:calc(var( --main-img-padding ) + 575px);}
+    #padding3{height:calc(var( --main-img-padding ) + 875px);}
+
+    #main_img_wrap{top: 200px;}
+    #content2{top: calc(var( --main-img-topsize )+1120px);}
+    #content4{top: calc(var( --main-img-topsize ) + 2090px);}
+
+    #content2 .container{width:96%;}
+    #content2 .container .tabs .tab .item{width:99%;}
+    #content2 .container .tabs .tab .item img{width:30%;height: 160px;}
+    #content2 .container .tabs .tab .item .content2_text{width:65%;}
+
+    #content3 #container{margin:0px 30px 0px 30px;}
+    #content3 #container #item_list .item{width:100%;}
+    #content3 #container #item_list .item .content3_image{width:10%;}
+
+    #content4 #container{width:100%;}
+    #content4 #container .content4_text{margin: 100px 0px 100px 20px;}
+    #content4 #container .item_list
+    {margin: 10px 0px 0px 20px;width:97%;}
+    #content4 #container .item_list #form_list #textbox{width:98%;}
+    #content4 #container .item_list #form_list select{width:98.5%;}
+    /* 컨테이너 크기조절 끝*/
+
     /*    menu5 css 끝*/
 }
 @media screen and (min-width:1024px){
@@ -23,7 +85,32 @@
     #intro_text,#intro_button{max-width: 768px;}
     #intro_button .btn1, .btn2{width:45%;}
     #intro_button .btn2{margin-left: 40px;}
-    #padding1,#padding2,#padding3{height:380px;}
-    #content1 #inner_list li:nth-child(n+2){margin-left: 90px;}
+
+    #content1 #content1_list ul li:nth-child(n+2){margin-left: 70px;}
+
+    /* 컨테이너 main,2,4 시작*/
+    #padding1{height:calc(var( --main-img-padding ) + 405px);}
+    #padding2{height:calc(var( --main-img-padding ) + 385px);}
+    #padding3{height:calc(var( --main-img-padding ) + 655px);}
+
+    #main_img_wrap{top: 200px;}
+    #content2{top: calc(var( --main-img-topsize ) + 1010px);}
+    #content4{top: calc(var( --main-img-topsize ) + 1700px);}
+
+    #content2 .container{width:1020px;}
+    #content2 .container .tabs .tab .item{width:490px;}
+    #content2 .container .tabs .tab .item img{width:50%;height: 160px;}
+    #content2 .container .tabs .tab .item .content2_text{width:47%;}
+
+    #content3 #container{margin:0px;}
+    #content3 #container #item_list .item{width:48%;}
+    #content3 #container #item_list .item .content3_image{width:90px; height: 50px;}
+
+    #content4 #container{width:1000px;}
+    #content4 #container .content4_text{margin: 100px 0px 220px 50px;}
+    #content4 #container .item_list{margin: 100px 0px 0px 100px;width:49%;}
+
+    #content4 #container .item_list #form_list #textbox{width:430px;}
+    #content4 #container .item_list #form_list select{width:434px;}
 /*    menu5 css 끝*/
 }
