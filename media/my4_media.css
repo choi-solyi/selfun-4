@@ -10,7 +10,7 @@
     }
 
     #right {
-        width: 49.78%;
+        width: 49.7%;
         float: right;
     }
 
@@ -30,19 +30,19 @@
 
     #heart1 {
         position: relative;
-        left: 400px;
+        left: 310px;
         top: 296px;
     }
 
     #heart2 {
         position: relative;
-        left: 400px;
+        left: 310px;
         top: 296px;
     }
 
     #heart3 {
         position: relative;
-        left: 400px;
+        left: 310px;
         top: 296px;
     }
     /*좋아요*/
@@ -87,26 +87,31 @@
         width: 80%;
 
     }
+    .like{
+        width: 28.5%;
+    }
     .like img{
         width: 100%;
     }
     #heart1 {
         font-size: 23px;
-        right:310px;
+        position: relative;
+        left: 145px;
+        top: 245px;
     }
 
     #heart2 {
         font-size: 23px;
         position: relative;
-        left: 205px;
-        top: 248px;
+        left: 145px;
+        top: 245px;
     }
 
     #heart3 {
         font-size: 23px;
         position: relative;
-        left: 205px;
-        top: 248px;
+        left: 145px;
+        top: 245px;
     }
     /*좋아요*/
     /*주문배송*/
