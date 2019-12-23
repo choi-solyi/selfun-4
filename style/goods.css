@@ -1,4 +1,9 @@
-.logo{text-align: center;}
+.logo a img
+{
+    display: block;
+    padding: 0px;
+    margin: 0px auto 0px;
+}
 /*goods css 적용 시작*/
 .wrap
 {
@@ -692,10 +697,24 @@
     float:left;
     background-color: #181818;
     width: 30%;
-    padding: 3px;
+    padding: 11px;
     color:white;
-    text-align: center;
+    display: block;
+}
 
+#last_menu #good img
+{
+    margin: 0px auto;
+    padding: 0px;
+    display: block;
+
+}
+
+#last_menu #good p
+{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
 }
 
 #last_menu #order
@@ -703,7 +722,7 @@
     float:right;
     background-color: #7b94ff;
     width: 70%;
-    padding: 20.5px;
+    padding: 28px;
     color:white;
     text-align: center;
 }
