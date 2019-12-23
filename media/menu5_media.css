@@ -10,7 +10,7 @@
     #intro_button .btn1, .btn2{width:100%;margin-bottom: 10px;}
 
     #content1 #content1_list ul{margin: 0px;}
-    #content1 #content1_list ul li:nth-child(n+1){margin:0px 1.2px;font-size:0.1em}
+    #content1 #content1_list ul li:nth-child(n+1){margin:0px 0px;font-size:0.1em}
 
     /* 컨테이너 크기조절 시작*/
     #padding1{height:calc(var( --main-img-padding ) + 445px);}
@@ -77,7 +77,7 @@
     {margin: 10px 0px 0px 20px;width:97%;}
     #content4 #container .item_list #form_list #textbox{width:98%;}
     #content4 #container .item_list #form_list select{width:98.5%;}
-    #content4 #container .item_list #form_list #contract{}
+    #content4 #container .item_list #form_list #contract{width:30%;}
     /* 컨테이너 크기조절 끝*/
 
     /*    menu5 css 끝*/
@@ -118,4 +118,9 @@
     #content4 #container .item_list #form_list select{width:434px;}
     #content4 #container .item_list #form_list #contract{width:30%;}
 /*    menu5 css 끝*/
+}
+
+@media screen and (min-width:1025px){
+    #padding1{height:calc(var( --main-img-padding ) + 430px);}
+    #padding2{height:calc(var( --main-img-padding ) + 430px);}
 }

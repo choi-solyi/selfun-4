@@ -398,6 +398,7 @@ border-radius: 10px;}
 #content4 #container .item_list #form_list #contract
 {
     padding: 10px 0px;
+    margin: 0px;
     font-size:0.1em;
     cursor: pointer;
 
