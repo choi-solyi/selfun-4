@@ -743,5 +743,9 @@ dt[class^='product-detail-title-']
     clear:both;
 }
 
+#padding_div
+{
+    height:60px;
+}
 
 /*goods css 적용 끝*/
