@@ -17,7 +17,7 @@
     .like {
         width: 90%;
         display: inline-block;
-        margin: 0px 9.5px 5px;
+        margin-left: 25px;
     }
 
     .like img {
@@ -88,7 +88,7 @@
 
     }
     .like img{
-        width: 240px;
+        width: 100%;
     }
     #heart1 {
         font-size: 23px;
