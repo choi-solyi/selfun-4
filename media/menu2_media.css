@@ -5,7 +5,7 @@
         margin: auto;
     }
     .thumbnail{
-        min-width: 90%;
+        min-width: 95%;
         height: 100%;
 
     }
@@ -58,7 +58,8 @@
     }
     .thumbnail img{
         min-width: 100%;
-        height: 100%;
+        /*height: 100%;*/
+        height: 270px;
     }
     .thumbnail b{
         font-size: 20px;
