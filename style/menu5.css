@@ -121,7 +121,6 @@
 #content1 #content1_list ul
 {
     padding: 0px;
-    margin: 0px;
 }
 
 #content1 #content1_list li:first-child
@@ -226,7 +225,7 @@ border-radius: 10px;}
 /*    width: 47%;*/
 
     height: 100%;
-    margin:0px;
+
     padding-top:20px;
     padding-left:10px;
     float: right;
@@ -305,10 +304,8 @@ border-radius: 10px;}
 
 #content3 #container #item_list .item .content3_image
 {
-    margin: 0px;
     padding: 2px;
     height: 56px;
-    float:right;
 }
 
 #content3 #container #item_list .item h4,#item_list .item h6
@@ -402,7 +399,6 @@ border-radius: 10px;}
 {
     padding: 10px 0px;
     font-size:0.1em;
-    width:30%;
     cursor: pointer;
 
 }
@@ -431,7 +427,7 @@ border-radius: 10px;}
 
 #content4 #container .item_list #form_list #form_submit
 {
-    width:150px;
+
     height: 50px;
     cursor: pointer;
 }

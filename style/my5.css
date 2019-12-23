@@ -34,7 +34,6 @@
     margin: 10px 0px 10px 0px;
     padding: 10px 0px 10px 10px;
     float:left;
-    width:65%;
 }
 
 #event1 #section1 h3
@@ -48,7 +47,7 @@
     margin-top:40px;
     margin-left:10px;
 }
-#event1 #mini_title h4,h5
+#event1 #mini_title h4, #event1 #mini_title h5
 {
     display: inline;
 }

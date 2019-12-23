@@ -2,17 +2,20 @@
 /*    goods css 시작*/
     #event1{padding: 0px;margin: 0px;}
     #event1 #div_img1{float:left;}
+    #event1 #section1{width:54%;}
 /*    goods css 끝*/
 }
 @media screen and (min-width:768px) and (max-width:1023px){
     /*    goods css 시작*/
-    #event1{padding: 0px;margin-left: 80px;}
+    #event1{padding: 0px;margin-left: 30px;}
     #event1 #div_img1{float:right;}
+    #event1 #section1{width:65%;}
     /*    goods css 끝*/
 }
 @media screen and (min-width:1024px){
     /*    goods css 시작*/
     #event1{padding: 0px;margin: 0px;}
     #event1 #div_img1{float:right;}
+    #event1 #section1{width:65%;}
     /*    goods css 끝*/
 }
