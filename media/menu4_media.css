@@ -5,7 +5,7 @@
     }
     .hugiex input{
             margin: 0px;
-            width: 55%;height: 30px;
+            width: 60%;height: 30px;
     }
 
     .popupin1{
@@ -38,11 +38,15 @@
             height: 100%;
             display: block;
         }
+
 }
 
 /*  태블릿  */
 @media screen and (min-width:768px) and (max-width:1023px){
-
+    .sfull{
+        width: 98%;
+        padding-left: 1%;
+    }
 }
 
 /*  pc  */
