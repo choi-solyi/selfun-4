@@ -24,7 +24,8 @@
     <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
 
 <!--    병운 이미지 슬라이드 추가부분 시작 -->
- <link rel="stylesheet" href="style/main_slide/slider.css">
+ <link rel="stylesheet" href="style/main_slide/slider.min.css">
+ <link rel="stylesheet" href="style/main_slide/slider.min.css">
 <!--    병운 이미지 슬라이드 추가부분 끝 -->
     <!-----------------이 페이지 전용 스타일 시트----------------->
 
@@ -69,31 +70,13 @@
 
     <article>
         <!------------------메인 화면 상단 큰 이미지------------------>
-   <div id="slider-wrap">
-    <ul id="slider">
-        <li>
-            <img src="img/main/big1.jpg">
-        </li>
-
-        <li>
-            <img src="img/main/big2.jpg">
-        </li>
-
-        <li>
-            <img src="img/main/big3.jpg">
-        </li>
-
-    </ul>
-
-    <div class="slider-btns" id="next"><span>▶</span></div>
-    <div class="slider-btns" id="previous"><span>◀</span></div>
-
-    <div id="slider-pagination-wrap">
-        <ul>
-        </ul>
-    </div>
-</div>
-
+        <div id="slider_container">
+       <ul class="slider" id="fullscreen-slider">
+        <li><img src="img/main/big1.jpg" alt="slide1"/></li>
+          <li><img src="img/main/big2.jpg" alt="slide2"/></li>
+          <li><img src="img/main/big3.jpg" alt="slide3"/></li>
+      </ul>
+        </div>
        <div id="padding_div"></div>
         <!------------------js파일 삭제금지 ------------------>
 
@@ -353,5 +336,17 @@
 
     <!--    병운 이미지 슬라이드 추가부분 시작 -->
     <script src="js/main_slide/slider.js"></script>
+    <script type="text/javascript">
+        $(window).on("load", function() {
+          $("#fullscreen-slider").slider();
+          $("#demo1").slider({
+            speed : 500,
+            delay : 2500
+          });
+        });
+        $(document).ready(function () {
+            GetLatestReleaseInfo();
+        });
+    </script>
     <!--    병운 이미지 슬라이드 추가부분 끝 -->
 </body></html>

@@ -24,7 +24,8 @@ img {
 }
 
 a:link {
-    text-decoration: none !important;
+    text-decoration: none;
+    color: black;
 }
 
 .subin {

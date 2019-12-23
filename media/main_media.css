@@ -315,6 +315,7 @@
         height: 55px;
         overflow: hidden;
         line-height: 21px;
+        width: 360px;
     }
 
     .nums,
