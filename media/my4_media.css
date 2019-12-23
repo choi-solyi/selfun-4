@@ -46,6 +46,26 @@
         top: 296px;
     }
     /*좋아요*/
+    /*주문배송*/
+    .date{
+        margin-left: 20px;
+    }
+    .orderimg{
+        width: 12%;
+        margin-left: 20px;
+    }
+    .epil{
+        margin-left: 20px;
+        width: 94%;
+    }
+    .inquire{
+        margin-right: 20px;
+    }
+    .text{
+        width: 80%;
+        font-size: 12px;
+        margin: 20px 0px 0px;
+    }
 }
 
 /*  태블릿  */
@@ -67,7 +87,10 @@
         width: 80%;
 
     }
-    /*#heart1 {
+    .like img{
+        width: 240px;
+    }
+    #heart1 {
         font-size: 23px;
         right:310px;
     }
@@ -84,13 +107,26 @@
         position: relative;
         left: 205px;
         top: 248px;
-    }*/
+    }
     /*좋아요*/
     /*주문배송*/
+    .date{
+        margin-left: 20px;
+    }
+    .orderimg{
+        margin-left: 20px;
+    }
+    .epil{
+        margin-left: 20px;
+        width: 96%;
+    }
+    .inquire{
+        margin-right: 20px;
+    }
     .text{
         font-size: 14px;
         margin: 20px 0px 0px;
-}
+    }
 
 /*  pc  */
 @media screen and (min-width:1024px) {
