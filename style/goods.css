@@ -697,9 +697,10 @@
     float:left;
     background-color: #181818;
     width: 30%;
-    padding: 11px;
     color:white;
     display: block;
+
+    padding: 11px;
 }
 
 #last_menu #good img
@@ -722,9 +723,10 @@
     float:right;
     background-color: #7b94ff;
     width: 70%;
-    padding: 28px;
     color:white;
     text-align: center;
+
+    padding: 20px;
 }
 
 .clear
