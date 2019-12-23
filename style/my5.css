@@ -18,8 +18,8 @@
 
 #event1
 {
-    margin: 10px;
-    padding: 10px;
+    margin: 0px;
+    padding: 0px;
     cursor: pointer;
 }
 
@@ -31,7 +31,7 @@
 
 #event1 #section1
 {
-    margin: 10px 0px 10px 10px;
+    margin: 10px 0px 10px 0px;
     padding: 10px 0px 10px 10px;
     float:left;
     width:65%;
@@ -44,10 +44,9 @@
 
 #event1 #div_img1
 {
-    float:right;
     width:25%;
     margin-top:40px;
-    margin-right:0px;
+    margin-left:10px;
 }
 #event1 #mini_title h4,h5
 {
