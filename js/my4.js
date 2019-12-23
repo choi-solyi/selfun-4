@@ -3,6 +3,5 @@ $('i').on('click',function(){
     i--;*/
     $(this).parent().fadeOut('slow');
     i--;
-
 });
 
