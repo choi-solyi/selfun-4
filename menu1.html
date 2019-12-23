@@ -20,6 +20,9 @@
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="js/headerfooter.js"></script>
+    <script src="js/menu1.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
 </head>
 
 <body>
@@ -40,32 +43,28 @@
         <div id="maru">
             <p id="hs">쉽게 시작할 수 있습니다</p>
             <p id="fnd">'클라우드 펀딩'의 개념은 어려울지 몰라도, 셀펀은 어렵지 않습니다. 수익을 내고 소유권을 나누는 과정도 복잡하지 않습니다. 펀딩으로 모은 금액으로 만들어낸 제품 또는 그런 특별한 경험 그자체를 후원자들과 약속하고 공유하면 됩니다.</p>
-            <div id="maru1">
+            <div id="maru1" class="maruhide">
                 <img src="/img/menu1/maru1.png" alt="창작 아이디어">
                 <p id="tit">프로젝트 올리기</p>
                 <p id="exps">　창작 아이디어를 소개하는 프로젝트 페이지를 작성합니다. 후원자들에게 금액대별 특별한 선물들을 약속합니다.</p>
             </div>
 
-            <div id="maru1">
+            <div id="maru1"  class="maruhide">
                 <img src="/img/menu1/maru2.png" alt="후원자 모으기">
                 <p id="tit">펀딩 진행하기</p>
                  <p id="exps">　정해진 기간 동안 후원자를 모으기 위해 열심히 홍보합니다. 목표 금액을 달성해야만 후원금이 전달됩니다.</p>
             </div>
 
-            <div id="maru1">
+            <div id="maru1" class="maruhide">
                 <img src="/img/menu1/maru3.png" alt="나누기">
                 <p id="tit">만들고 보답하기</p>
                  <p id="exps">　전달받은 후원금으로 창작에 돌입합니다. 틈틈히 진척사항을 알리고, 약속한 선물을 전달하면 프로젝트가 끝납니다.</p>
             </div>
-            <a href="main.html">
-                <div id="startProject">
-                    프로젝트 시작하기
-                </div>
-            </a>
+
         </div>
         <div id="for">
             <p id="hs">누구에게나 열려 있습니다.</p>
-            <div id="fors">
+            <div id="fors" class="forshide">
                 <div id="forwho">
                     <p>창작자</p>
                 </div>
@@ -76,7 +75,7 @@
                     <div id="makebtn">창작사 성공사례 보기</div>
                 </a>
             </div>
-            <div id="fors">
+            <div id="fors" class="forshide">
                 <div id="forwho">
                     <p>브랜드</p>
                 </div>
@@ -87,12 +86,12 @@
                     <div id="brandbtn">브랜드 성공사례 보기</div>
                 </a>
             </div>
-            <div id="fors">
+            <div id="fors" class="forshide">
                 <div id="forwho">
                     <p>캠페인</p>
                 </div>
                 <div id="campline"></div>
-                <p id="tit">　임팩트 있는 캠페인을 통해 사회적 이슈를 지속가능한 참여와 후원으로 전환시켜보세요.<br></p>
+                <p id="tit">　임팩트 있는 캠페인을 통해서 최근 사회적 이슈를 지속가능한 참여와 후원으로 전환시켜보세요.<br></p>
                 <p id="exp">　언론이나 소셜미디어에서 떠오르는 이슈들을 구체적인 행동으로 전환시키는 데에 텀블벅 프로젝트가 제격입니다. 새롭고 젊은 정치참여·사회운동 방식으로 주목받는 텀블벅 펀딩으로 더 많은 지지자를 얻고, 사회적 목소리를 증폭시켜보세요.　<br><br><br></p>
                 <a href="my5.html">
                     <div id="campbtn">캠페인 성공사례 보기</div>
@@ -101,15 +100,15 @@
         </div>
         <div id="for">
             <p id="hs">셀펀에서 시작해야 할 3가지 이유</p>
-            <div id="fors">
+            <div id="fors"  class="forshide">
                 <p id="tit">낮은 수수료, 빠른 정산</p>
                 <p id="exp" >펀딩에 성공한 경우에만 단 <b>1%</b>의 수수료를 받습니다. 직관적인 프로젝트 작성 도구를 이용해 미리 발생할 수수료와 정산 일정을 계산해 볼 수 있어 첫 프로젝트도 쉽게 계획할 수 있습니다.</p>
             </div>
-            <div id="fors">
+            <div id="fors"  class="forshide">
                 <p id="tit">성공을 돕는 리소스</p>
                 <p id="exp">　펀딩 시작 전, 각 분야의 생태를 잘 아는 에디터가 프로젝트를 검토하고 피드백을 드립니다. 헬프센터 내 창작자 센터에는 각 단계별 성공을 위한 꼼꼼한 도움말이 준비되어 있습니다.</p>
             </div>
-            <div id="fors">
+            <div id="fors"  class="forshide">
                 <p id="tit">확산이 빠른 커뮤니티</p>
                 <p id="exp">　후원의 상당 부분이 70만 셀펀 커뮤니티와 확장된 소셜 네트워크에서 유입됩니다. 데이터에 기초해 스마트한 홍보와 진행을 할 수 있도록 노하우를 지원해 드리겠습니다.</p>
             </div>

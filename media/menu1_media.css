@@ -1,5 +1,8 @@
 /*  모바일  */
 @media screen and (max-width:767px) {
+    #for #hs{
+        padding: 0px 10px !important;
+    }
     body {
         /*background-color:ivory;*/
         width: 90%;
@@ -159,10 +162,11 @@
         height: auto;
     }
     #tit{
-        font-size: 1.05em;
+        font-size: 1.1em;
+        height: auto
     }
     #exp{
-        height: 170px;
+        height: 220px;
     }
     thr{
         height: 200px !important;

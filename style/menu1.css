@@ -1,3 +1,16 @@
+.maruhide{
+    opacity: 0;
+
+    margin-left:-300px;
+    max-width:100%;
+}
+.forshide{
+    opacity: 0;
+
+    margin-left:-300px;
+    max-width:100%;
+}
+
 /*
     1. 전체 프레임
     2. 셀펀 로고 및 소개
@@ -51,20 +64,11 @@ a:link, a:visited, a:active a:focus, a:hover{
     vertical-align: text-top;
     padding: 15px 30px;
 }
-#startProject{
-    text-align: center;
-    width: 300px; height: 30px;
-    background-color: cornflowerblue;
-    color: white;
-    font-size: 20px;
-    font-weight: 700;
-    padding: 10px;
-    margin: auto;
 
-    margin-top: 20px !important;
-    margin-bottom: 50px !important;
-    border-radius: 5px;
-
+#last1:hover{
+    font-size: 1.3em;
+    width: 180px;
+    height: 30px;
 }
 /*  4. 서로 다른 관점에서의 셀펀   */
 #for{

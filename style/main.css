@@ -28,22 +28,6 @@ a:link {
     color: black;
 }
 
-.subin {
-    text-align: center;
-    color: white;
-    background-image: url('../img/main/big1.jpg');
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center center;
-    background-size: cover;
-    position: absolute;
-    top: 300px;
-    left: 0;
-    /* Preserve aspet ratio */
-    min-width: 100%;
-
-    height: 300px;
-}
 
 /*  2. 메인big          */
 
@@ -144,7 +128,7 @@ body {
 
 .ranking ul {
     list-style: none;
-    padding: 0px 25px;
+    padding: 1px 0px 0px 25px;
 }
 
 .ranking ul li {
@@ -197,11 +181,13 @@ body {
 
 
 .mainsec {
+
+
     clear: both;
     background-color: #dfdfdf;
     padding: 18px 4px 30px 0px;
     margin: 20px 0px 15px 0px;
-    ;
+
 
 }
 
@@ -261,9 +247,11 @@ body {
     border-radius: 5px;
 }
 
-#barogagi a:link,
-a:visited {
+#barogagi a:link, a:visited {
     text-decoration: none;
+}
+#barogagi a:hover{
+    font-size: 1.2em;
 }
 
 #barogagi p {
@@ -284,4 +272,10 @@ a:visited {
     opacity: 1;
 }
 
+.mainsec img{
+    opacity: 0.8;
+}
+.mainsec img:hover{
+    opacity: 1;
+}
 
